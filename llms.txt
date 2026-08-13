@@ -1,0 +1,26 @@
+# Whimbrel Research
+
+Whimbrel Research does prospect research for medical device development
+firms. We read the public record daily, NIH SBIR/STTR awards, FDA 510(k)
+clearances and PMA approvals, clinical trial registrations, SEC filings,
+and granted patents, and match funded medtech companies to a development
+firm's capabilities and focus. Every fact we publish links to the public
+source it came from; anything that cannot be verified is not published.
+
+The corpus currently tracks 2308 US medtech companies, monitored daily.
+
+## Data files on this site
+
+- /signals-latest.json: national medtech buying signals (NIH awards, FDA
+  clearances and approvals) from the last 7 days. Updated daily.
+- /hot.json: companies with a buying-window event in the last 14
+  days. Updated daily.
+- /methodology.md: how this data is collected and verified, and what the
+  free feed deliberately excludes.
+
+This free feed is a rolling window. The full corpus, its history, and
+company-to-firm matching are the paid service.
+
+## Attribution and contact
+
+Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every fact links to its public source. Matched, verified research for medtech development firms: nate@whimbrelresearch.com
