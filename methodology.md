@@ -10,11 +10,11 @@ Each event carries two dates: its own date, and the date it was observed
 here. Public registries publish on varying lags, so the observed date is
 when the event became public knowledge.
 
-## What the free feed excludes
+## What these files exclude
 
 - History: these files show a rolling window, not the archive.
 - People: no names or contacts, ever.
-- Judgment: which companies fit which development firm, and why. That is
-  the paid service, produced per client and verified by a human.
+- Assessments: no fit judgments or matching. The files contain events
+  only.
 
-Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every fact links to its public source. Matched, verified research for medtech development firms: nate@whimbrelresearch.com
+Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every event links to the public record it came from. Contact: nate@whimbrelresearch.com
