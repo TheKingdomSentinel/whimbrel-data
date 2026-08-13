@@ -3,10 +3,15 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-13T03:40:46.060650+00:00",
+ "generated_at": "2026-08-13T03:46:08.106696+00:00",
  "next_update_utc": "2026-08-13T13:00:00+00:00",
  "update_cadence": "daily",
- "attribution": "Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every fact links to its public source. Matched, verified research for medtech development firms: nate@whimbrelresearch.com",
+ "publisher": {
+  "name": "Whimbrel Research",
+  "url": "https://whimbrelresearch.com",
+  "contact": "mailto:nate@whimbrelresearch.com",
+  "full_service": "Full corpus, history, and company-to-firm matching, by engagement"
+ },
  "files": [
   {
    "path": "signals-latest.json",
