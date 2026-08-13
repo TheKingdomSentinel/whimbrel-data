@@ -1,8 +1,8 @@
 {
  "dataset": "US medtech buying signals, rolling window",
  "window_days": 7,
- "window_note": "Windowed on observation date. Registries publish on different lags: NIH posts awards within days, FDA decision data appears weeks after the decision. 'date' is the event's own date; 'observed' is when it reached this feed.",
- "generated_at": "2026-08-13T03:19:57.063130+00:00",
+ "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed.",
+ "generated_at": "2026-08-13T03:36:01.120584+00:00",
  "update_cadence": "daily",
  "attribution": "Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every fact links to its public source. Matched, verified research for medtech development firms: nate@whimbrelresearch.com",
  "events": [

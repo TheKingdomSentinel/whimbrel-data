@@ -1,13 +1,13 @@
 # Whimbrel Research
 
 Whimbrel Research does prospect research for medical device development
-firms. We read the public record daily, NIH SBIR/STTR awards, FDA 510(k)
-clearances and PMA approvals, clinical trial registrations, SEC filings,
-and granted patents, and match funded medtech companies to a development
-firm's capabilities and focus. Every fact we publish links to the public
-source it came from; anything that cannot be verified is not published.
+firms. We track the US public record for medical device activity,
+funding, regulatory decisions, and development milestones, and match
+funded companies to a development firm's capabilities and focus. Every
+fact we publish links to the public source it came from; anything that
+cannot be verified is not published.
 
-The corpus currently tracks 2308 US medtech companies, monitored daily.
+The corpus currently tracks 2308 US medtech companies, updated daily.
 
 ## Data files on this site
 
