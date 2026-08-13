@@ -14,6 +14,12 @@ and can be checked in one click. Facts that cannot be verified against a
 public source are not published. Company identities are deduplicated and
 signal history is kept per company.
 
+Registries publish on different lags: NIH posts awards within days of
+the notice; FDA clearance decisions appear in openFDA weeks after the
+decision date. The feed windows on when a signal was observed, and every
+event carries both its own date and its observed date, so a clearance is
+news the week it becomes public rather than invisible.
+
 ## What the free feed excludes, deliberately
 
 - History: files here show a rolling window, not the archive.
