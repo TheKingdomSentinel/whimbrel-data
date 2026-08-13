@@ -1,91 +1,131 @@
 {
  "dataset": "US medtech companies with a buying-window event in the last 14 days",
- "generated_at": "2026-08-13T03:36:01.184274+00:00",
+ "schema_version": 1,
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "canonical_base": "https://data.whimbrelresearch.com",
+ "generated_at": "2026-08-13T03:38:15.669370+00:00",
+ "next_update_utc": "2026-08-13T13:00:00+00:00",
  "update_cadence": "daily",
  "attribution": "Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every fact links to its public source. Matched, verified research for medtech development firms: nate@whimbrelresearch.com",
  "companies": [
   {
+   "id": "nih:4R44MH136867-02",
    "company": "CERETYPE NEUROMEDICINE IN",
    "signal": "NIH award 4R44MH136867-02: Design and Development of an Advanced Functional MRI Software as Medical Device (SaMD) forClinical Trials and Therapeutic Applications in Neuropsychiatry ($606,409)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-07",
+   "amount_usd": 606409,
    "source_url": "https://reporter.nih.gov/project-details/11536933"
   },
   {
+   "id": "nih:5R44DK136457-03",
    "company": "SYLVATICA BIOTECH, INC.",
    "signal": "NIH award 5R44DK136457-03: Enhanced supercooling for extending non-freezing preservation in preclinical porcine and human donor livers ($972,116)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-07",
+   "amount_usd": 972116,
    "source_url": "https://reporter.nih.gov/project-details/11399995"
   },
   {
+   "id": "nih:6R42MH135602-03",
    "company": "VOICELOVE INC.",
    "signal": "NIH award 6R42MH135602-03: VoiceLove: NICU Utilization of Remote voice Technology to improve mateRnalExperience (NURTURE) ($1,079,845)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-07",
+   "amount_usd": 1079845,
    "source_url": "https://reporter.nih.gov/project-details/11521905"
   },
   {
+   "id": "nih:5R44CA228920-06",
    "company": "LEUKO LABS, INC.",
    "signal": "NIH award 5R44CA228920-06: Reducing the incidence of febrile neutropenia in cancer patients treated with chemotherapy with PointCheck: a portable non-invasive neutropenia analyzer ($991,877)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-06",
+   "amount_usd": 991877,
    "source_url": "https://reporter.nih.gov/project-details/11364218"
   },
   {
+   "id": "nih:5R44DK135225-03",
    "company": "LIVIVOS INC.",
    "signal": "NIH award 5R44DK135225-03: Accurate Point of Care Liver Disease Diagnostics, Phase II ($785,714)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-05",
+   "amount_usd": 785714,
    "source_url": "https://reporter.nih.gov/project-details/11417428"
   },
   {
+   "id": "nih:4R44DA060643-02",
    "company": "RESILIENT LIFESCIENCE, INC.",
    "signal": "NIH award 4R44DA060643-02: Developing a wearable medical device to detect opioid overdose ($1,018,701)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-03",
+   "amount_usd": 1018701,
    "source_url": "https://reporter.nih.gov/project-details/11579934"
   },
   {
+   "id": "nih:1R43HD121341-01",
    "company": "RESULTS GROUP",
    "signal": "NIH award 1R43HD121341-01: FlyBand-Peds: Evaluating Biomechanics of Integrated Exoskeleton Footwear for Pediatric Charcot-Marie-Tooth Disease ($305,904)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-08-01",
+   "amount_usd": 305904,
    "source_url": "https://reporter.nih.gov/project-details/11315400"
   },
   {
+   "id": "nih:1R44MH142191-01",
    "company": "OPENBCI, INC.",
    "signal": "NIH award 1R44MH142191-01: Affordable, FDA-Cleared Bioamplifier: Removing Barriers to Scalable EEG and Multimodal Physiological Monitoring ($732,736)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-07-31",
+   "amount_usd": 732736,
    "source_url": "https://reporter.nih.gov/project-details/11254689"
   },
   {
+   "id": "nih:1R41HL184694-01",
    "company": "PERFUSION SOLUTIONS, INC.",
    "signal": "NIH award 1R41HL184694-01: A Bearingless, Fail-safe, High Performance Pump for \"Failing Fontan\" Patients ($217,013)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-07-31",
+   "amount_usd": 217013,
    "source_url": "https://reporter.nih.gov/project-details/11314240"
   },
   {
+   "id": "nih:5R44AI157650-05",
    "company": "ALDATU BIOSCIENCES, INC.",
    "signal": "NIH award 5R44AI157650-05: PANDAA for universal, pan-lineage molecular detection of Crimean-Congo Hemorrhagic Fever virus. ($960,045)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-07-30",
+   "amount_usd": 960045,
    "source_url": "https://reporter.nih.gov/project-details/11393717"
   },
   {
+   "id": "nih:2R44NS125709-03",
    "company": "ALTEC, INC.",
    "signal": "NIH award 2R44NS125709-03: NeuroVision\u2122: A Smartphone Application for Neurology and Telemedicine ($970,548)",
+   "kind": "nih_award",
    "kind_label": "NIH award",
    "date": "2026-07-30",
+   "amount_usd": 970548,
    "source_url": "https://reporter.nih.gov/project-details/11315174"
   },
   {
+   "id": "pma:P250036",
    "company": "Personal Genome Diagnostics, Inc.",
    "signal": "FDA PMA approval P250036: PGDx elio tissue complete CDx",
+   "kind": "fda_pma",
    "kind_label": "FDA PMA approval",
    "date": "2026-07-30",
+   "amount_usd": null,
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250036"
   }
  ]

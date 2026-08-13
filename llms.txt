@@ -11,12 +11,13 @@ The corpus currently tracks 2308 US medtech companies, updated daily.
 
 ## Data files on this site
 
-- /signals-latest.json: national medtech buying signals (NIH awards, FDA
-  clearances and approvals) from the last 7 days. Updated daily.
+- /index.json: machine-readable manifest of everything here.
+- /signals-latest.json: national medtech buying signals from the last
+  7 days. Stable event ids, parsed dollar amounts, event and
+  observed dates, a source link on every row. Updated daily.
 - /hot.json: companies with a buying-window event in the last 14
   days. Updated daily.
-- /methodology.md: how this data is collected and verified, and what the
-  free feed deliberately excludes.
+- /methodology.md: what this data is and what the free feed excludes.
 
 This free feed is a rolling window. The full corpus, its history, and
 company-to-firm matching are the paid service.

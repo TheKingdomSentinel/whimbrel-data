@@ -1,0 +1,32 @@
+{
+ "dataset": "Whimbrel Research public data: manifest",
+ "schema_version": 1,
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "canonical_base": "https://data.whimbrelresearch.com",
+ "generated_at": "2026-08-13T03:38:15.669696+00:00",
+ "next_update_utc": "2026-08-13T13:00:00+00:00",
+ "update_cadence": "daily",
+ "attribution": "Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every fact links to its public source. Matched, verified research for medtech development firms: nate@whimbrelresearch.com",
+ "files": [
+  {
+   "path": "signals-latest.json",
+   "description": "National medtech buying signals, rolling 7-day observation window",
+   "format": "application/json"
+  },
+  {
+   "path": "hot.json",
+   "description": "Companies with a buying-window event in the last 14 days",
+   "format": "application/json"
+  },
+  {
+   "path": "llms.txt",
+   "description": "This site, for machine readers",
+   "format": "text/plain"
+  },
+  {
+   "path": "methodology.md",
+   "description": "What this data is and what the free feed excludes",
+   "format": "text/markdown"
+  }
+ ]
+}
