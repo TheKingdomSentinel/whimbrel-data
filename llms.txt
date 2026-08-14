@@ -22,6 +22,17 @@ of recent events; the archive itself is not published.
 - /methodology.md: how the data is collected, dated, and windowed, and
   what these files exclude.
 
+## MCP server
+
+The same data is queryable over the Model Context Protocol
+(Streamable HTTP, no authentication) at:
+
+https://whimbrel-signals-mcp.nmwilsonri.workers.dev
+
+Tools: latest_signals (7-day window, filterable by kind), whats_hot
+(companies with a buying-window event in the last 14 days),
+signal_of_the_day, weekly_pulse (computed aggregates), about_the_data.
+
 ## License, attribution, contact
 
 Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every event links to the public record it came from. Contact: nate@whimbrelresearch.com
