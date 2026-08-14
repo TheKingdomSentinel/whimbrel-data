@@ -1,0 +1,111 @@
+{
+ "dataset": "Whimbrel Research public data: aggregate history and corpus scale",
+ "schema_version": 1,
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "canonical_base": "https://data.whimbrelresearch.com",
+ "generated_at": "2026-08-14T18:02:28.138212+00:00",
+ "next_update_utc": "2026-08-15T13:00:00+00:00",
+ "update_cadence": "daily",
+ "publisher": {
+  "name": "Whimbrel Research",
+  "url": "https://whimbrelresearch.com",
+  "contact": "mailto:nate@whimbrelresearch.com"
+ },
+ "corpus": {
+  "companies_tracked": 2284,
+  "public_signals_archived": 3482,
+  "signals_by_kind": {
+   "fda_clearance": 3181,
+   "nih_award": 252,
+   "fda_pma": 49
+  },
+  "earliest_event_date": "2025-08-06"
+ },
+ "trailing_weeks": [
+  {
+   "week_start": "2026-08-03",
+   "fda_clearance": 0,
+   "fda_pma": 0,
+   "nih_award": 6,
+   "nih_dollars_stated": 5454662
+  },
+  {
+   "week_start": "2026-07-27",
+   "fda_clearance": 0,
+   "fda_pma": 1,
+   "nih_award": 10,
+   "nih_dollars_stated": 8691303
+  },
+  {
+   "week_start": "2026-07-20",
+   "fda_clearance": 79,
+   "fda_pma": 1,
+   "nih_award": 5,
+   "nih_dollars_stated": 5090220
+  },
+  {
+   "week_start": "2026-07-13",
+   "fda_clearance": 48,
+   "fda_pma": 1,
+   "nih_award": 6,
+   "nih_dollars_stated": 2634103
+  },
+  {
+   "week_start": "2026-07-06",
+   "fda_clearance": 52,
+   "fda_pma": 1,
+   "nih_award": 13,
+   "nih_dollars_stated": 10739235
+  },
+  {
+   "week_start": "2026-06-29",
+   "fda_clearance": 51,
+   "fda_pma": 0,
+   "nih_award": 3,
+   "nih_dollars_stated": 3721749
+  },
+  {
+   "week_start": "2026-06-22",
+   "fda_clearance": 68,
+   "fda_pma": 2,
+   "nih_award": 5,
+   "nih_dollars_stated": 4273541
+  },
+  {
+   "week_start": "2026-06-15",
+   "fda_clearance": 89,
+   "fda_pma": 1,
+   "nih_award": 4,
+   "nih_dollars_stated": 5028765
+  },
+  {
+   "week_start": "2026-06-08",
+   "fda_clearance": 75,
+   "fda_pma": 2,
+   "nih_award": 7,
+   "nih_dollars_stated": 5744520
+  },
+  {
+   "week_start": "2026-06-01",
+   "fda_clearance": 75,
+   "fda_pma": 1,
+   "nih_award": 6,
+   "nih_dollars_stated": 4999114
+  },
+  {
+   "week_start": "2026-05-25",
+   "fda_clearance": 58,
+   "fda_pma": 0,
+   "nih_award": 0,
+   "nih_dollars_stated": 0
+  },
+  {
+   "week_start": "2026-05-18",
+   "fda_clearance": 23,
+   "fda_pma": 0,
+   "nih_award": 1,
+   "nih_dollars_stated": 1000000
+  }
+ ],
+ "note": "Aggregates only; the archived events themselves are not published. Weekly rows bucket by event date over the last 12 weeks."
+}

@@ -19,6 +19,9 @@ of recent events; the archive itself is not published.
 - /hot.json: companies with an event in the last 14 days, one
   row per company carrying its newest event in the same field
   structure. Updated daily.
+- /stats.json: aggregate history (weekly counts and stated dollars for
+  the trailing quarter) and corpus scale. Aggregates only; archived
+  events are not published.
 - /methodology.md: how the data is collected, dated, and windowed, and
   what these files exclude.
 

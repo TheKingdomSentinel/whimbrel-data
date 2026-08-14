@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-14T17:35:26.047078+00:00",
+ "generated_at": "2026-08-14T18:02:28.087172+00:00",
  "next_update_utc": "2026-08-15T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -32,6 +32,11 @@
   {
    "path": "hot.json",
    "description": "Companies with a buying-window event in the last 14 days",
+   "format": "application/json"
+  },
+  {
+   "path": "stats.json",
+   "description": "Aggregate history (trailing weeks) and corpus scale; aggregates only, no archived events",
    "format": "application/json"
   },
   {
