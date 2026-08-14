@@ -34,7 +34,11 @@ https://whimbrel-signals-mcp.whimbrelresearch.workers.dev
 
 Tools: latest_signals (7-day window, filterable by kind), whats_hot
 (companies with a buying-window event in the last 14 days),
-signal_of_the_day, weekly_pulse (computed aggregates), about_the_data.
+signal_of_the_day, weekly_pulse (computed aggregates), who_got_funded
+(the window filtered by new-award freshness, phase, and amount),
+micro_brief (a composed mini-dossier on any corpus company, 10 company
+lookups per caller per day), company_timeline (the structured version),
+and about_the_data.
 
 ## License, attribution, contact
 
