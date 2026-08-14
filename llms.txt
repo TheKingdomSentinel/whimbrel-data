@@ -27,7 +27,7 @@ of recent events; the archive itself is not published.
 The same data is queryable over the Model Context Protocol
 (Streamable HTTP, no authentication) at:
 
-https://whimbrel-signals-mcp.nmwilsonri.workers.dev
+https://whimbrel-signals-mcp.whimbrelresearch.workers.dev
 
 Tools: latest_signals (7-day window, filterable by kind), whats_hot
 (companies with a buying-window event in the last 14 days),

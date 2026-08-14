@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-14T17:23:05.009058+00:00",
+ "generated_at": "2026-08-14T17:35:26.047078+00:00",
  "next_update_utc": "2026-08-15T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "mcp": {
-  "endpoint": "https://whimbrel-signals-mcp.nmwilsonri.workers.dev",
+  "endpoint": "https://whimbrel-signals-mcp.whimbrelresearch.workers.dev",
   "transport": "streamable-http",
   "authentication": "none",
   "tools": [
