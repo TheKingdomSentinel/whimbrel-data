@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-14T20:07:37.459171+00:00",
- "next_update_utc": "2026-08-15T13:00:00+00:00",
+ "generated_at": "2026-08-15T13:26:07.532485+00:00",
+ "next_update_utc": "2026-08-16T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -100,32 +100,6 @@
    "amount_usd": 305904,
    "source_url": "https://reporter.nih.gov/project-details/11315400",
    "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R44MH142191-01",
-   "company": "Openbci, Inc.",
-   "signal": "NIH award 1R44MH142191-01: Affordable, FDA-Cleared Bioamplifier: Removing Barriers to Scalable EEG and Multimodal Physiological Monitoring ($732,736)",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-07-31",
-   "amount_usd": 732736,
-   "source_url": "https://reporter.nih.gov/project-details/11254689",
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R41HL184694-01",
-   "company": "Perfusion Solutions, Inc.",
-   "signal": "NIH award 1R41HL184694-01: A Bearingless, Fail-safe, High Performance Pump for \"Failing Fontan\" Patients ($217,013)",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-07-31",
-   "amount_usd": 217013,
-   "source_url": "https://reporter.nih.gov/project-details/11314240",
-   "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
   }
