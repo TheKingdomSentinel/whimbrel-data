@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-15T13:26:07.532485+00:00",
- "next_update_utc": "2026-08-16T13:00:00+00:00",
+ "generated_at": "2026-08-16T13:11:54.194375+00:00",
+ "next_update_utc": "2026-08-17T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -91,17 +91,17 @@
    "new_award": false
   },
   {
-   "id": "nih:1R43HD121341-01",
-   "company": "Results Group",
-   "signal": "NIH award 1R43HD121341-01: FlyBand-Peds: Evaluating Biomechanics of Integrated Exoskeleton Footwear for Pediatric Charcot-Marie-Tooth Disease ($305,904)",
+   "id": "nih:5R44NS120360-04",
+   "company": "Circumvent Pharmaceuticals, Inc.",
+   "signal": "NIH award 5R44NS120360-04: Development of N-tert-(butyl)hydroxylamine (NtBuHA) as a Therapeutic Agent for Treating CLN1 Batten Disease ($1,219,273)",
    "kind": "nih_award",
    "kind_label": "NIH award",
-   "date": "2026-08-01",
-   "amount_usd": 305904,
-   "source_url": "https://reporter.nih.gov/project-details/11315400",
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
+   "date": "2026-08-03",
+   "amount_usd": 1219273,
+   "source_url": "https://reporter.nih.gov/project-details/11399162",
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
   }
  ]
 }

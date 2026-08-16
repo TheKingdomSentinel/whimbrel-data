@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-15T13:26:07.476217+00:00",
- "next_update_utc": "2026-08-16T13:00:00+00:00",
+ "generated_at": "2026-08-16T13:11:54.130652+00:00",
+ "next_update_utc": "2026-08-17T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,8 +12,8 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 7,
- "events_in_window": 7,
- "events_returned": 7,
+ "events_in_window": 8,
+ "events_returned": 8,
  "truncated": false,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
  "events": [
@@ -99,6 +99,20 @@
    "source_url": "https://reporter.nih.gov/project-details/11579934",
    "award_phase": "SBIR Phase II",
    "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44NS120360-04",
+   "company": "Circumvent Pharmaceuticals, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "observed": "2026-08-16",
+   "amount_usd": 1219273,
+   "summary": "NIH award 5R44NS120360-04: Development of N-tert-(butyl)hydroxylamine (NtBuHA) as a Therapeutic Agent for Treating CLN1 Batten Disease ($1,219,273)",
+   "source_url": "https://reporter.nih.gov/project-details/11399162",
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
    "new_award": false
   },
   {
