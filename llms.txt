@@ -33,7 +33,7 @@ The same data is queryable over the Model Context Protocol
 https://whimbrel-signals-mcp.whimbrelresearch.workers.dev
 
 Tools: latest_signals (7-day window, filterable by kind), whats_hot
-(companies with a buying-window event in the last 14 days),
+(companies with a registry event in the last 14 days),
 signal_of_the_day, weekly_pulse (computed aggregates), who_got_funded
 (the window filtered by new-award freshness, phase, and amount),
 micro_brief (a composed mini-dossier on any company in the archive, one company

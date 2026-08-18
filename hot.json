@@ -1,9 +1,9 @@
 {
- "dataset": "US medtech companies with a buying-window event in the last 14 days",
+ "dataset": "US medtech companies with a registry event in the last 14 days",
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-18T13:09:26.798663+00:00",
+ "generated_at": "2026-08-18T14:31:01.256031+00:00",
  "next_update_utc": "2026-08-19T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -165,6 +165,110 @@
    "amount_usd": null,
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220015",
    "source_url_api": "https://api.fda.gov/device/pma.json?search=pma_number:%22P220015%22"
+  },
+  {
+   "id": "nih:4R44DA060643-02",
+   "company": "Resilient Lifescience, Inc.",
+   "signal": "NIH award 4R44DA060643-02: Developing a wearable medical device to detect opioid overdose ($1,018,701)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "amount_usd": 1018701,
+   "source_url": "https://reporter.nih.gov/project-details/11579934",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44NS120360-04",
+   "company": "Circumvent Pharmaceuticals, Inc.",
+   "signal": "NIH award 5R44NS120360-04: Development of N-tert-(butyl)hydroxylamine (NtBuHA) as a Therapeutic Agent for Treating CLN1 Batten Disease ($1,219,273)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "amount_usd": 1219273,
+   "source_url": "https://reporter.nih.gov/project-details/11399162",
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44HL162218-04",
+   "company": "Starlight Cardiovascular, Inc.",
+   "signal": "NIH award 2R44HL162218-04: DEVELOPMENT OF A PULMONARY FLOW RESTRICTOR FOR HYPOPLASTIC LEFT HEART SYNDROME ($1,166,665)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "amount_usd": 1166665,
+   "source_url": "https://reporter.nih.gov/project-details/11292148",
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43HD121341-01",
+   "company": "Results Group",
+   "signal": "NIH award 1R43HD121341-01: FlyBand-Peds: Evaluating Biomechanics of Integrated Exoskeleton Footwear for Pediatric Charcot-Marie-Tooth Disease ($305,904)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-01",
+   "amount_usd": 305904,
+   "source_url": "https://reporter.nih.gov/project-details/11315400",
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R44MH142191-01",
+   "company": "Openbci, Inc.",
+   "signal": "NIH award 1R44MH142191-01: Affordable, FDA-Cleared Bioamplifier: Removing Barriers to Scalable EEG and Multimodal Physiological Monitoring ($732,736)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-31",
+   "amount_usd": 732736,
+   "source_url": "https://reporter.nih.gov/project-details/11254689",
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R41HL184694-01",
+   "company": "Perfusion Solutions, Inc.",
+   "signal": "NIH award 1R41HL184694-01: A Bearingless, Fail-safe, High Performance Pump for \"Failing Fontan\" Patients ($217,013)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-31",
+   "amount_usd": 217013,
+   "source_url": "https://reporter.nih.gov/project-details/11314240",
+   "award_phase": "STTR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44AI157650-05",
+   "company": "Aldatu Biosciences, Inc.",
+   "signal": "NIH award 5R44AI157650-05: PANDAA for universal, pan-lineage molecular detection of Crimean-Congo Hemorrhagic Fever virus. ($960,045)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-30",
+   "amount_usd": 960045,
+   "source_url": "https://reporter.nih.gov/project-details/11393717",
+   "award_phase": "SBIR Phase II",
+   "award_year": 5,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44NS125709-03",
+   "company": "Altec, Inc.",
+   "signal": "NIH award 2R44NS125709-03: NeuroVision\u2122: A Smartphone Application for Neurology and Telemedicine ($970,548)",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-30",
+   "amount_usd": 970548,
+   "source_url": "https://reporter.nih.gov/project-details/11315174",
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
   }
  ]
 }

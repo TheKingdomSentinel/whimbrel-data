@@ -51,8 +51,8 @@ SEC Form D and Form C filings.
 - Web finds: only government-registry events are published. Facts from
   articles and other web sources are held to a different verification
   standard and stay out.
-- Fit judgments: nothing here matches companies to any firm. The
-  buying-window level is a mechanical read of event freshness, not an
-  assessment.
+- Judgments: no fit assessments, no matching, and no computed ratings
+  of any kind. These files carry events and dates only; what they mean
+  for any particular firm is the engagement's work.
 
 Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every event links to the public record it came from. Contact: nate@whimbrelresearch.com
