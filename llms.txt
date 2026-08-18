@@ -38,7 +38,8 @@ signal_of_the_day, weekly_pulse (computed aggregates), who_got_funded
 (the window filtered by new-award freshness, phase, and amount),
 micro_brief (a composed mini-dossier on any company in the archive, one company
 lookup per caller per day), company_timeline (the structured version),
-and about_the_data.
+and about_the_data. Company records also carry patent grants, published
+patent applications, and SEC funding filings.
 
 The server also publishes one MCP prompt per tool, named with a
 whimbrel_ prefix (whimbrel_micro_brief, whimbrel_whats_hot, ...), so
