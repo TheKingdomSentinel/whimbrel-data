@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-17T22:38:41.711059+00:00",
+ "generated_at": "2026-08-18T01:17:06.604800+00:00",
  "next_update_utc": "2026-08-18T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -154,45 +154,6 @@
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
-  },
-  {
-   "id": "nih:4R44DA060643-02",
-   "company": "Resilient Lifescience, Inc.",
-   "signal": "NIH award 4R44DA060643-02: Developing a wearable medical device to detect opioid overdose ($1,018,701)",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "amount_usd": 1018701,
-   "source_url": "https://reporter.nih.gov/project-details/11579934",
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:5R44NS120360-04",
-   "company": "Circumvent Pharmaceuticals, Inc.",
-   "signal": "NIH award 5R44NS120360-04: Development of N-tert-(butyl)hydroxylamine (NtBuHA) as a Therapeutic Agent for Treating CLN1 Batten Disease ($1,219,273)",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "amount_usd": 1219273,
-   "source_url": "https://reporter.nih.gov/project-details/11399162",
-   "award_phase": "SBIR Phase II",
-   "award_year": 4,
-   "new_award": false
-  },
-  {
-   "id": "nih:2R44HL162218-04",
-   "company": "Starlight Cardiovascular, Inc.",
-   "signal": "NIH award 2R44HL162218-04: DEVELOPMENT OF A PULMONARY FLOW RESTRICTOR FOR HYPOPLASTIC LEFT HEART SYNDROME ($1,166,665)",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "amount_usd": 1166665,
-   "source_url": "https://reporter.nih.gov/project-details/11292148",
-   "award_phase": "SBIR Phase II",
-   "award_year": 4,
-   "new_award": false
   }
  ]
 }

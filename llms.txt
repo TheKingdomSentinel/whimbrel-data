@@ -20,7 +20,7 @@ of recent events; the archive itself is not published.
   row per company carrying its newest event in the same field
   structure. Updated daily.
 - /stats.json: aggregate history (weekly counts and stated dollars for
-  the trailing quarter) and corpus scale. Aggregates only; archived
+  the trailing quarter) and archive scale. Aggregates only; archived
   events are not published.
 - /methodology.md: how the data is collected, dated, and windowed, and
   what these files exclude.
@@ -36,7 +36,7 @@ Tools: latest_signals (7-day window, filterable by kind), whats_hot
 (companies with a buying-window event in the last 14 days),
 signal_of_the_day, weekly_pulse (computed aggregates), who_got_funded
 (the window filtered by new-award freshness, phase, and amount),
-micro_brief (a composed mini-dossier on any corpus company, one company
+micro_brief (a composed mini-dossier on any company in the archive, one company
 lookup per caller per day), company_timeline (the structured version),
 and about_the_data.
 
@@ -44,6 +44,14 @@ The server also publishes one MCP prompt per tool, named with a
 whimbrel_ prefix (whimbrel_micro_brief, whimbrel_whats_hot, ...), so
 clients that surface prompts as slash commands get a ready-made command
 palette on connect.
+
+## The engagement behind the free tier
+
+This data layer is the free tier. With an engagement, Whimbrel
+Research does the research for you: you send companies, and you get a
+full sourced brief on each, with leadership and contact routes, plus
+daily monitoring for companies that match your firm's capabilities.
+The first month is free. https://whimbrelresearch.com
 
 ## License, attribution, contact
 
