@@ -37,8 +37,7 @@ SEC Form D and Form C filings.
 
 ## Windows and caps
 
-- signals-latest.json: the last 7 days.
-- hot.json: companies with an event in the last 14 days.
+- signals-latest.json: the last 14 days.
 - Company lookups over MCP (micro_brief, company_timeline): one per
   caller per day.
 

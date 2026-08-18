@@ -12,13 +12,10 @@ of recent events; the archive itself is not published.
 
 - /index.json: manifest of every file here, with schema version,
   license, and next-update time.
-- /signals-latest.json: events observed in the last 7 days.
+- /signals-latest.json: events observed in the last 14 days.
   Each event carries a stable id, company name, kind, event date,
   observed date, amount_usd where a source states a figure, a one-line
   summary, and the source URL. Updated daily.
-- /hot.json: companies with an event in the last 14 days, one
-  row per company carrying its newest event in the same field
-  structure. Updated daily.
 - /stats.json: aggregate history (weekly counts and stated dollars for
   the trailing quarter) and archive scale. Aggregates only; archived
   events are not published.
@@ -33,7 +30,7 @@ The same data is queryable over the Model Context Protocol
 https://whimbrel-signals-mcp.whimbrelresearch.workers.dev
 
 Tools: latest_signals (7-day window, filterable by kind), whats_hot
-(companies with a registry event in the last 14 days),
+(the feed grouped one row per company, newest event first),
 signal_of_the_day, weekly_pulse (computed aggregates), who_got_funded
 (the window filtered by new-award freshness, phase, and amount),
 micro_brief (a composed mini-dossier on any company in the archive, one company

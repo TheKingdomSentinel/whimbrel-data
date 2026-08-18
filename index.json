@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-18T14:31:01.256476+00:00",
+ "generated_at": "2026-08-18T14:41:52.775497+00:00",
  "next_update_utc": "2026-08-19T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -29,12 +29,7 @@
  "files": [
   {
    "path": "signals-latest.json",
-   "description": "National medtech buying signals, rolling 7-day observation window",
-   "format": "application/json"
-  },
-  {
-   "path": "hot.json",
-   "description": "Companies with a registry event in the last 14 days",
+   "description": "National medtech buying signals, rolling 14-day observation window",
    "format": "application/json"
   },
   {
