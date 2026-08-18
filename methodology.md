@@ -9,7 +9,10 @@ identities are deduplicated, so one company is one history.
 ## Event kinds
 
 - nih_award: NIH SBIR and STTR awards to small businesses, from NIH
-  RePORTER.
+  RePORTER. Published only when the award's own text describes a
+  medical device, diagnostic instrument, or medical software program;
+  NIH small-business awards for drugs, biologics, and basic science
+  are collected but not published, because this is a medtech feed.
 - fda_clearance: FDA 510(k) clearances, from openFDA.
 - fda_pma: FDA premarket approvals, from openFDA.
 

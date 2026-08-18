@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-18T15:22:18.538950+00:00",
+ "generated_at": "2026-08-18T21:27:13.790958+00:00",
  "next_update_utc": "2026-08-19T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -12,12 +12,12 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "corpus": {
-  "companies_with_public_signals": 2290,
-  "public_signals_archived": 3491,
+  "companies_with_public_signals": 2379,
+  "public_signals_archived": 3654,
   "signals_by_kind": {
+   "nih_award": 297,
    "fda_pma": 50,
-   "nih_award": 260,
-   "fda_clearance": 3181
+   "fda_clearance": 3307
   },
   "earliest_event_date": "2025-08-06"
  },
@@ -26,64 +26,64 @@
    "week_start": "2026-08-10",
    "fda_clearance": 0,
    "fda_pma": 0,
-   "nih_award": 5,
-   "nih_dollars_stated": 4071409
+   "nih_award": 28,
+   "nih_dollars_stated": 22715886
   },
   {
    "week_start": "2026-08-03",
-   "fda_clearance": 0,
+   "fda_clearance": 55,
    "fda_pma": 1,
-   "nih_award": 9,
-   "nih_dollars_stated": 8151772
+   "nih_award": 32,
+   "nih_dollars_stated": 22729951
   },
   {
    "week_start": "2026-07-27",
-   "fda_clearance": 0,
+   "fda_clearance": 71,
    "fda_pma": 1,
-   "nih_award": 10,
-   "nih_dollars_stated": 8691303
+   "nih_award": 26,
+   "nih_dollars_stated": 20958099
   },
   {
    "week_start": "2026-07-20",
    "fda_clearance": 79,
    "fda_pma": 1,
-   "nih_award": 5,
-   "nih_dollars_stated": 5090220
+   "nih_award": 24,
+   "nih_dollars_stated": 18220155
   },
   {
    "week_start": "2026-07-13",
    "fda_clearance": 48,
    "fda_pma": 1,
-   "nih_award": 6,
-   "nih_dollars_stated": 2634103
+   "nih_award": 5,
+   "nih_dollars_stated": 2327382
   },
   {
    "week_start": "2026-07-06",
    "fda_clearance": 52,
    "fda_pma": 1,
-   "nih_award": 13,
-   "nih_dollars_stated": 10739235
+   "nih_award": 11,
+   "nih_dollars_stated": 9492410
   },
   {
    "week_start": "2026-06-29",
    "fda_clearance": 51,
    "fda_pma": 0,
-   "nih_award": 3,
-   "nih_dollars_stated": 3721749
+   "nih_award": 2,
+   "nih_dollars_stated": 2584773
   },
   {
    "week_start": "2026-06-22",
    "fda_clearance": 68,
    "fda_pma": 2,
-   "nih_award": 5,
-   "nih_dollars_stated": 4273541
+   "nih_award": 3,
+   "nih_dollars_stated": 3062878
   },
   {
    "week_start": "2026-06-15",
    "fda_clearance": 89,
    "fda_pma": 1,
-   "nih_award": 4,
-   "nih_dollars_stated": 5028765
+   "nih_award": 3,
+   "nih_dollars_stated": 3778588
   },
   {
    "week_start": "2026-06-08",
@@ -96,8 +96,8 @@
    "week_start": "2026-06-01",
    "fda_clearance": 75,
    "fda_pma": 1,
-   "nih_award": 6,
-   "nih_dollars_stated": 4999114
+   "nih_award": 5,
+   "nih_dollars_stated": 3929587
   },
   {
    "week_start": "2026-05-25",
