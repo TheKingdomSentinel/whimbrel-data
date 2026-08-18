@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://data.whimbrelresearch.com/</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://data.whimbrelresearch.com/signals-latest.json</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://data.whimbrelresearch.com/hot.json</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://data.whimbrelresearch.com/index.json</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://data.whimbrelresearch.com/stats.json</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://data.whimbrelresearch.com/llms.txt</loc><lastmod>2026-08-17</lastmod></url>
-<url><loc>https://data.whimbrelresearch.com/methodology.md</loc><lastmod>2026-08-17</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/</loc><lastmod>2026-08-18</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/signals-latest.json</loc><lastmod>2026-08-18</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/hot.json</loc><lastmod>2026-08-18</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/index.json</loc><lastmod>2026-08-18</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/stats.json</loc><lastmod>2026-08-18</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/llms.txt</loc><lastmod>2026-08-18</lastmod></url>
+<url><loc>https://data.whimbrelresearch.com/methodology.md</loc><lastmod>2026-08-18</lastmod></url>
 </urlset>

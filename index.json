@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-18T02:46:40.066736+00:00",
- "next_update_utc": "2026-08-18T13:00:00+00:00",
+ "generated_at": "2026-08-18T12:50:18.407835+00:00",
+ "next_update_utc": "2026-08-19T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",

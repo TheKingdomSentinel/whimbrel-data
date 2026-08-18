@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-18T02:46:40.066438+00:00",
- "next_update_utc": "2026-08-18T13:00:00+00:00",
+ "generated_at": "2026-08-18T12:50:18.407497+00:00",
+ "next_update_utc": "2026-08-19T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -154,6 +154,17 @@
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
+  },
+  {
+   "id": "pma:P220015",
+   "company": "Tianjin MasterVision Technology Co., Ltd.",
+   "signal": "FDA PMA approval P220015: DilightTM (roflufocon E) Overnight Orthokeratology Contact Lens",
+   "kind": "fda_pma",
+   "kind_label": "FDA PMA approval",
+   "date": "2026-08-05",
+   "amount_usd": null,
+   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220015",
+   "source_url_api": "https://api.fda.gov/device/pma.json?search=pma_number:%22P220015%22"
   }
  ]
 }
