@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-19T11:19:50.693111+00:00",
+ "generated_at": "2026-08-19T16:01:17.953384+00:00",
  "next_update_utc": "2026-08-20T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -16,8 +16,8 @@
   "public_signals_archived": 3665,
   "signals_by_kind": {
    "fda_pma": 50,
-   "nih_award": 308,
-   "fda_clearance": 3307
+   "fda_clearance": 3307,
+   "nih_award": 308
   },
   "earliest_event_date": "2025-08-06"
  },
