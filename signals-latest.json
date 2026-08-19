@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-18T21:36:26.233415+00:00",
- "next_update_utc": "2026-08-19T13:00:00+00:00",
+ "generated_at": "2026-08-19T11:19:50.589940+00:00",
+ "next_update_utc": "2026-08-20T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 940,
+ "events_in_window": 938,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -85,6 +85,20 @@
    "source_url": "https://reporter.nih.gov/project-details/11418920",
    "award_phase": "SBIR Phase II",
    "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AG097243-02",
+   "company": "Revbio, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-14",
+   "observed": "2026-08-19",
+   "amount_usd": 205450,
+   "summary": "NIH award 5R44AG097243-02: Improved Treatment Options for Vertebral Compression Fractures in Elderly Patients Using Minimally Invasive, Image-Guided Delivery of a Regenerative Bone Adhesive ($205,450)",
+   "source_url": "https://reporter.nih.gov/project-details/11420547",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
    "new_award": false
   },
   {
@@ -200,6 +214,20 @@
    "new_award": true
   },
   {
+   "id": "nih:1R43AI197708-01",
+   "company": "Nephropathology Associates",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-12",
+   "observed": "2026-08-19",
+   "amount_usd": 266613,
+   "summary": "NIH award 1R43AI197708-01: Precision Diagnostics in T-cell Mediated Rejection: Predicting Treatment Resistance at Time of Diagnosis ($266,613)",
+   "source_url": "https://reporter.nih.gov/project-details/11315213",
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
    "id": "nih:5R44AI183961-03",
    "company": "Ossium Health, Inc.",
    "kind": "nih_award",
@@ -310,6 +338,34 @@
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
+  },
+  {
+   "id": "nih:1R43MD021459-01",
+   "company": "Sequestbio, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-11",
+   "observed": "2026-08-19",
+   "amount_usd": 290612,
+   "summary": "NIH award 1R43MD021459-01: \"Quantum-Enhanced Prediction of Metastasis and Residual Disease in Breast-Cancer Patients from Low- Resourced Populations ($290,612)",
+   "source_url": "https://reporter.nih.gov/project-details/11349330",
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:2R44MD021095-02A1",
+   "company": "Objective Ed, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-11",
+   "observed": "2026-08-19",
+   "amount_usd": 1031318,
+   "summary": "NIH award 2R44MD021095-02A1: PREP - Prepare for college success by improving EF, SA and SI skills for students with a disability. ($1,031,318)",
+   "source_url": "https://reporter.nih.gov/project-details/11379651",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
   },
   {
    "id": "nih:2R44EY034066-02",
@@ -503,6 +559,20 @@
    "amount_usd": 353059,
    "summary": "NIH award 1R43GM162022-01A1: Mechanomyography-based system for quantitative nerve assessment during standard pain management procedures ($353,059)",
    "source_url": "https://reporter.nih.gov/project-details/11403158",
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R43MH143510-01",
+   "company": "Ividence Inc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-07",
+   "observed": "2026-08-19",
+   "amount_usd": 315276,
+   "summary": "NIH award 1R43MH143510-01: Repurposing Glucagon-Like Peptide-1 Receptor Agonists for Mental Health Outcomes via Federated Causal Inference ($315,276)",
+   "source_url": "https://reporter.nih.gov/project-details/11315139",
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -970,6 +1040,34 @@
    "new_award": false
   },
   {
+   "id": "nih:2R44DA061387-02",
+   "company": "Sano Healthcare Consultants, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-05",
+   "observed": "2026-08-19",
+   "amount_usd": 1055180,
+   "summary": "NIH award 2R44DA061387-02: Secure Remote Dispensing of Liquid Methadone with Home Monitoring: Environmental Interactive Devices Support Sustainable Economic and Expansive Clinical Treatment of Opioid Use Disorder Treatment ($1,055,180)",
+   "source_url": "https://reporter.nih.gov/project-details/11405774",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R43AI189008-02",
+   "company": "Mucommune, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-05",
+   "observed": "2026-08-19",
+   "amount_usd": 309210,
+   "summary": "NIH award 5R43AI189008-02: Engineering a physiologically-tuned reservoir intravaginal ring releasing lactic acid for the treatment and prevention of bacterial vaginosis ($309,210)",
+   "source_url": "https://reporter.nih.gov/project-details/11398077",
+   "award_phase": "SBIR Phase I",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
    "id": "pma:P220015",
    "company": "Tianjin MasterVision Technology Co., Ltd.",
    "kind": "fda_pma",
@@ -1222,6 +1320,34 @@
    "summary": "NIH award 1R43HL186097-01: HeartSense.AI: A Generative AI-Driven Mobile Health Solution to Improve Hypertension Control Among Lower Income Adults ($314,321)",
    "source_url": "https://reporter.nih.gov/project-details/11350027",
    "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44AI155075-05",
+   "company": "Jan Biotech, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-04",
+   "observed": "2026-08-19",
+   "amount_usd": 998781,
+   "summary": "NIH award 5R44AI155075-05: Sequence-based RNA Fluorescence Assay to Measure Latent HIV Reservoirs ($998,781)",
+   "source_url": "https://reporter.nih.gov/project-details/11398110",
+   "award_phase": "SBIR Phase II",
+   "award_year": 5,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R44GM163514-01",
+   "company": "Vivid Bioinnovations, Pbc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-04",
+   "observed": "2026-08-19",
+   "amount_usd": 300001,
+   "summary": "NIH award 1R44GM163514-01: Integrated High-Throughput Microfluidic-Mass Spectrometry for Enhanced Biomedical Data Generation and AI Model Training ($300,001)",
+   "source_url": "https://reporter.nih.gov/project-details/11316567",
+   "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
   },
@@ -2474,117 +2600,6 @@
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
-  },
-  {
-   "id": "nih:5R42AG062130-06",
-   "company": "Aromha, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": 1243304,
-   "summary": "NIH award 5R42AG062130-06: Digital Accessible Remote Olfactory Mediated Health Assessments for Preclinical AD ($1,243,304)",
-   "source_url": "https://reporter.nih.gov/project-details/11422352",
-   "award_phase": "STTR Phase II",
-   "award_year": 6,
-   "new_award": false
-  },
-  {
-   "id": "nih:4R44MH136888-03",
-   "company": "Oui Therapeutics, Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": 966804,
-   "summary": "NIH award 4R44MH136888-03: Development and Evaluation of a Novel Digital Therapeutic for Adults with Post-Traumatic Stress Disorder ($966,804)",
-   "source_url": "https://reporter.nih.gov/project-details/11536935",
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "fda:DEN250042",
-   "company": "Caristo Diagnostics , Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) DEN250042: CaRi-Heart",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN250042"
-  },
-  {
-   "id": "fda:K253450",
-   "company": "NeuroLogica Corp., a Samsung Company",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253450: BodyTom Elite (NL4000)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253450",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253450%22"
-  },
-  {
-   "id": "fda:K261412",
-   "company": "Samsung Medison Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261412: V8/XV8/XH8/H8/cV8/V8 ONE/XV8 ONE/XH8 ONE/H8 ONE/cV8 ONE Diagnostic Ultrasound System; V7/XV7/XH7/H7/cV7/V7 ONE/XV7 ONE/H7 ONE/XH7 ONE/cV7 ONE Diagnostic Ultrasound System; V6/XV6/XH6/H6/cV6/V6 ONE/XV6 ONE/H6 ONE/XH6 ONE/cV6 ONE Diagnostic Ultrasound System; V5/XV5/XH5/H5/cV5 Diagnostic Ultrasound System; V4/XV4/XH4/H4/cV4 Diagnostic Ultrasound System;",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261412",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261412%22"
-  },
-  {
-   "id": "fda:K253651",
-   "company": "Bluewind Medical , Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253651: Revi System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253651",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253651%22"
-  },
-  {
-   "id": "fda:K261427",
-   "company": "Shanghai United Imaging Healthcare Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261427: uMI Panvivo (uMI Panvivo M)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261427",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261427%22"
-  },
-  {
-   "id": "fda:K261399",
-   "company": "Nipro Medical Corporation",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261399: ELISIO\u0099-HX",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261399",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261399%22"
-  },
-  {
-   "id": "fda:K260326",
-   "company": "Datex-Ohmeda, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260326: Giraffe\u0099 OmniBed\u0099 Carestation (CS1); Giraffe\u0099 Incubator Carestation (CS1)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260326",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260326%22"
   }
  ]
 }
