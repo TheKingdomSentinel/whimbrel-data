@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-21T11:23:51.150381+00:00",
+ "generated_at": "2026-08-21T19:16:35.025713+00:00",
  "next_update_utc": "2026-08-22T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 237,
+ "events_in_window": 312,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -97,6 +97,20 @@
    "amount_usd": 205450,
    "summary": "NIH award 5R44AG097243-02: Improved Treatment Options for Vertebral Compression Fractures in Elderly Patients Using Minimally Invasive, Image-Guided Delivery of a Regenerative Bone Adhesive ($205,450)",
    "source_url": "https://reporter.nih.gov/project-details/11420547",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44GM156169-02",
+   "company": "Mitegen, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-14",
+   "observed": "2026-08-21",
+   "amount_usd": 999741,
+   "summary": "NIH award 2R44GM156169-02: Improving cryopreservation outcomes of small biological samples through ultra-fast convective cooling and warming ($999,741)",
+   "source_url": "https://reporter.nih.gov/project-details/11409780",
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -1064,6 +1078,20 @@
    "summary": "NIH award 5R43AI189008-02: Engineering a physiologically-tuned reservoir intravaginal ring releasing lactic acid for the treatment and prevention of bacterial vaginosis ($309,210)",
    "source_url": "https://reporter.nih.gov/project-details/11398077",
    "award_phase": "SBIR Phase I",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44AI170237-02A1",
+   "company": "Oak Therapeutics, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-05",
+   "observed": "2026-08-21",
+   "amount_usd": 899010,
+   "summary": "NIH award 2R44AI170237-02A1: Novel antiretroviral therapy delivery platform for infants and young children: oral dispensable strips (ODS) ($899,010)",
+   "source_url": "https://reporter.nih.gov/project-details/11181757",
+   "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
   },
@@ -2504,6 +2532,34 @@
    "new_award": false
   },
   {
+   "id": "nih:5R44AI179391-03",
+   "company": "Oak Therapeutics, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-28",
+   "observed": "2026-08-21",
+   "amount_usd": 814340,
+   "summary": "NIH award 5R44AI179391-03: Oral Dissolvable Strips (ODS) as new pediatric and adult delivery mode of therapy for latent tuberculosis ($814,340)",
+   "source_url": "https://reporter.nih.gov/project-details/11393763",
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AG097298-02",
+   "company": "Homecare Hub US Inc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-28",
+   "observed": "2026-08-21",
+   "amount_usd": 1169847,
+   "summary": "NIH award 5R44AG097298-02: Scaling a network of small community-based care homes as a high-value alternative to institutional care ($1,169,847)",
+   "source_url": "https://reporter.nih.gov/project-details/11417296",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
    "id": "fda:DEN250042",
    "company": "Caristo Diagnostics , Ltd.",
    "kind": "fda_clearance",
@@ -2537,54 +2593,6 @@
    "summary": "FDA 510(k) K261412: V8/XV8/XH8/H8/cV8/V8 ONE/XV8 ONE/XH8 ONE/H8 ONE/cV8 ONE Diagnostic Ultrasound System; V7/XV7/XH7/H7/cV7/V7 ONE/XV7 ONE/H7 ONE/XH7 ONE/cV7 ONE Diagnostic Ultrasound System; V6/XV6/XH6/H6/cV6/V6 ONE/XV6 ONE/H6 ONE/XH6 ONE/cV6 ONE Diagnostic Ultrasound System; V5/XV5/XH5/H5/cV5 Diagnostic Ultrasound System; V4/XV4/XH4/H4/cV4 Diagnostic Ultrasound System;",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261412",
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261412%22"
-  },
-  {
-   "id": "fda:K253651",
-   "company": "Bluewind Medical , Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253651: Revi System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253651",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253651%22"
-  },
-  {
-   "id": "fda:K261427",
-   "company": "Shanghai United Imaging Healthcare Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261427: uMI Panvivo (uMI Panvivo M)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261427",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261427%22"
-  },
-  {
-   "id": "fda:K261399",
-   "company": "Nipro Medical Corporation",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261399: ELISIO\u0099-HX",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261399",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261399%22"
-  },
-  {
-   "id": "fda:K260326",
-   "company": "Datex-Ohmeda, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-28",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260326: Giraffe\u0099 OmniBed\u0099 Carestation (CS1); Giraffe\u0099 Incubator Carestation (CS1)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260326",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260326%22"
   }
  ]
 }
