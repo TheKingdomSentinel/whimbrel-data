@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-23T11:36:09.883279+00:00",
- "next_update_utc": "2026-08-24T13:00:00+00:00",
+ "generated_at": "2026-08-24T11:45:02.517530+00:00",
+ "next_update_utc": "2026-08-25T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,16 +12,23 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "corpus": {
-  "companies_with_public_signals": 5737,
-  "public_signals_archived": 12822,
+  "companies_with_public_signals": 5741,
+  "public_signals_archived": 12838,
   "signals_by_kind": {
    "fda_pma": 112,
-   "fda_clearance": 9674,
-   "nih_award": 3036
+   "nih_award": 3052,
+   "fda_clearance": 9674
   },
   "earliest_event_date": "2021-08-22"
  },
  "trailing_weeks": [
+  {
+   "week_start": "2026-08-17",
+   "fda_clearance": 0,
+   "fda_pma": 0,
+   "nih_award": 16,
+   "nih_dollars_stated": 12935805
+  },
   {
    "week_start": "2026-08-10",
    "fda_clearance": 0,
