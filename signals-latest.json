@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-24T11:45:02.333438+00:00",
- "next_update_utc": "2026-08-25T13:00:00+00:00",
+ "generated_at": "2026-08-25T11:43:25.880665+00:00",
+ "next_update_utc": "2026-08-26T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 326,
+ "events_in_window": 321,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -209,6 +209,20 @@
    "amount_usd": 1307377,
    "summary": "NIH award 5R44AG090130-02: Brain-Wide Quantification of Blood-Brain Barrier Penetrating Antibody Therapeutics ($1,307,377)",
    "source_url": "https://reporter.nih.gov/project-details/11418994",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44MD018950-02",
+   "company": "Million Marker Wellness Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-18",
+   "observed": "2026-08-25",
+   "amount_usd": 1483146,
+   "summary": "NIH award 2R44MD018950-02: A person-centered digital intervention program to reduce exposures to endocrine disrupting chemicals in an under-resourced population ($1,483,146)",
+   "source_url": "https://reporter.nih.gov/project-details/11409093",
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2594,18 +2608,6 @@
    "summary": "FDA 510(k) K260588: Cleerly LABS",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260588",
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260588%22"
-  },
-  {
-   "id": "fda:K261205",
-   "company": "Spineart SA",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-07-29",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261205: SPINEART Navigation Instrument System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261205",
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261205%22"
   }
  ]
 }
