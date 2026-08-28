@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-28T17:21:43.488699+00:00",
+ "generated_at": "2026-08-28T21:25:16.633050+00:00",
  "next_update_utc": "2026-08-29T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 382,
+ "events_in_window": 384,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -95,6 +95,12 @@
    "amount_usd": 477217,
    "summary": "NIH award 5R44DE033307-03: Multimodal intraoral camera ($477,217)",
    "source_url": "https://reporter.nih.gov/project-details/11395662",
+   "people": [
+    {
+     "name": "PETRA E WILDER-SMITH",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -172,6 +178,30 @@
    "people": [
     {
      "name": "Rachel Kuperman",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44ES038062-02",
+   "company": "Attagene, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-19",
+   "observed": "2026-08-28",
+   "amount_usd": 1095747,
+   "summary": "NIH award 5R44ES038062-02: A Two-Tier Effect-Based Water Bioactivity Surveillance System. ($1,095,747)",
+   "source_url": "https://reporter.nih.gov/project-details/11387869",
+   "people": [
+    {
+     "name": "Sergei S Makarov",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "NICHOLAS H. OBERLIES",
      "role": "Principal Investigator"
     }
    ],
@@ -269,6 +299,12 @@
    "amount_usd": 306872,
    "summary": "NIH award 1R43EB039538-01: Practical Microwave Breast Imaging Device ($306,872)",
    "source_url": "https://reporter.nih.gov/project-details/11405724",
+   "people": [
+    {
+     "name": "Wenyi Shao",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -283,6 +319,12 @@
    "amount_usd": 1307377,
    "summary": "NIH award 5R44AG090130-02: Brain-Wide Quantification of Blood-Brain Barrier Penetrating Antibody Therapeutics ($1,307,377)",
    "source_url": "https://reporter.nih.gov/project-details/11418994",
+   "people": [
+    {
+     "name": "Damian G. Wheeler",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -357,6 +399,12 @@
    "amount_usd": 349752,
    "summary": "NIH award 1R41TR006349-01: High-throughput Organoid Platform for Electrophysiology Studies (HOPES) ($349,752)",
    "source_url": "https://reporter.nih.gov/project-details/11408054",
+   "people": [
+    {
+     "name": "Kevin Roehm",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
@@ -449,6 +497,12 @@
    "amount_usd": 1216515,
    "summary": "NIH award 1R44CA310443-01: INHERET: Commercialization and EHR Integration of an Innovative Personalized Medicine Tool to Advance Cancer Screening and Management ($1,216,515)",
    "source_url": "https://reporter.nih.gov/project-details/11315138",
+   "people": [
+    {
+     "name": "Rebecca Sutphen",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -463,6 +517,16 @@
    "amount_usd": 817562,
    "summary": "NIH award 5R44AG078063-03: Smart driving technology for non-invasive detection of age-related cognitive decline ($817,562)",
    "source_url": "https://reporter.nih.gov/project-details/11418920",
+   "people": [
+    {
+     "name": "Erica Silvia Forzani",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Francis Tsow",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -841,6 +905,12 @@
    "amount_usd": 1099865,
    "summary": "NIH award 2R44AA030231-05: Discreet Wearable device for Continuous Real-time Monitoring of Alcohol ($1,099,865)",
    "source_url": "https://reporter.nih.gov/project-details/11410513",
+   "people": [
+    {
+     "name": "Farshad Tehrani",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 5,
    "new_award": false
@@ -1229,6 +1299,12 @@
    "amount_usd": 314363,
    "summary": "NIH award 1R43DC023165-01A1: Visual Play: An Interactive Play Idea and AAC Grid Generator to Assist in Behavioral Interventions for Minimally Verbal Autistic Children ($314,363)",
    "source_url": "https://reporter.nih.gov/project-details/11406559",
+   "people": [
+    {
+     "name": "Julius Tsu-Li Su",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1625,6 +1701,12 @@
    "amount_usd": 306872,
    "summary": "NIH award 1R43MD021402-01: Hybrid telehealth platform to facilitate dermatologist referrals through AI-assisted image screening and collaboration between hair professionals and dermatologists. ($306,872)",
    "source_url": "https://reporter.nih.gov/project-details/11350152",
+   "people": [
+    {
+     "name": "Tiffany St. Bernard",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1639,6 +1721,12 @@
    "amount_usd": 1048180,
    "summary": "NIH award 1R44NS147449-01: RECLAIM A Novel Telehealth Treatment for Acquired Brain Injury ($1,048,180)",
    "source_url": "https://reporter.nih.gov/project-details/11315643",
+   "people": [
+    {
+     "name": "Thomas VanVleet",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -1673,6 +1761,12 @@
    "amount_usd": 1031318,
    "summary": "NIH award 2R44MD021095-02A1: PREP - Prepare for college success by improving EF, SA and SI skills for students with a disability. ($1,031,318)",
    "source_url": "https://reporter.nih.gov/project-details/11379651",
+   "people": [
+    {
+     "name": "marty schultz",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2297,6 +2391,12 @@
    "amount_usd": 353059,
    "summary": "NIH award 1R43GM162022-01A1: Mechanomyography-based system for quantitative nerve assessment during standard pain management procedures ($353,059)",
    "source_url": "https://reporter.nih.gov/project-details/11403158",
+   "people": [
+    {
+     "name": "Chris Wybo",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -2324,6 +2424,26 @@
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
+  },
+  {
+   "id": "nih:5R44HG013284-03",
+   "company": "Realseq Biosciences, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-07",
+   "observed": "2026-08-28",
+   "amount_usd": 1020220,
+   "summary": "NIH award 5R44HG013284-03: Preparation of sequencing libraries for multi-analyte analysis of RNAs ($1,020,220)",
+   "source_url": "https://reporter.nih.gov/project-details/11399711",
+   "people": [
+    {
+     "name": "Sergei A Kazakov",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
   },
   {
    "id": "fda:K253505",
@@ -2757,6 +2877,12 @@
    "amount_usd": 1000000,
    "summary": "NIH award 2R44AI157322-04A1: Direct-from-specimen characterization of bloodstream infections ($1,000,000)",
    "source_url": "https://reporter.nih.gov/project-details/11251853",
+   "people": [
+    {
+     "name": "Alon Singer",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 4,
    "new_award": false
@@ -2771,6 +2897,20 @@
    "amount_usd": 550000,
    "summary": "NIH award 1R43HL184399-01A1: Beat-to-Beat: AI-Powered, Locally Relevant Engagement to Promote Rural Cardiovascular Health ($550,000)",
    "source_url": "https://reporter.nih.gov/project-details/11405675",
+   "people": [
+    {
+     "name": "Tetine L. Sentell",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Wesley Sumida",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Deborah Ann Taira",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -3353,6 +3493,12 @@
    "amount_usd": 329537,
    "summary": "NIH award 1R43HL187101-01: Novel Balloon Angioplasty Inflation Device ($329,537)",
    "source_url": "https://reporter.nih.gov/project-details/11408243",
+   "people": [
+    {
+     "name": "Nick Rydberg",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -3367,6 +3513,12 @@
    "amount_usd": 808534,
    "summary": "NIH award 5R44NR019556-03: Refinement of a Digital Monitoring System to Reduce Risk of Hospital Acquired Pressure Injuries ($808,534)",
    "source_url": "https://reporter.nih.gov/project-details/11416650",
+   "people": [
+    {
+     "name": "Lucas Sabalka",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -3381,6 +3533,12 @@
    "amount_usd": 314321,
    "summary": "NIH award 1R43HL186097-01: HeartSense.AI: A Generative AI-Driven Mobile Health Solution to Improve Hypertension Control Among Lower Income Adults ($314,321)",
    "source_url": "https://reporter.nih.gov/project-details/11350027",
+   "people": [
+    {
+     "name": "Ellen Seely",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -3573,6 +3731,12 @@
    "amount_usd": 1166665,
    "summary": "NIH award 2R44HL162218-04: DEVELOPMENT OF A PULMONARY FLOW RESTRICTOR FOR HYPOPLASTIC LEFT HEART SYNDROME ($1,166,665)",
    "source_url": "https://reporter.nih.gov/project-details/11292148",
+   "people": [
+    {
+     "name": "Beverly Tang",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 4,
    "new_award": false
@@ -3678,38 +3842,6 @@
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
-  },
-  {
-   "id": "nih:5R44GM149003-03",
-   "company": "Sansimeon, Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "observed": "2026-08-18",
-   "amount_usd": 1129755,
-   "summary": "NIH award 5R44GM149003-03: A Uniquely Scalable Platform for Sequencing Tens of Millions of Single Cells from Complex Clinical Samples with a Streamlined Workflow ($1,129,755)",
-   "source_url": "https://reporter.nih.gov/project-details/11389440",
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "fda:K262115",
-   "company": "ACIST Medical Systems, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-03",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K262115: VueJect\u00ae Ultrasound Enhancing Agent Delivery System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262115",
-   "people": [
-    {
-     "name": "Linda Busklein",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262115%22"
   }
  ]
 }

@@ -5,7 +5,7 @@ awards, FDA 510(k) clearances, and FDA PMA approvals, read daily from
 the public registries. Every event links to the public record it came
 from; an event that cannot be verified against a public source is not
 published. The archive behind these files currently tracks
-7261 US medtech companies. The published files are a rolling window
+7282 US medtech companies. The published files are a rolling window
 of recent events; the archive itself is not published.
 
 ## Files
