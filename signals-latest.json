@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-27T21:04:55.022788+00:00",
- "next_update_utc": "2026-08-28T13:00:00+00:00",
+ "generated_at": "2026-08-28T16:43:58.712991+00:00",
+ "next_update_utc": "2026-08-29T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 387,
+ "events_in_window": 382,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -279,6 +279,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260563: CN-Suite\u0099",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260563",
+   "people": [
+    {
+     "name": "Noam Peled",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260563%22"
   },
   {
@@ -389,6 +395,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253562: medilogFD",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253562",
+   "people": [
+    {
+     "name": "Stefan Bigler",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253562%22"
   },
   {
@@ -401,6 +413,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261228: QuickVision Ultimate rTMS",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261228",
+   "people": [
+    {
+     "name": "Frank Ge",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261228%22"
   },
   {
@@ -413,6 +431,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261890: 52Fr ViSiGi LUX\u0099; 52Fr ViSiGi 3D\u00ae",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261890",
+   "people": [
+    {
+     "name": "Evan Langdale",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261890%22"
   },
   {
@@ -425,6 +449,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253747: Disposable Pen Injector (KXYC-03C02, KXYC-03A03)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253747",
+   "people": [
+    {
+     "name": "Hao Yu",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253747%22"
   },
   {
@@ -437,6 +467,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260559: NHanceIT",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260559",
+   "people": [
+    {
+     "name": "Edwin Schulting",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260559%22"
   },
   {
@@ -449,6 +485,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262452: AutoContour (RADAC V6)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262452",
+   "people": [
+    {
+     "name": "Jennifer Wampler",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262452%22"
   },
   {
@@ -461,6 +503,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260171: Portable Oxygen Concentrator (PO1 5B, PO1 6B)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260171",
+   "people": [
+    {
+     "name": "Nicole Niu",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260171%22"
   },
   {
@@ -473,6 +521,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260438: Vital Signs Monitor (CLEO2)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260438",
+   "people": [
+    {
+     "name": "Aydin Bilgutay",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260438%22"
   },
   {
@@ -485,6 +539,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261646: Redermax\u00ae Antibacterial Wound Matrix",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261646",
+   "people": [
+    {
+     "name": "Gary Gao",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261646%22"
   },
   {
@@ -497,6 +557,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261428: NC Euphora Rapid Exchange Balloon Dilatation Catheter",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261428",
+   "people": [
+    {
+     "name": "Michelle Greaney",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261428%22"
   },
   {
@@ -509,6 +575,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260898: Transpara (2.1.0)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260898",
+   "people": [
+    {
+     "name": "Robin Barwegen",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260898%22"
   },
   {
@@ -521,6 +593,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262552: Single-use Flexible Ureteroscope (Single-use Flexible Ureteroscope: SUV-5C-B)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262552",
+   "people": [
+    {
+     "name": "Wu Ruqin",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262552%22"
   },
   {
@@ -533,6 +611,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262419: MICRUSFRAME (MFR100202); MICRUSFRAME (MFR100253); MICRUSFRAME (MFR100305); MICRUSFRAME (MFR100356); MICRUSFRAME (MFR100407); MICRUSFRAME (MFR100412); MICRUSFRAME (MFR100509); MICRUSFRAME (MFR100517); MICRUSFRAME (MFR100611); MICRUSFRAME (MFR100626); MICRUSFRAME (MFR100713); MICRUSFRAME (MFR100730); MICRUSFRAME (MFR100816); MICRUSFRAME (MFR100829); MICRUSFRAME (MFR140225); MICRUSFRAME (MFR140303); MICRUSFRAME (MFR140304); MICRUSFRAME (MFR140306); MICRUSFRAME (MFR140406); MICRUSFRAME (MF",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262419",
+   "people": [
+    {
+     "name": "Ryan Rivera",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262419%22"
   },
   {
@@ -545,6 +629,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262424: Willow 12 Guidewire",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262424",
+   "people": [
+    {
+     "name": "Kathy Tansey",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262424%22"
   },
   {
@@ -557,6 +647,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262571: EnCor EnCompass\u0099 Breast Biopsy and Tissue Removal System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262571",
+   "people": [
+    {
+     "name": "Jakob Wells",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262571%22"
   },
   {
@@ -569,6 +665,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260374: Empatica Health Monitoring Platform for Parkinson's Disease Monitoring; EmbracePlus; EmbraceMini; Empatica Care; PKG Monitor by Empatica; Care Portal",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260374",
+   "people": [
+    {
+     "name": "Alberto Poli",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260374%22"
   },
   {
@@ -581,6 +683,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262449: AdvaView",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262449",
+   "people": [
+    {
+     "name": "Imad Nijim",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262449%22"
   },
   {
@@ -593,6 +701,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262639: BAGUERA\u00ae C Cervical Disc Surgical Instruments",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262639",
+   "people": [
+    {
+     "name": "Estelle Godeau",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262639%22"
   },
   {
@@ -675,6 +789,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253795: MeniSept 3% Hydrogen Peroxide Cleaning & Disinfecting Solution",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253795",
+   "people": [
+    {
+     "name": "Kana Nagasaki",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253795%22"
   },
   {
@@ -687,6 +807,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253790: High Intensity Focused Electromagnetic Stimulation Device (FE60)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253790",
+   "people": [
+    {
+     "name": "Sindy Chang",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253790%22"
   },
   {
@@ -699,6 +825,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253808: AIR Recon DL",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253808",
+   "people": [
+    {
+     "name": "Andrew Turner",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253808%22"
   },
   {
@@ -711,6 +843,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261626: UltraPrint Flexible Denture UV",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261626",
+   "people": [
+    {
+     "name": "Mingyang Qu",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261626%22"
   },
   {
@@ -723,6 +861,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260211: Dashboard (P007000)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260211",
+   "people": [
+    {
+     "name": "Igor Bendersky",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260211%22"
   },
   {
@@ -735,6 +879,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260413: Levo Gen 2 Tinnitus Therapy System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260413",
+   "people": [
+    {
+     "name": "Matt Lopez",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260413%22"
   },
   {
@@ -747,6 +897,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253425: Arm-type Fully Automatic Digital Blood Pressure Monitor (DBP-6194-P,DBP-6294B-P,DBP-6195P,DBP-6295B-P, DBP-6196P,DBP-6296B-P,DBP-61E1-P, DBP-62E1B-P,DBP-62E3B-P,DBP-61E2-P,DBP-62E2B-P,DBP-61E3-P,DBP-6173-P,DBP-6273B-P,DBP-6179-P,DBP-6279B-P)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253425",
+   "people": [
+    {
+     "name": "Yuanyuan Xu",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253425%22"
   },
   {
@@ -759,6 +915,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260907: BIS\u0099 Advance pEEG Module",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260907",
+   "people": [
+    {
+     "name": "Monica Gupta",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260907%22"
   },
   {
@@ -771,6 +933,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261139: VereSee (VER150, VER200, VER151, VER201, VER200C, and VER-100-103)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261139",
+   "people": [
+    {
+     "name": "Eric Frattura",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261139%22"
   },
   {
@@ -783,6 +951,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254201: Any-Cem",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254201",
+   "people": [
+    {
+     "name": "Ku Da Hyeon",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254201%22"
   },
   {
@@ -795,6 +969,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261061: BP Go (BPP-855)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261061",
+   "people": [
+    {
+     "name": "Mark Khachaturian",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261061%22"
   },
   {
@@ -807,6 +987,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262398: CEREGLIDE 57 Intermediate Catheter; Cerenovus Aspiration Tubing set",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262398",
+   "people": [
+    {
+     "name": "Mia Dudicova",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262398%22"
   },
   {
@@ -819,6 +1005,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261499: TrachFlush",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261499",
+   "people": [
+    {
+     "name": "Jorgen Hansen",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261499%22"
   },
   {
@@ -831,6 +1023,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260277: MIKRON TRAUMA BONE PLATE& SCREW SYSTEM",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260277",
+   "people": [
+    {
+     "name": "Mustafa Ekiz",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260277%22"
   },
   {
@@ -899,6 +1097,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262792: Brevera Biopsy System with CorLumina Imaging Technology (BREVDISP09)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262792",
+   "people": [
+    {
+     "name": "Christine Stahley",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262792%22"
   },
   {
@@ -911,6 +1115,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260086: CadAI-B Dx",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260086",
+   "people": [
+    {
+     "name": "Nayeon Oh",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260086%22"
   },
   {
@@ -923,6 +1133,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262344: Large Compression Screws",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262344",
+   "people": [
+    {
+     "name": "Annika Lind",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262344%22"
   },
   {
@@ -935,6 +1151,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262391: APRO 35 Swift Catheter and Alembic Aspiration Tubing",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262391",
+   "people": [
+    {
+     "name": "Stina Almaleh",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262391%22"
   },
   {
@@ -947,6 +1169,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261170: BA-004CC",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261170",
+   "people": [
+    {
+     "name": "Chaitrali Kulkarni",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261170%22"
   },
   {
@@ -959,6 +1187,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260944: ManaCold Compression System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260944",
+   "people": [
+    {
+     "name": "Trevor Theriot",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260944%22"
   },
   {
@@ -971,6 +1205,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261916: NeuroQuant PET",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261916",
+   "people": [
+    {
+     "name": "Stephen Kosnosky",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261916%22"
   },
   {
@@ -983,6 +1223,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262392: APRO 35 Swift Catheter",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262392",
+   "people": [
+    {
+     "name": "Stina Almaleh",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262392%22"
   },
   {
@@ -995,6 +1241,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262406: EluPro Antibiotic-Eluting BioEnvelope",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262406",
+   "people": [
+    {
+     "name": "Cary Percy",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262406%22"
   },
   {
@@ -1007,6 +1259,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K251641: GF-310R Multigas Unit (GF-310R)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251641",
+   "people": [
+    {
+     "name": "Charlemagne Chua",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K251641%22"
   },
   {
@@ -1019,6 +1277,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253417: Masimo Root Monitoring System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253417",
+   "people": [
+    {
+     "name": "Sindura Penubarthi",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253417%22"
   },
   {
@@ -1031,6 +1295,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253846: Steep Pulse Ablation Instrument (including Disposable Sterile Steep Pulse Probe) (SPA-C02); Disposable Sterile Steep Pulse Probe (NPA-DJ01); Probe connection line (NPA-LX-02)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253846",
+   "people": [
+    {
+     "name": "Siran Wu",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253846%22"
   },
   {
@@ -1043,6 +1313,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262399: Millipede System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262399",
+   "people": [
+    {
+     "name": "Jeanine O'Donnell",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262399%22"
   },
   {
@@ -1195,6 +1471,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262472: Stelo Glucose Biosensor System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262472",
+   "people": [
+    {
+     "name": "Ginny Hu",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262472%22"
   },
   {
@@ -1207,6 +1489,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261398: Dexter L6 System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261398",
+   "people": [
+    {
+     "name": "Coline Lahaye",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261398%22"
   },
   {
@@ -1219,6 +1507,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253985: INNOVANCE\u00ae D-Dimer 2.0 (SMN 10873803)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253985",
+   "people": [
+    {
+     "name": "Petra Maria Dissmann",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253985%22"
   },
   {
@@ -1231,6 +1525,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253665: Vashe Plus Antimicrobial Solution",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253665",
+   "people": [
+    {
+     "name": "Steven Dowdley",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253665%22"
   },
   {
@@ -1243,6 +1543,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261115: VR\u00ae Personal Protective Level 4 Gown (VR Gowns)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261115",
+   "people": [
+    {
+     "name": "William Smith",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261115%22"
   },
   {
@@ -1255,6 +1561,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261841: Q Switched Nd:YAG Laser machine (QLQW-01)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261841",
+   "people": [
+    {
+     "name": "Xiting Fan",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261841%22"
   },
   {
@@ -1365,6 +1677,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254143: EM-TECH Passive Ultrasound Probe Strap",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254143",
+   "people": [
+    {
+     "name": "Enayatullah Motahedy",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254143%22"
   },
   {
@@ -1377,6 +1695,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253528: Atellica IM CA 19-9 II",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253528",
+   "people": [
+    {
+     "name": "Kelly Maher",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253528%22"
   },
   {
@@ -1389,6 +1713,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260176: Mobility Scooter (W3483, W3483A)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260176",
+   "people": [
+    {
+     "name": "Yolanda Ge",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260176%22"
   },
   {
@@ -1401,6 +1731,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261602: Eye Recovery Pro (PH-e03)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261602",
+   "people": [
+    {
+     "name": "Ziming Yang",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261602%22"
   },
   {
@@ -1413,6 +1749,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261705: Hair Removal Device (R3C16-G Pro, R3C16-V Pro)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261705",
+   "people": [
+    {
+     "name": "Renne Qin",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261705%22"
   },
   {
@@ -1425,6 +1767,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254069: Hemoclip (511 series, 543 series)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254069",
+   "people": [
+    {
+     "name": "Xufan Chi",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254069%22"
   },
   {
@@ -1437,6 +1785,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253794: Prostate Core",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253794",
+   "people": [
+    {
+     "name": "Toby Davis",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253794%22"
   },
   {
@@ -1449,6 +1803,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254036: Novii+ Wireless Patch System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254036",
+   "people": [
+    {
+     "name": "Shiwani Zalpuri",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254036%22"
   },
   {
@@ -1461,6 +1821,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253468: Nova Eye iTrack\u0099 250A Canaloplasty Microcatheter (iTrack\u0099 250A)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253468",
+   "people": [
+    {
+     "name": "Don Watton",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253468%22"
   },
   {
@@ -1473,6 +1839,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262427: Pen Needle (Ordinary Type I, Safety Type IIA, Safety Type IIB, Safety Type IIIA, Safety Type IIIB, Safety Type IV, Safety Type V, Ordinary Type VIA, Ordinary Type VIB, Ordinary Type VIC, Safety Type VII, Ordinary Type IB, Safety type VIII, Safety Type IX, Safety Type X, Ordinary Type XI, Safety Type XII)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262427",
+   "people": [
+    {
+     "name": "Grace Hammond",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262427%22"
   },
   {
@@ -1485,6 +1857,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260094: Mobility Scooter (W3465, W3902 (S50 Carbon))",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260094",
+   "people": [
+    {
+     "name": "Yolanda Ge",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260094%22"
   },
   {
@@ -1497,6 +1875,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261576: Icona Hip Stem",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261576",
+   "people": [
+    {
+     "name": "Aaron Brunt",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261576%22"
   },
   {
@@ -1509,6 +1893,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260165: Unimpregnated Central Venous Catheter",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260165",
+   "people": [
+    {
+     "name": "Sharon Klugewicz",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260165%22"
   },
   {
@@ -1522,20 +1912,6 @@
    "summary": "FDA PMA approval P250042: BAGUERA\u00aeC Cervical Disc Prosthesis",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250042",
    "source_url_api": "https://api.fda.gov/device/pma.json?search=pma_number:%22P250042%22"
-  },
-  {
-   "id": "nih:4R44MH136867-02",
-   "company": "Ceretype Neuromedicine Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-13",
-   "amount_usd": 606409,
-   "summary": "NIH award 4R44MH136867-02: Design and Development of an Advanced Functional MRI Software as Medical Device (SaMD) for Clinical Trials and Therapeutic Applications in Neuropsychiatry ($606,409)",
-   "source_url": "https://reporter.nih.gov/project-details/11536933",
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
   },
   {
    "id": "nih:1R44MH140727-01",
@@ -1645,6 +2021,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253505: Zamenix\u0099 P",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253505",
+   "people": [
+    {
+     "name": "Dayoung Kim",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253505%22"
   },
   {
@@ -1657,6 +2039,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253702: Intuitive Endoluminal Gastrointestinal System (IG1000)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253702",
+   "people": [
+    {
+     "name": "Einav Yemini",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253702%22"
   },
   {
@@ -1669,6 +2057,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K251544: Dental Unit (MP2000-550LED-2.0, LP2100-550LED-2.0)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251544",
+   "people": [
+    {
+     "name": "Zhongliang Wang",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K251544%22"
   },
   {
@@ -1681,6 +2075,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261905: BUM Oil",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261905",
+   "people": [
+    {
+     "name": "Louie Goryoka",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261905%22"
   },
   {
@@ -1693,6 +2093,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K252571: mdprostate",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252571",
+   "people": [
+    {
+     "name": "Wegener Alexander",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K252571%22"
   },
   {
@@ -1705,6 +2111,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261437: Mistral-Air\u00ae Warming System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261437",
+   "people": [
+    {
+     "name": "Gianpaolo Soares",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261437%22"
   },
   {
@@ -1717,6 +2129,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254205: Zenition 30",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254205",
+   "people": [
+    {
+     "name": "Gyanendra Mani Tripathi",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254205%22"
   },
   {
@@ -1729,6 +2147,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253453: Metrix COVID Test; Metrix COVID Test Pro",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253453",
+   "people": [
+    {
+     "name": "Tyler Chozinski",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253453%22"
   },
   {
@@ -1741,6 +2165,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261362: Xpert Hemorrhagic Fever",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261362",
+   "people": [
+    {
+     "name": "Suzette Chance",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261362%22"
   },
   {
@@ -1753,6 +2183,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253554: Aperio GT 450 DX; Aperio GT 180 DX",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253554",
+   "people": [
+    {
+     "name": "April Komplin",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253554%22"
   },
   {
@@ -1765,6 +2201,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261028: Surgical Gown Level2 (S, M, L, XL, XXL, XXXL)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261028",
+   "people": [
+    {
+     "name": "Peilong Shi",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261028%22"
   },
   {
@@ -1777,6 +2219,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253561: Aperio iQC DX Software",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253561",
+   "people": [
+    {
+     "name": "Tamatha Melton",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253561%22"
   },
   {
@@ -1789,6 +2237,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260933: Safety Sterile Hypodermic Needles (NR-S1816R, NR-S1916R, NR-S1925R, NR-S1938R, NR-S2016R, NR-S2025R, NR-S2038R, NR-S2051R, NR-S2116R, NR-S2125R, NR-S2138R, NR-S2151R, NR-S2216R, NR-S2225R, NR-S2238R, NR-S2251R, NR-S2316R, NR-S2325R, NR-S2338R, NR-S2351R, NR-S2516R, NR-S2525R, NR-S2538R, NR-S2551R, NR-S2516T, NR-S2525T, NR-S2538T, NR-S2551T)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260933",
+   "people": [
+    {
+     "name": "Chen Meijun",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260933%22"
   },
   {
@@ -1801,6 +2255,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261601: LED Light Therapy Mask (M01, M02, M03, M05, M06, M07, M08)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261601",
+   "people": [
+    {
+     "name": "Kingway Hong",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261601%22"
   },
   {
@@ -1813,6 +2273,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261937: PacTemp Automix NE",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261937",
+   "people": [
+    {
+     "name": "Nikki Huynh",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261937%22"
   },
   {
@@ -1825,6 +2291,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262357: Arthrex Bioabsorbable PushLock Suture Anchors",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262357",
+   "people": [
+    {
+     "name": "Alex Underberg",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262357%22"
   },
   {
@@ -1837,6 +2309,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261668: Venue Go",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261668",
+   "people": [
+    {
+     "name": "Karin Shimoni",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261668%22"
   },
   {
@@ -1849,6 +2327,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261563: Freedom Total Knee System (E-Poly Tibial Liners)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261563",
+   "people": [
+    {
+     "name": "Asawari Hare",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261563%22"
   },
   {
@@ -1861,21 +2345,13 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260567: EW10-EC02 Endoscopy Support Program",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260567",
+   "people": [
+    {
+     "name": "Chaitrali Kulkarni",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260567%22"
-  },
-  {
-   "id": "nih:5R44CA228920-06",
-   "company": "Leuko Labs, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-13",
-   "amount_usd": 991877,
-   "summary": "NIH award 5R44CA228920-06: Reducing the incidence of febrile neutropenia in cancer patients treated with chemotherapy with PointCheck: a portable non-invasive neutropenia analyzer ($991,877)",
-   "source_url": "https://reporter.nih.gov/project-details/11364218",
-   "award_phase": "SBIR Phase II",
-   "award_year": 6,
-   "new_award": false
   },
   {
    "id": "nih:5R44CA275673-04",
@@ -1971,6 +2447,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253999: Universal Base ASC Engaging; Universal Base ASC Non-Engaging; Universal Base MUA ASC; Temporary Abutment Engaging and Non-Engaging; Healing Abutment Conical Connection; Omnigrip Clinical Screw Titanium; Omnigrip Prosthetic Screw",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253999",
+   "people": [
+    {
+     "name": "Bernice Jim",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253999%22"
   },
   {
@@ -1983,6 +2465,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261059: Overjet Multi-Image Caries and Charting Assist",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261059",
+   "people": [
+    {
+     "name": "Gayatri Sekaran",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261059%22"
   },
   {
@@ -1995,6 +2483,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261121: Megalodon Dynamic Compression System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261121",
+   "people": [
+    {
+     "name": "Brittanie Dogue",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261121%22"
   },
   {
@@ -2007,6 +2501,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260223: Aristotle Mini Guidewire",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260223",
+   "people": [
+    {
+     "name": "Jamila Abou-Bakr",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260223%22"
   },
   {
@@ -2019,6 +2519,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K251508: Telemetry Monitor (iT30, iT50)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251508",
+   "people": [
+    {
+     "name": "Tracy Yue",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K251508%22"
   },
   {
@@ -2031,6 +2537,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261571: Manual Wheelchair (H008, PCK7)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261571",
+   "people": [
+    {
+     "name": "Fang (Fawn) Zhang",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261571%22"
   },
   {
@@ -2043,6 +2555,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253469: Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 15G x 30mm (1530VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 15G x 38mm (1538VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 16G x 30mm (1630VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 16G x 38mm (1638VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 17G x 30mm (1730VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 17G x 38mm (1738VSMM)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253469",
+   "people": [
+    {
+     "name": "Sara Miller",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253469%22"
   },
   {
@@ -2055,6 +2573,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261898: Triathlon\u00ae Knee System; Triathlon\u00ae Hinge Knee System; Scorpio\u00ae Total Knee System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261898",
+   "people": [
+    {
+     "name": "Elizabeth Jodon",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261898%22"
   },
   {
@@ -2067,21 +2591,13 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254194: QIAstat-Dx BCID GPF Plus AMR Panel",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254194",
+   "people": [
+    {
+     "name": "Kristen Kanack",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254194%22"
-  },
-  {
-   "id": "nih:5R44DK135225-03",
-   "company": "Livivos Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-05",
-   "observed": "2026-08-13",
-   "amount_usd": 785714,
-   "summary": "NIH award 5R44DK135225-03: Accurate Point of Care Liver Disease Diagnostics, Phase II ($785,714)",
-   "source_url": "https://reporter.nih.gov/project-details/11417428",
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
   },
   {
    "id": "nih:5R44HL174221-03",
@@ -2161,6 +2677,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K252853: CAD - Lower GI (EC07-01)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252853",
+   "people": [
+    {
+     "name": "Jianqing Zhao",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K252853%22"
   },
   {
@@ -2173,6 +2695,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260845: Huahong Sharps Container (HHR-I, HHR-II)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260845",
+   "people": [
+    {
+     "name": "Ningning Wang",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260845%22"
   },
   {
@@ -2185,6 +2713,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260919: Transurethral Catheter Safety Valve (TUCSV) (80050)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260919",
+   "people": [
+    {
+     "name": "Danny Forde",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260919%22"
   },
   {
@@ -2197,6 +2731,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261456: Ruthinium Disc",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261456",
+   "people": [
+    {
+     "name": "Barbara Piazza",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261456%22"
   },
   {
@@ -2209,6 +2749,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254211: pVasc Net Mechanical Thrombectomy Device",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254211",
+   "people": [
+    {
+     "name": "Sharon Shachar",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254211%22"
   },
   {
@@ -2221,6 +2767,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261932: Leksell\u00ae Vantage Stereotactic System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261932",
+   "people": [
+    {
+     "name": "Jesper Bruske",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261932%22"
   },
   {
@@ -2233,6 +2785,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260120: NaturaJel\u0099 Oral Wound Care Kit",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260120",
+   "people": [
+    {
+     "name": "Ronnie Hanes",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260120%22"
   },
   {
@@ -2245,6 +2803,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260737: Cure Aqua\u0099 Ready to Use Hydrophilic Intermittent Catheter Female (CH06 - CH16); Cure Aqua\u0099 Ready to Use Hydrophilic Intermittent Catheter Male Straight (CH06 - CH18); Cure Aqua\u0099 Ready to Use Hydrophilic Intermittent Catheter Male Coude (CH10 - CH18).",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260737",
+   "people": [
+    {
+     "name": "Kim Jones",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260737%22"
   },
   {
@@ -2257,6 +2821,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262056: Rusch Latex Gold Foley Catheter",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262056",
+   "people": [
+    {
+     "name": "Yuvaanesswary Nallappan",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262056%22"
   },
   {
@@ -2269,6 +2839,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253858: GFS - Sterile Screws and Top Hat",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253858",
+   "people": [
+    {
+     "name": "Shlomi Dines",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253858%22"
   },
   {
@@ -2281,6 +2857,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261380: Concentriq AP-Dx",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261380",
+   "people": [
+    {
+     "name": "Ian Cadieux",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261380%22"
   },
   {
@@ -2433,6 +3015,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253760: OMNI Ultra Surgical System (1-110)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253760",
+   "people": [
+    {
+     "name": "Rachel Franco",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253760%22"
   },
   {
@@ -2445,6 +3033,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261496: LED Light Therapy Masks (PE748, PE749, PE756)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261496",
+   "people": [
+    {
+     "name": "JunYi Xing",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261496%22"
   },
   {
@@ -2457,6 +3051,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261851: LED Light Therapy Mask (JML1, JML1+JML2); LED Light Therapy Mask (JML3, JML3+JML4); LED Light Therapy Mask (JML5, JML5+JML7); LED Light Therapy Mask (JML6, JML6+JML8); LED Light Therapy Mask ( JML9, JML9+JML10)",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261851",
+   "people": [
+    {
+     "name": "Li Guoyang",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261851%22"
   },
   {
@@ -2469,6 +3069,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K260572: Marrow Marxman",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260572",
+   "people": [
+    {
+     "name": "Brian Austin",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260572%22"
   },
   {
@@ -2481,6 +3087,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K261523: Vertex\u0099 Thrombectomy System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261523",
+   "people": [
+    {
+     "name": "Nicole Barber",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261523%22"
   },
   {
@@ -2493,6 +3105,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K254043: TRIVANCE\u0099 Hip Stem",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254043",
+   "people": [
+    {
+     "name": "Amber Thomas",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254043%22"
   },
   {
@@ -2505,6 +3123,12 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K253902: RealGUIDE",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253902",
+   "people": [
+    {
+     "name": "Alesandro Avis",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253902%22"
   },
   {
@@ -2517,21 +3141,13 @@
    "amount_usd": null,
    "summary": "FDA 510(k) K262311: Alturion Series Diagnostic Ultrasound System",
    "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262311",
+   "people": [
+    {
+     "name": "Irma Sandoval-Watt",
+     "role": "510(k) submission contact"
+    }
+   ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262311%22"
-  },
-  {
-   "id": "nih:4R44DA060643-02",
-   "company": "Resilient Lifescience, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "observed": "2026-08-13",
-   "amount_usd": 1018701,
-   "summary": "NIH award 4R44DA060643-02: Developing a wearable medical device to detect opioid overdose ($1,018,701)",
-   "source_url": "https://reporter.nih.gov/project-details/11579934",
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
   },
   {
    "id": "nih:2R44HL162218-04",
@@ -2588,6 +3204,66 @@
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
+  },
+  {
+   "id": "nih:1R43MH143378-01",
+   "company": "Habitaware, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "observed": "2026-08-18",
+   "amount_usd": 417403,
+   "summary": "NIH award 1R43MH143378-01: TrichTok: Developing a scalable, video-based mobile intervention with peer support for adolescents and emerging adults with trichotillomania ($417,403)",
+   "source_url": "https://reporter.nih.gov/project-details/11312515",
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R44GM161195-01A1",
+   "company": "Monod Bio, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "observed": "2026-08-18",
+   "amount_usd": 377260,
+   "summary": "NIH award 1R44GM161195-01A1: Design of rapid and quantitative biosensors with computational protein design ($377,260)",
+   "source_url": "https://reporter.nih.gov/project-details/11410560",
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44GM149003-03",
+   "company": "Sansimeon, Inc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-03",
+   "observed": "2026-08-18",
+   "amount_usd": 1129755,
+   "summary": "NIH award 5R44GM149003-03: A Uniquely Scalable Platform for Sequencing Tens of Millions of Single Cells from Complex Clinical Samples with a Streamlined Workflow ($1,129,755)",
+   "source_url": "https://reporter.nih.gov/project-details/11389440",
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "fda:K262115",
+   "company": "ACIST Medical Systems, Inc.",
+   "kind": "fda_clearance",
+   "kind_label": "FDA 510(k) clearance",
+   "date": "2026-08-03",
+   "observed": "2026-08-18",
+   "amount_usd": null,
+   "summary": "FDA 510(k) K262115: VueJect\u00ae Ultrasound Enhancing Agent Delivery System",
+   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262115",
+   "people": [
+    {
+     "name": "Linda Busklein",
+     "role": "510(k) submission contact"
+    }
+   ],
+   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262115%22"
   }
  ]
 }
