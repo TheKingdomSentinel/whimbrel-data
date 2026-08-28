@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-28T16:43:58.712991+00:00",
+ "generated_at": "2026-08-28T17:21:43.488699+00:00",
  "next_update_utc": "2026-08-29T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -27,6 +27,20 @@
    "amount_usd": 1343024,
    "summary": "NIH award 5R44HL178137-02: High-flow portable oxygen concentrator for long-term oxygen therapy ($1,343,024)",
    "source_url": "https://reporter.nih.gov/project-details/11371179",
+   "people": [
+    {
+     "name": "Benjamin Robert Dickerhoff",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Syed Mubeen",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "MADHAVAN L RAGHAVAN",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -41,6 +55,12 @@
    "amount_usd": 1409572,
    "summary": "NIH award 5R44MH142142-02: Efficacy of kTMP, a novel non-invasive brain stimulation method, for the treatment of anhedonia patients. ($1,409,572)",
    "source_url": "https://reporter.nih.gov/project-details/11395657",
+   "people": [
+    {
+     "name": "Ludovica Labruna",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -55,6 +75,12 @@
    "amount_usd": 1069047,
    "summary": "NIH award 5R44DE033312-03: Point of Care Detection of HPV and P16 in Saliva ($1,069,047)",
    "source_url": "https://reporter.nih.gov/project-details/11389274",
+   "people": [
+    {
+     "name": "ROYA KHOSRAVI-FAR",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -83,6 +109,12 @@
    "amount_usd": 504222,
    "summary": "NIH award 1R43MD021449-01: HERMOSA: Understanding the Perimenopausal Health Experience of Latina Women Using Digital Biomarkers from Apple Watch. ($504,222)",
    "source_url": "https://reporter.nih.gov/project-details/11349550",
+   "people": [
+    {
+     "name": "Jon Andrew Corkey",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -97,6 +129,12 @@
    "amount_usd": 312823,
    "summary": "NIH award 1R43AT013712-01: Wearable long duration postoperative topical cryotherapy for enhanced pain management ($312,823)",
    "source_url": "https://reporter.nih.gov/project-details/11313074",
+   "people": [
+    {
+     "name": "Roger Diebold",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -111,6 +149,12 @@
    "amount_usd": 907050,
    "summary": "NIH award 5R44MH140129-03: A modular bioluminescence imaging platform using a novel multi-aperture method ($907,050)",
    "source_url": "https://reporter.nih.gov/project-details/11384484",
+   "people": [
+    {
+     "name": "Alexander D. Klose",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -125,6 +169,12 @@
    "amount_usd": 1591774,
    "summary": "NIH award 4R44NR021881-02: Detecting Absence Seizures Using Hyperventilation In a Home Environment ($1,591,774)",
    "source_url": "https://reporter.nih.gov/project-details/11584327",
+   "people": [
+    {
+     "name": "Rachel Kuperman",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -139,6 +189,12 @@
    "amount_usd": 313110,
    "summary": "NIH award 1R43AI197687-01: Automated Skill Assessment of Sterile Procedures ($313,110)",
    "source_url": "https://reporter.nih.gov/project-details/11315934",
+   "people": [
+    {
+     "name": "Adam Becker",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -153,6 +209,12 @@
    "amount_usd": 173801,
    "summary": "NIH award 5R41MH141906-02: The development of a flexible carbon fiber penetrating nerve cuff and cortical array for neural recording, stimulation, and neurochemical detection ($173,801)",
    "source_url": "https://reporter.nih.gov/project-details/11330548",
+   "people": [
+    {
+     "name": "Aidan Boyer",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 2,
    "new_award": false
@@ -167,6 +229,12 @@
    "amount_usd": 404338,
    "summary": "NIH award 1R44CA314644-01: Non-Invasive, Bacterial-Based Early-Onset Colorectal Screen ($404,338)",
    "source_url": "https://reporter.nih.gov/project-details/11407987",
+   "people": [
+    {
+     "name": "Mark David Driscoll",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -181,6 +249,12 @@
    "amount_usd": 311748,
    "summary": "NIH award 1R41EY039129-01: Lowering the cost of improved measurements of VA in real-world older patients ($311,748)",
    "source_url": "https://reporter.nih.gov/project-details/11396861",
+   "people": [
+    {
+     "name": "ANN E ELSNER",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
@@ -223,6 +297,12 @@
    "amount_usd": 1483146,
    "summary": "NIH award 2R44MD018950-02: A person-centered digital intervention program to reduce exposures to endocrine disrupting chemicals in an under-resourced population ($1,483,146)",
    "source_url": "https://reporter.nih.gov/project-details/11409093",
+   "people": [
+    {
+     "name": "Jenna Hua",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -237,6 +317,12 @@
    "amount_usd": 924001,
    "summary": "NIH award 4R44MH138151-03: EEG Signature Analysis for Drug Repurposing for Rare Diseases ($924,001)",
    "source_url": "https://reporter.nih.gov/project-details/11536936",
+   "people": [
+    {
+     "name": "Emer Leahy",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -251,6 +337,12 @@
    "amount_usd": 2154078,
    "summary": "NIH award 5R44AG061985-08: Daily & Localized NSAID Sonophoresis for Symptomatic Treatment of Knee Osteoarthritis ($2,154,078)",
    "source_url": "https://reporter.nih.gov/project-details/11390466",
+   "people": [
+    {
+     "name": "George Kenneth Lewis",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 8,
    "new_award": false
@@ -297,6 +389,12 @@
    "amount_usd": 1123233,
    "summary": "NIH award 1R44EY039171-01: AmblyoGo\" a 'Smart' Easy-to-use Occlusion Dose Monitor (ODM) for Amblyopia in Children ($1,123,233)",
    "source_url": "https://reporter.nih.gov/project-details/11410213",
+   "people": [
+    {
+     "name": "Omondi Luthuli Nyongo",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -311,6 +409,12 @@
    "amount_usd": 1253332,
    "summary": "NIH award 2R44HL169137-02A1: STREET SOLUTIONS: BLUEPRINTS AND FOOTPRINTS FOR CREATORS AND USERS OF URBAN ENVIRONMENTS ($1,253,332)",
    "source_url": "https://reporter.nih.gov/project-details/11316081",
+   "people": [
+    {
+     "name": "James Chapman",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -325,6 +429,12 @@
    "amount_usd": 852676,
    "summary": "NIH award 5R44AG085913-03: Implementing and Scaling the STEADI Fall Prevention Algorithm Using a Conversational Relational Agent for Community-Dwelling Older Adults with and without Mild Cognitive Impairment (MCI). ($852,676)",
    "source_url": "https://reporter.nih.gov/project-details/11418945",
+   "people": [
+    {
+     "name": "Chantal M Kerssens",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -367,6 +477,12 @@
    "amount_usd": 205450,
    "summary": "NIH award 5R44AG097243-02: Improved Treatment Options for Vertebral Compression Fractures in Elderly Patients Using Minimally Invasive, Image-Guided Delivery of a Regenerative Bone Adhesive ($205,450)",
    "source_url": "https://reporter.nih.gov/project-details/11420547",
+   "people": [
+    {
+     "name": "Brittany McDonough",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -381,6 +497,12 @@
    "amount_usd": 999741,
    "summary": "NIH award 2R44GM156169-02: Improving cryopreservation outcomes of small biological samples through ultra-fast convective cooling and warming ($999,741)",
    "source_url": "https://reporter.nih.gov/project-details/11409780",
+   "people": [
+    {
+     "name": "Benjamin Arthur Apker",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -733,6 +855,12 @@
    "amount_usd": 984425,
    "summary": "NIH award 5R44MH134669-03: Functionalized Multi-Modal Tetrode Arrays for Real-Time, Site-Specific Neurochemical Monitoring ($984,425)",
    "source_url": "https://reporter.nih.gov/project-details/11365890",
+   "people": [
+    {
+     "name": "DAVID A JOHNSON",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -747,6 +875,12 @@
    "amount_usd": 1022908,
    "summary": "NIH award 1R44ES035665-01A1: High-Speed Automated Analysis of Sub-20 \u00b5m Microplastics by Photothermal Infrared Spectroscopy ($1,022,908)",
    "source_url": "https://reporter.nih.gov/project-details/11312399",
+   "people": [
+    {
+     "name": "Kevin Kjoller",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -761,6 +895,16 @@
    "amount_usd": 1190509,
    "summary": "NIH award 4R44AG091857-02: Activites4Care: A Digital Platform to Enhance Caregiver Well-being by Providing Customized Activities that Improve Quality of Life for People Living with Dementia ($1,190,509)",
    "source_url": "https://reporter.nih.gov/project-details/11530760",
+   "people": [
+    {
+     "name": "Laura N. Gitlin",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Sokha Koeuth",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -775,6 +919,16 @@
    "amount_usd": 704454,
    "summary": "NIH award 5R44MH129065-04: Doxy.me VR: A scalable virtual reality app to facilitate evidence-based immersive telemental health ($704,454)",
    "source_url": "https://reporter.nih.gov/project-details/11375504",
+   "people": [
+    {
+     "name": "Brian E. Bunnell",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Triton Ong",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 4,
    "new_award": false
@@ -1041,6 +1195,12 @@
    "amount_usd": 868804,
    "summary": "NIH award 5R44HD090793-06: Cervix monitor for risk assessment of spontaneous preterm delivery ($868,804)",
    "source_url": "https://reporter.nih.gov/project-details/11413722",
+   "people": [
+    {
+     "name": "Vladimir Egorov",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 6,
    "new_award": false
@@ -1083,6 +1243,12 @@
    "amount_usd": 266613,
    "summary": "NIH award 1R43AI197708-01: Precision Diagnostics in T-cell Mediated Rejection: Predicting Treatment Resistance at Time of Diagnosis ($266,613)",
    "source_url": "https://reporter.nih.gov/project-details/11315213",
+   "people": [
+    {
+     "name": "Christopher P Larsen",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1331,6 +1497,16 @@
    "amount_usd": 579970,
    "summary": "NIH award 5R44AI183961-03: Developing a bank of purified myeloid progenitor cells as a bridging therapy for transient pancytopenia resulting from radiation injury ($579,970)",
    "source_url": "https://reporter.nih.gov/project-details/11404025",
+   "people": [
+    {
+     "name": "Brian H. Johnstone",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Subhrajit Saha",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -1345,6 +1521,12 @@
    "amount_usd": 306798,
    "summary": "NIH award 1R43MD021438-01: AI-Driven Risk Prediction and Action Platform to Reduce Maternal Health Risks Among Expecting Mothers Enrolled in Medicaid ($306,798)",
    "source_url": "https://reporter.nih.gov/project-details/11349846",
+   "people": [
+    {
+     "name": "Elisabeth Howard",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1359,6 +1541,12 @@
    "amount_usd": 1099700,
    "summary": "NIH award 5R44DK127631-05: Kidney Support in Pediatric Patients using an Ultrafiltration Device ($1,099,700)",
    "source_url": "https://reporter.nih.gov/project-details/11408830",
+   "people": [
+    {
+     "name": "Robert J Knuesel",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 5,
    "new_award": false
@@ -1373,6 +1561,12 @@
    "amount_usd": 396098,
    "summary": "NIH award 1R43HL186922-01: A Dual-Setting Airway Device for Optimized Hemodynamics in Cardiac Arrest and Post-Resuscitation States ($396,098)",
    "source_url": "https://reporter.nih.gov/project-details/11406531",
+   "people": [
+    {
+     "name": "Keith Lurie",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1387,6 +1581,12 @@
    "amount_usd": 1008475,
    "summary": "NIH award 5R42HD104305-04: A Novel Non-Invasive Method of Dysphagia Detection in Preterm Infants: Bottle Finalization & Validation ($1,008,475)",
    "source_url": "https://reporter.nih.gov/project-details/11392556",
+   "people": [
+    {
+     "name": "Katlyn Elizabeth McGrattan",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase II",
    "award_year": 4,
    "new_award": false
@@ -1401,6 +1601,16 @@
    "amount_usd": 349322,
    "summary": "NIH award 1R41MD021420-01: Enhancing Peer Diagnostic Support for Rural Clinicians via Collective Intelligence and Adaptive Machine Learning ($349,322)",
    "source_url": "https://reporter.nih.gov/project-details/11350053",
+   "people": [
+    {
+     "name": "Drew Ghirvan Narayan",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Sean Y Sylvia",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1443,6 +1653,12 @@
    "amount_usd": 290612,
    "summary": "NIH award 1R43MD021459-01: \"Quantum-Enhanced Prediction of Metastasis and Residual Disease in Breast-Cancer Patients from Low- Resourced Populations ($290,612)",
    "source_url": "https://reporter.nih.gov/project-details/11349330",
+   "people": [
+    {
+     "name": "Arvin Honari",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1579,6 +1795,12 @@
    "amount_usd": 889154,
    "summary": "NIH award 2R44EY034066-02: Development of a tele-mentoring system integrated into an ultra-portable surgical microscope to treat cataract in underserved populations ($889,154)",
    "source_url": "https://reporter.nih.gov/project-details/11408785",
+   "people": [
+    {
+     "name": "Matthew Rudolph Maltese",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -1593,6 +1815,12 @@
    "amount_usd": 379187,
    "summary": "NIH award 1R43HL184714-01: Lymph Tape: A Device for Simplified Lymphovenous Anastomosis ($379,187)",
    "source_url": "https://reporter.nih.gov/project-details/11315949",
+   "people": [
+    {
+     "name": "Isaac Perry Clements",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1607,6 +1835,12 @@
    "amount_usd": 1499984,
    "summary": "NIH award 1R44HL184709-01A1: Development of a Novel Pediatric LVAD for Home Discharge of Children Awaiting Heart Transplant ($1,499,984)",
    "source_url": "https://reporter.nih.gov/project-details/11407580",
+   "people": [
+    {
+     "name": "Greg Aber",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -1621,6 +1855,12 @@
    "amount_usd": 213640,
    "summary": "NIH award 1R43MD021487-01: An At Home Dried Saliva Spot (DSS) Test to Determine Insulin Resistance: A Scalable Tool for Early Detection in Underserved Communities ($213,640)",
    "source_url": "https://reporter.nih.gov/project-details/11348660",
+   "people": [
+    {
+     "name": "STEVEN W GRANGER",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1635,6 +1875,12 @@
    "amount_usd": 1343973,
    "summary": "NIH award 1R44HL182431-01A1: Development of a Cell-Free RNA Diagnostic Test for Kawasaki disease ($1,343,973)",
    "source_url": "https://reporter.nih.gov/project-details/11405945",
+   "people": [
+    {
+     "name": "Conor Loy",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -1649,6 +1895,12 @@
    "amount_usd": 343067,
    "summary": "NIH award 1R41HL180100-01A1: Automated Perfusion System for Ex-Vivo Organ Preservation ($343,067)",
    "source_url": "https://reporter.nih.gov/project-details/11403089",
+   "people": [
+    {
+     "name": "daniel edward mazur",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1663,6 +1915,16 @@
    "amount_usd": 497857,
    "summary": "NIH award 1R41HL182396-01: Toward Establishing the Feasibility and Commercial Readiness of VortexPAP for Improving OSA Treatment ($497,857)",
    "source_url": "https://reporter.nih.gov/project-details/11253024",
+   "people": [
+    {
+     "name": "Liran Oren",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Ann Romaker",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1923,6 +2185,16 @@
    "amount_usd": 1415720,
    "summary": "NIH award 1R44MH140727-01: AI-Clinical Outcome Assessment (AI-COA) for Depression: an Innovative Drug Development Tool ($1,415,720)",
    "source_url": "https://reporter.nih.gov/project-details/11186928",
+   "people": [
+    {
+     "name": "Marc Aafjes",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "JEFFREY F COHN",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -1937,6 +2209,16 @@
    "amount_usd": 327593,
    "summary": "NIH award 1R43MD021396-01: Culturally Adapted Digital Behavioral Therapy for Overactive Bladder in Black Women: An Innovative AI-Assisted Approach ($327,593)",
    "source_url": "https://reporter.nih.gov/project-details/11350201",
+   "people": [
+    {
+     "name": "Anna Baccellieri",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Oluwateniola Brown",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1951,6 +2233,12 @@
    "amount_usd": 314363,
    "summary": "NIH award 1R41MD021474-01: Accelerating Time-to-Treatment in Rural Areas with a Pre-Hospital EEG Stroke Classification System ($314,363)",
    "source_url": "https://reporter.nih.gov/project-details/11349184",
+   "people": [
+    {
+     "name": "Ezekiel Fink",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "STTR Phase I",
    "award_year": 1,
    "new_award": true
@@ -1965,6 +2253,16 @@
    "amount_usd": 302225,
    "summary": "NIH award 1R44DA066336-01: A Wearable Continuous Polydrug Monitor (CPM) for Personalized SUD Treatment ($302,225)",
    "source_url": "https://reporter.nih.gov/project-details/11406706",
+   "people": [
+    {
+     "name": "Yue Huang",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Zhe Wang",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 1,
    "new_award": true
@@ -1979,6 +2277,12 @@
    "amount_usd": 356648,
    "summary": "NIH award 1R43MD021464-01: Linguistic and Cultural Adaptation of Remote Medication Dispensing System (Hub+Spoke) for OUD Treatment Among Limited English Proficient (LEP) Populations ($356,648)",
    "source_url": "https://reporter.nih.gov/project-details/11349313",
+   "people": [
+    {
+     "name": "Amber Norbeck",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -2007,6 +2311,16 @@
    "amount_usd": 315276,
    "summary": "NIH award 1R43MH143510-01: Repurposing Glucagon-Like Peptide-1 Receptor Agonists for Mental Health Outcomes via Federated Causal Inference ($315,276)",
    "source_url": "https://reporter.nih.gov/project-details/11315139",
+   "people": [
+    {
+     "name": "Hao Ding",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Yu-Lun Liu",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -2363,6 +2677,12 @@
    "amount_usd": 676175,
    "summary": "NIH award 5R44CA275673-04: PreCharge: An Innovative Digital Program to Increase Coping, Resilience, and Health Care Engagement Among Cancer Previvors ($676,175)",
    "source_url": "https://reporter.nih.gov/project-details/11380960",
+   "people": [
+    {
+     "name": "Kerry Evers",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 4,
    "new_award": false
@@ -2377,6 +2697,12 @@
    "amount_usd": 1478216,
    "summary": "NIH award 2R44NS135867-02: In vitro myelination assay modeling the environment of MS lesions for predictive discovery of remyelinating therapies ($1,478,216)",
    "source_url": "https://reporter.nih.gov/project-details/11409835",
+   "people": [
+    {
+     "name": "Anna Jagielska",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2391,6 +2717,12 @@
    "amount_usd": 293759,
    "summary": "NIH award 1R43HL186093-01: Percutaneous Stellate Ganglion Stimulation in Septic Shock to Improve Hemodynamics and Vasopressor Requirements During Transport ($293,759)",
    "source_url": "https://reporter.nih.gov/project-details/11349290",
+   "people": [
+    {
+     "name": "Howard Levin",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -2405,6 +2737,12 @@
    "amount_usd": 304910,
    "summary": "NIH award 1R43DK146600-01A1: Personalized Assessment and Care of Kidney Support in Critically Ill Patients(PACKS-ICU) ($304,910)",
    "source_url": "https://reporter.nih.gov/project-details/11409014",
+   "people": [
+    {
+     "name": "Ravindra L. Mehta",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -2609,6 +2947,16 @@
    "amount_usd": 957571,
    "summary": "NIH award 5R44HL174221-03: UroMarker Test Panel for Obstructive Sleep Apnea ($957,571)",
    "source_url": "https://reporter.nih.gov/project-details/11393085",
+   "people": [
+    {
+     "name": "Christopher Thomas Burns",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Roland Valdes",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -2623,6 +2971,12 @@
    "amount_usd": 1055180,
    "summary": "NIH award 2R44DA061387-02: Secure Remote Dispensing of Liquid Methadone with Home Monitoring: Environmental Interactive Devices Support Sustainable Economic and Expansive Clinical Treatment of Opioid Use Disorder Treatment ($1,055,180)",
    "source_url": "https://reporter.nih.gov/project-details/11405774",
+   "people": [
+    {
+     "name": "Edwin Kendrick",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2637,6 +2991,12 @@
    "amount_usd": 309210,
    "summary": "NIH award 5R43AI189008-02: Engineering a physiologically-tuned reservoir intravaginal ring releasing lactic acid for the treatment and prevention of bacterial vaginosis ($309,210)",
    "source_url": "https://reporter.nih.gov/project-details/11398077",
+   "people": [
+    {
+     "name": "Keiichiro Kushiro",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 2,
    "new_award": false
@@ -2651,6 +3011,12 @@
    "amount_usd": 899010,
    "summary": "NIH award 2R44AI170237-02A1: Novel antiretroviral therapy delivery platform for infants and young children: oral dispensable strips (ODS) ($899,010)",
    "source_url": "https://reporter.nih.gov/project-details/11181757",
+   "people": [
+    {
+     "name": "EDWARD G MALISKI",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2875,6 +3241,16 @@
    "amount_usd": 919857,
    "summary": "NIH award 5R44AI181154-03: Multiplexed Assay for Point-of-Care UTI Diagnosis (ID/AMR) ($919,857)",
    "source_url": "https://reporter.nih.gov/project-details/11290730",
+   "people": [
+    {
+     "name": "Alison Burklund",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Amogha Tadimety",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -2889,6 +3265,16 @@
    "amount_usd": 351388,
    "summary": "NIH award 1R43HL184377-01: Acute Decompensation Avoidance in Heart Failure Patients ($351,388)",
    "source_url": "https://reporter.nih.gov/project-details/11309272",
+   "people": [
+    {
+     "name": "Brian R Clark",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "B EUGENE PARKER",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -2903,6 +3289,16 @@
    "amount_usd": 1018713,
    "summary": "NIH award 4R44MH138162-02: Modifying and validating the K-CAT mental health scales for children and adolescents on the autism spectrum ($1,018,713)",
    "source_url": "https://reporter.nih.gov/project-details/11194639",
+   "people": [
+    {
+     "name": "Paige Elizabeth Cervantes",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Yehuda Cohen",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2917,6 +3313,12 @@
    "amount_usd": 1049845,
    "summary": "NIH award 2R44GM150354-02A1: Metabolic Cytometry for In-line Process Analysis ($1,049,845)",
    "source_url": "https://reporter.nih.gov/project-details/11313907",
+   "people": [
+    {
+     "name": "NICUSOR IFTIMIA",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
@@ -2931,6 +3333,12 @@
    "amount_usd": 1096097,
    "summary": "NIH award 5R44CA285081-03: Development of a novel visualization, labeling, and tracking engine for human anatomy. ($1,096,097)",
    "source_url": "https://reporter.nih.gov/project-details/11380977",
+   "people": [
+    {
+     "name": "Matthew Alexander Molenda",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
    "new_award": false
@@ -2987,6 +3395,12 @@
    "amount_usd": 998781,
    "summary": "NIH award 5R44AI155075-05: Sequence-based RNA Fluorescence Assay to Measure Latent HIV Reservoirs ($998,781)",
    "source_url": "https://reporter.nih.gov/project-details/11398110",
+   "people": [
+    {
+     "name": "Janet L Huie",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 5,
    "new_award": false
@@ -3173,6 +3587,16 @@
    "amount_usd": 399860,
    "summary": "NIH award 1R43CA314667-01: A Longitudinal Multimodal Risk Prediction Platform for Personalized Breast Cancer Screening ($399,860)",
    "source_url": "https://reporter.nih.gov/project-details/11406030",
+   "people": [
+    {
+     "name": "Kendra Batchelder",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Mert Rory Sabuncu",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -3187,6 +3611,12 @@
    "amount_usd": 1160874,
    "summary": "NIH award 2R44HL152912-04: SonoHeal: Smart Resonating Closed-loop Airway Clearance Technology ($1,160,874)",
    "source_url": "https://reporter.nih.gov/project-details/11292805",
+   "people": [
+    {
+     "name": "Rajoshi Biswas",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase II",
    "award_year": 4,
    "new_award": false
@@ -3201,6 +3631,12 @@
    "amount_usd": 456902,
    "summary": "NIH award 1R43MH139167-01A1: InVitreON: A compact and integrated platform for long-term neuronal culture incubation, recording and closed-loop stimulation ($456,902)",
    "source_url": "https://reporter.nih.gov/project-details/11311780",
+   "people": [
+    {
+     "name": "Tilak Jain",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
@@ -3215,6 +3651,16 @@
    "amount_usd": 417403,
    "summary": "NIH award 1R43MH143378-01: TrichTok: Developing a scalable, video-based mobile intervention with peer support for adolescents and emerging adults with trichotillomania ($417,403)",
    "source_url": "https://reporter.nih.gov/project-details/11312515",
+   "people": [
+    {
+     "name": "Sameer Kumar",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Hilary Weingarden",
+     "role": "Principal Investigator"
+    }
+   ],
    "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
