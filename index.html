@@ -44,6 +44,12 @@ ul { padding-left: 1.2rem; }
 li { margin: 0.3rem 0; }
 .card { background: var(--card); border: 1px solid var(--line);
         border-radius: 12px; padding: 1.1rem 1.3rem; margin: 1rem 0; }
+details { border-bottom: 1px solid var(--line); padding: 0.25rem 0; }
+details:last-of-type { border-bottom: none; }
+summary { cursor: pointer; font-weight: 600; padding: 0.45rem 0;
+          color: var(--teal); }
+summary:hover { color: var(--teal-mid); }
+details > p, details > pre { margin: 0.35rem 0 0.75rem; }
 .note { font-size: 0.88rem; color: var(--muted); }
 footer { margin-top: 3rem; padding-top: 1.2rem;
          border-top: 1px solid var(--line); font-size: 0.88rem;
@@ -83,27 +89,46 @@ company at a time, below.</p>
 <p>Free tools: <code>latest_signals</code>, <code>signal_of_the_day</code>, <code>weekly_pulse</code>, <code>who_got_funded</code>, <code>find_signals</code>, <code>micro_brief</code>, <code>company_timeline</code>, <code>about_the_data</code>, <code>get_access</code>. <code>find_signals</code> searches
 the whole archive; <code>micro_brief</code> and
 <code>company_timeline</code> are capped at
-25 company lookups per caller per day.
+100 company lookups per caller per day.
 Company records also carry patent grants, published patent
 applications, and SEC funding filings. The server ships seven
 ready-made <code>whimbrel_</code>-prefixed prompts, so clients that
 surface prompts as slash commands get a command palette on connect.</p>
 
 <div class="card">
-<p><strong>Claude</strong> (web and apps): Settings → Connectors →
-Add custom connector → paste the URL above.</p>
-<p><strong>Claude Code</strong>:</p>
+<details>
+<summary>Claude (web and apps)</summary>
+<p>Settings → Connectors → Add custom connector → paste the URL
+above.</p>
+</details>
+<details>
+<summary>Claude Code</summary>
 <pre><code>claude mcp add --transport http whimbrel https://whimbrel-signals-mcp.whimbrelresearch.workers.dev</code></pre>
-<p><strong>Cursor</strong>: Settings → MCP → Add new server, or add to
+</details>
+<details>
+<summary>Codex</summary>
+<pre><code>codex mcp add whimbrel --url https://whimbrel-signals-mcp.whimbrelresearch.workers.dev</code></pre>
+<p>Or in <code>~/.codex/config.toml</code>:</p>
+<pre><code>[mcp_servers.whimbrel]
+url = "https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"</code></pre>
+</details>
+<details>
+<summary>Cursor</summary>
+<p>Settings → MCP → Add new server, or add to
 <code>~/.cursor/mcp.json</code>:</p>
 <pre><code>{"mcpServers": {"whimbrel-signals": {"url":
 "https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"}}}</code></pre>
-<p><strong>VS Code</strong> (Copilot): add to
-<code>.vscode/mcp.json</code>:</p>
+</details>
+<details>
+<summary>VS Code (Copilot)</summary>
+<p>Add to <code>.vscode/mcp.json</code>:</p>
 <pre><code>{"servers": {"whimbrel-signals": {"type": "http", "url":
 "https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"}}}</code></pre>
-<p><strong>Other MCP clients</strong>: any client that speaks
-Streamable HTTP can use the URL directly.</p>
+</details>
+<details>
+<summary>Other MCP clients</summary>
+<p>Any client that speaks Streamable HTTP can use the URL directly.</p>
+</details>
 </div>
 
 <h2>Query it by HTTP</h2>
@@ -138,30 +163,24 @@ quoted from the source it came from.</p>
 <code>build_profile</code> reads your firm's website and drafts your
 capability profile, <code>set_preferences</code> stores your screening
 decisions, and <code>matches_for_us</code> returns the companies in the
-archive that fit what your firm actually does. Onboarding is self-serve
-through those three.</p>
-<p><strong>Buying is self-serve too.</strong> <code>get_access</code> is
+archive that fit what your firm actually does.</p>
+<p><strong>Getting a key.</strong> <code>get_access</code> is
 free and needs no key: it returns a Stripe checkout link, and the page you
 land on after paying shows an API key once. Send that key as an
 <code>Authorization: Bearer</code> header.
 <code>billing_portal</code> returns the Stripe portal for card changes,
 upgrades and cancellation.</p>
 
-<h2>What an engagement adds</h2>
-<p>These files report what happened. With an engagement, we do the
-research for you.</p>
-<p><strong>Research on demand.</strong> You send companies, and you get
-a full sourced brief on each: the program, the funding, the regulatory
-position, and the people to contact. Every fact links to the public
-record behind it, and a person reviews every brief before delivery.
-<a href="https://whimbrelresearch.com/sample-brief/">See a full sample
-brief</a>.</p>
-<p><strong>A standing watch.</strong> We monitor the same registries
-these files come from, every day, for companies that match your firm's
-capabilities. When one appears, you hear it first.</p>
+<h2>Done for you</h2>
+<p>Everything above is self-serve. For a handful of medical device
+engineering firms, Whimbrel does all the research: tell us what you
+want and we research it, and a continuous watch on these same
+registries flags new companies that fit what you build. A person
+reviews everything before it reaches you.
+<a href="https://whimbrelresearch.com/sample-brief/">See a sample of
+the research</a>.</p>
 <p>The first month is free.
-<a href="https://whimbrelresearch.com/request-a-brief/">Request a free
-brief</a></p>
+<a href="https://whimbrelresearch.com">whimbrelresearch.com</a></p>
 
 <footer>
 <p>Free to cite with attribution. Published by

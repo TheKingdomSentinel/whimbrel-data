@@ -56,8 +56,8 @@ files; they come from the deep-research layer.
 
 - signals-latest.json: the last 14 days.
 - Company lookups (micro_brief, company_timeline, and the /v1/company
-  routes): 25 per caller per day, and
-  500 across all free callers per
+  routes): 100 per caller per day, and
+  2000 across all free callers per
   day.
 - find_signals searches the whole archive and does not count as a
   company lookup.

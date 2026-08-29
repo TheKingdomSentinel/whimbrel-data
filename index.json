@@ -3,7 +3,7 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-29T13:03:30.341238+00:00",
+ "generated_at": "2026-08-29T15:39:54.054926+00:00",
  "next_update_utc": "2026-08-30T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
@@ -34,7 +34,7 @@
    "set_preferences",
    "billing_portal"
   ],
-  "company_lookups_per_caller_per_day": 25
+  "company_lookups_per_caller_per_day": 100
  },
  "http_api": {
   "base": "https://whimbrel-signals-mcp.whimbrelresearch.workers.dev",

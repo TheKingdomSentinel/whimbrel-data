@@ -45,7 +45,7 @@ find_signals searches the whole archive by kind, date, text, amount,
 and NIH phase. who_got_funded filters the window for fresh money.
 micro_brief is a composed mini-dossier on any company in the archive
 and company_timeline is the structured version of the same; those two
-are capped at 25 company lookups per caller
+are capped at 100 company lookups per caller
 per day. weekly_pulse and signal_of_the_day are computed views, and
 about_the_data returns this document.
 
@@ -92,20 +92,20 @@ drafts your capability profile, set_preferences stores your screening
 decisions, and matches_for_us then returns the companies in the archive
 that fit what your firm actually does.
 
-Onboarding is self-serve through build_profile and set_preferences. So is
-buying: call get_access, which is free and needs no key, open the Stripe
-checkout link it returns, and the page you land on shows an API key once.
-Send that key as an Authorization Bearer header. billing_portal returns
-the Stripe portal for card changes, upgrades and cancellation.
+To get a key, call get_access, which is free and needs no key, open the
+Stripe checkout link it returns, and the page you land on shows an API
+key once. Send that key as an Authorization Bearer header.
+billing_portal returns the Stripe portal for card changes, upgrades and
+cancellation.
 
-## The engagement behind all of it
+## Done-for-you research
 
-The tools above hand you the research. With an engagement, Whimbrel
-Research does the work for you: you send companies, and you get a full
-sourced brief on each, with leadership and contact routes, reviewed by
-a person before delivery, plus daily monitoring for companies that
-match your firm's capabilities.
-A full sample brief is at https://whimbrelresearch.com/sample-brief/
+Everything above is self-serve. For a handful of medical device
+engineering firms, Whimbrel does all the research: tell us what you
+want and we research it, and a continuous watch on these same
+registries flags new companies that fit what the firm builds. A person
+reviews everything before it goes out. A sample of the research is at
+https://whimbrelresearch.com/sample-brief/
 The first month is free. https://whimbrelresearch.com
 
 ## License, attribution, contact
