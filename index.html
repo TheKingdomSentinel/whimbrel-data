@@ -4,22 +4,62 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Whimbrel Research: medtech signals data</title>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "US medtech buying signals", "description": "Daily-updated national medtech buying signals: NIH SBIR/STTR awards and FDA clearances and approvals, each linked to its public source. Published by Whimbrel Research.", "creator": {"@type": "Organization", "name": "Whimbrel Research", "url": "https://whimbrelresearch.com"}, "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "signals-latest.json"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "US medtech buying signals", "description": "Daily-updated national medtech buying signals: NIH SBIR/STTR awards and FDA clearances and approvals, each linked to its public source, with the people each registry names. Published by Whimbrel Research.", "creator": {"@type": "Organization", "name": "Whimbrel Research", "url": "https://whimbrelresearch.com"}, "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "signals-latest.json"}]}</script>
 <style>
+:root {
+  --ink: #142522; --teal: #0f4942; --teal-mid: #175e55;
+  --mint: #e7f0ec; --paper: #fbfaf8; --card: #fffefa; --line: #d9ddd6;
+  --muted: #3f544f;
+}
+* { box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-       Helvetica, Arial, sans-serif; max-width: 640px; margin: 3rem auto;
-       padding: 0 1rem; color: #142522; background: #fbfaf8;
-       line-height: 1.6; }
-h1 { font-weight: 700; letter-spacing: -0.02em; }
-a { color: #0f4942; }
-code { background: #e7f0ec; padding: 0.1em 0.3em; border-radius: 4px; }
+       Helvetica, Arial, sans-serif; max-width: 720px; margin: 0 auto;
+       padding: 0 1.25rem 4rem; color: var(--ink);
+       background: var(--paper); line-height: 1.65; }
+header { padding: 2.2rem 0 1.4rem; border-bottom: 1px solid var(--line);
+          margin-bottom: 1.6rem; }
+.lockup { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em;
+           color: var(--teal); }
+.lockup span { background: var(--mint); color: var(--teal-mid);
+  border-radius: 6px; padding: 0.1em 0.45em; margin-left: 0.5em;
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em;
+  text-transform: uppercase; vertical-align: 0.1em; }
+h1 { font-size: clamp(1.5rem, 4.5vw, 2rem); font-weight: 700;
+     letter-spacing: -0.02em; line-height: 1.25; margin: 0.6rem 0 0.4rem; }
+.lede { font-size: 1.02rem; color: var(--muted); margin: 0; }
+h2 { font-size: 1.15rem; font-weight: 700; letter-spacing: -0.01em;
+     margin: 2.4rem 0 0.6rem; padding-top: 1.4rem;
+     border-top: 1px solid var(--line); }
+a { color: var(--teal); }
+code { background: var(--mint); padding: 0.12em 0.35em; border-radius: 4px;
+       font-size: 0.9em; }
+pre { background: var(--teal); color: #e9f4f1; padding: 0.85rem 1rem;
+      border-radius: 10px; overflow-x: auto; font-size: 0.86rem;
+      line-height: 1.5; }
+pre code { background: none; padding: 0; color: inherit; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+td { padding: 0.45rem 0.6rem 0.45rem 0; vertical-align: top;
+     border-bottom: 1px solid var(--line); }
+ul { padding-left: 1.2rem; }
+li { margin: 0.3rem 0; }
+.card { background: var(--card); border: 1px solid var(--line);
+        border-radius: 12px; padding: 1.1rem 1.3rem; margin: 1rem 0; }
+.note { font-size: 0.88rem; color: var(--muted); }
+footer { margin-top: 3rem; padding-top: 1.2rem;
+         border-top: 1px solid var(--line); font-size: 0.88rem;
+         color: var(--muted); }
 </style>
 </head>
 <body>
-<h1>Whimbrel Research: medtech signals data</h1>
-<p>Daily-updated, machine-readable US medtech buying signals. Stable
-event ids, parsed dollar amounts, and a public source link on every
-row.</p>
+<header>
+<div class="lockup">Whimbrel Research<span>Data</span></div>
+<h1>The US medtech market, machine-readable</h1>
+<p class="lede">Five years of FDA clearances and approvals, NIH awards,
+patents, and SEC filings. Refreshed every morning, every event linked to
+its public source, and the people each registry names on the record.</p>
+</header>
+
+<h2>Files</h2>
 <ul>
 <li><a href="index.json">index.json</a>: machine-readable manifest of
 everything here</li>
@@ -29,36 +69,84 @@ signals from the last 14 days</li>
 <li><a href="stats.json">stats.json</a>: aggregate history and archive
 scale (aggregates only)</li>
 <li><a href="methodology.md">methodology.md</a>: how the data is
-collected, dated, and windowed, and what these files exclude</li>
+collected, dated, and windowed, what it holds about people, and what
+these files exclude</li>
 </ul>
+<p class="note">These files are a rolling 14-day window. The
+archive behind them runs back years and is queryable a search or a
+company at a time, below.</p>
+
 <h2>Query it by MCP</h2>
-<p>The same data is queryable over the Model Context Protocol
-(Streamable&nbsp;HTTP, no authentication):</p>
-<p><code>https://whimbrel-signals-mcp.whimbrelresearch.workers.dev</code></p>
-<p>Tools: <code>latest_signals</code>,
-<code>signal_of_the_day</code>, <code>weekly_pulse</code>,
-<code>who_got_funded</code>, <code>micro_brief</code>,
-<code>company_timeline</code>, <code>about_the_data</code>. Company
-records also carry patent grants, published patent applications, and
-SEC funding filings. Company
-lookups are limited to one per caller per day on the free tier. Each
-tool ships with a matching <code>whimbrel_</code>-prefixed prompt, so
-clients that surface prompts as slash commands get all seven as a
-command palette on connect.</p>
+<p>The same data answers over the Model Context Protocol
+(Streamable&nbsp;HTTP). The free tools need no account and no key:</p>
+<pre><code>https://whimbrel-signals-mcp.whimbrelresearch.workers.dev</code></pre>
+<p>Free tools: <code>latest_signals</code>, <code>signal_of_the_day</code>, <code>weekly_pulse</code>, <code>who_got_funded</code>, <code>find_signals</code>, <code>micro_brief</code>, <code>company_timeline</code>, <code>about_the_data</code>, <code>get_access</code>. <code>find_signals</code> searches
+the whole archive; <code>micro_brief</code> and
+<code>company_timeline</code> are capped at
+25 company lookups per caller per day.
+Company records also carry patent grants, published patent
+applications, and SEC funding filings. The server ships seven
+ready-made <code>whimbrel_</code>-prefixed prompts, so clients that
+surface prompts as slash commands get a command palette on connect.</p>
+
+<div class="card">
 <p><strong>Claude</strong> (web and apps): Settings → Connectors →
 Add custom connector → paste the URL above.</p>
 <p><strong>Claude Code</strong>:</p>
-<p><code>claude mcp add --transport http whimbrel https://whimbrel-signals-mcp.whimbrelresearch.workers.dev</code></p>
+<pre><code>claude mcp add --transport http whimbrel https://whimbrel-signals-mcp.whimbrelresearch.workers.dev</code></pre>
 <p><strong>Cursor</strong>: Settings → MCP → Add new server, or add to
 <code>~/.cursor/mcp.json</code>:</p>
-<p><code>{"mcpServers": {"whimbrel-signals": {"url":
-"https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"}}}</code></p>
+<pre><code>{"mcpServers": {"whimbrel-signals": {"url":
+"https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"}}}</code></pre>
 <p><strong>VS Code</strong> (Copilot): add to
 <code>.vscode/mcp.json</code>:</p>
-<p><code>{"servers": {"whimbrel-signals": {"type": "http", "url":
-"https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"}}}</code></p>
+<pre><code>{"servers": {"whimbrel-signals": {"type": "http", "url":
+"https://whimbrel-signals-mcp.whimbrelresearch.workers.dev"}}}</code></pre>
 <p><strong>Other MCP clients</strong>: any client that speaks
-Streamable HTTP can use the URL directly; no key is required.</p>
+Streamable HTTP can use the URL directly.</p>
+</div>
+
+<h2>Query it by HTTP</h2>
+<p>The same handlers answer <code>GET</code> at the same origin, for
+readers that do not speak MCP:</p>
+<table>
+<tr><td><code>/v1/signals/latest</code></td><td>the last 14 days of signals, filterable by kind</td></tr>
+<tr><td><code>/v1/signals/search</code></td><td>search the whole archive</td></tr>
+<tr><td><code>/v1/signals/funded</code></td><td>the window filtered for fresh money</td></tr>
+<tr><td><code>/v1/signals/today</code></td><td>the newest single signal</td></tr>
+<tr><td><code>/v1/pulse</code></td><td>seven-day aggregates</td></tr>
+<tr><td><code>/v1/company/{company}</code></td><td>every registry event for one company</td></tr>
+<tr><td><code>/v1/company/{company}/brief</code></td><td>a composed mini-dossier, as markdown</td></tr>
+</table>
+<p><code>/v1/subscribe</code> redirects to Stripe checkout for the paid
+tier, and <code>/v1/key/{session}</code> hands over the resulting API key
+once.</p>
+<p class="note">Discovery and terms are free and stay free:
+<a href="https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/.well-known/x402">the x402 catalogue</a> lists every route, its
+price, and whether payment is currently switched on, and
+<a href="https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/v1/about">/v1/about</a> states the terms in prose. Read the
+price from the catalogue rather than from this page.</p>
+
+<h2>The paid layer</h2>
+<p>A Whimbrel key unlocks the rest of the same server: <code>deep_record</code>, <code>research_status</code>, <code>matches_for_us</code>, <code>build_profile</code>, <code>set_preferences</code>, <code>billing_portal</code>.</p>
+<p><strong>Research on demand.</strong> <code>deep_record</code> points
+the research pipeline at any company you name and runs it on our
+infrastructure: current leadership, contact routes, funding and
+milestones read from the company's own site and press, every line
+quoted from the source it came from.</p>
+<p><strong>Matching, from your own profile.</strong>
+<code>build_profile</code> reads your firm's website and drafts your
+capability profile, <code>set_preferences</code> stores your screening
+decisions, and <code>matches_for_us</code> returns the companies in the
+archive that fit what your firm actually does. Onboarding is self-serve
+through those three.</p>
+<p><strong>Buying is self-serve too.</strong> <code>get_access</code> is
+free and needs no key: it returns a Stripe checkout link, and the page you
+land on after paying shows an API key once. Send that key as an
+<code>Authorization: Bearer</code> header.
+<code>billing_portal</code> returns the Stripe portal for card changes,
+upgrades and cancellation.</p>
+
 <h2>What an engagement adds</h2>
 <p>These files report what happened. With an engagement, we do the
 research for you.</p>
@@ -70,13 +158,15 @@ record behind it, and a person reviews every brief before delivery.
 brief</a>.</p>
 <p><strong>A standing watch.</strong> We monitor the same registries
 these files come from, every day, for companies that match your firm's
-capabilities. You hear from us when a match appears, and a quiet month
-is a normal result.</p>
+capabilities. When one appears, you hear it first.</p>
 <p>The first month is free.
 <a href="https://whimbrelresearch.com/request-a-brief/">Request a free
 brief</a></p>
+
+<footer>
 <p>Free to cite with attribution. Published by
 <a href="https://whimbrelresearch.com">Whimbrel Research</a> ·
 <a href="mailto:nate@whimbrelresearch.com">nate@whimbrelresearch.com</a></p>
+</footer>
 </body>
 </html>

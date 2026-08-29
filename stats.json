@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-28T21:25:16.808706+00:00",
- "next_update_utc": "2026-08-29T13:00:00+00:00",
+ "generated_at": "2026-08-29T13:03:30.549625+00:00",
+ "next_update_utc": "2026-08-30T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,12 +12,12 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "corpus": {
-  "companies_with_public_signals": 5765,
-  "public_signals_archived": 12908,
+  "companies_with_public_signals": 5766,
+  "public_signals_archived": 12909,
   "signals_by_kind": {
    "fda_clearance": 9739,
-   "fda_pma": 113,
-   "nih_award": 3056
+   "nih_award": 3057,
+   "fda_pma": 113
   },
   "earliest_event_date": "2021-08-22"
  },
@@ -47,8 +47,8 @@
    "week_start": "2026-07-27",
    "fda_clearance": 71,
    "fda_pma": 1,
-   "nih_award": 29,
-   "nih_dollars_stated": 23294977
+   "nih_award": 30,
+   "nih_dollars_stated": 23475820
   },
   {
    "week_start": "2026-07-20",
@@ -98,13 +98,6 @@
    "fda_pma": 2,
    "nih_award": 14,
    "nih_dollars_stated": 11390175
-  },
-  {
-   "week_start": "2026-06-01",
-   "fda_clearance": 15,
-   "fda_pma": 1,
-   "nih_award": 0,
-   "nih_dollars_stated": 0
   }
  ],
  "note": "Aggregates only; the archived events themselves are not published. Weekly rows bucket by event date over the last 12 weeks. Public registries publish on a lag, FDA decisions often by several weeks, so the newest weeks undercount FDA kinds and fill in as records publish. Zero clearances in a recent week means not yet published, not none decided."

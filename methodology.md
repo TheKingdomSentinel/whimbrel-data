@@ -20,6 +20,20 @@ Company records served over MCP also carry patent_grant and
 patent_application events from USPTO, and funding_filing events from
 SEC Form D and Form C filings.
 
+## People
+
+An event carries the people the registry itself names in that record,
+and nobody else: principal investigators on an NIH award, the contact
+on a 510(k), officers on an SEC filing, officials on a trial
+registration. Each name is already public in the source the event
+links to, and appears here with the role that source states.
+
+What is never here: email addresses, phone numbers, titles or
+affiliations that were inferred rather than stated, and anyone the
+record does not name. Researched leadership and contact routes are a
+different thing built a different way, and they are not in these
+files; they come from the deep-research layer.
+
 ## Fields and dates
 
 - Event ids are stable and scheme-prefixed (nih:, 510k:, pma:), so the
@@ -41,20 +55,30 @@ SEC Form D and Form C filings.
 ## Windows and caps
 
 - signals-latest.json: the last 14 days.
-- Company lookups over MCP (micro_brief, company_timeline): one per
-  caller per day.
+- Company lookups (micro_brief, company_timeline, and the /v1/company
+  routes): 25 per caller per day, and
+  500 across all free callers per
+  day.
+- find_signals searches the whole archive and does not count as a
+  company lookup.
+- Every free call, the cheap ones included, counts against a ceiling of
+  600 per caller per day. It is far above a real
+  reader's day and exists to bound one caller's cost, not to ration.
 
 ## What these files exclude
 
-- Bulk history: the feed files show a rolling window. A company's full
-  history is served one company at a time over MCP, with a daily
-  lookup cap.
-- People: no names or contacts, ever.
+- Bulk history: the feed files are a rolling window. The archive
+  behind them is searchable a query at a time (find_signals) and a
+  company at a time (micro_brief, company_timeline) under the caps
+  above; it is not published as a bulk download.
+- Contact details: see People above. Names as a registry states them,
+  never a route to reach someone.
 - Web finds: only government-registry events are published. Facts from
   articles and other web sources are held to a different verification
   standard and stay out.
 - Judgments: no fit assessments, no matching, and no computed ratings
-  of any kind. These files carry events and dates only; what they mean
-  for any particular firm is the engagement's work.
+  of any kind. These files carry events and dates only. What they mean
+  for a particular firm is the work of the paid layer, where matching
+  runs against a stated capability profile, or of an engagement.
 
 Free to cite with attribution to Whimbrel Research (whimbrelresearch.com). Every event links to the public record it came from. Contact: nate@whimbrelresearch.com

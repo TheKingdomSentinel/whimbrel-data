@@ -4,9 +4,13 @@ Machine-readable data on US medtech company activity: NIH SBIR/STTR
 awards, FDA 510(k) clearances, and FDA PMA approvals, read daily from
 the public registries. Every event links to the public record it came
 from; an event that cannot be verified against a public source is not
-published. The archive behind these files currently tracks
-7282 US medtech companies. The published files are a rolling window
-of recent events; the archive itself is not published.
+published. Events carry the people the registry itself names in the
+record, with no contact details; see /methodology.md.
+
+The archive behind these files tracks 7283 US medtech companies and
+runs back years. The files here are a rolling 14-day window;
+the archive itself is not published in bulk, but it is queryable a
+company or a search at a time over MCP and HTTP, below.
 
 ## Files
 
@@ -15,39 +19,92 @@ of recent events; the archive itself is not published.
 - /signals-latest.json: events observed in the last 14 days.
   Each event carries a stable id, company name, kind, event date,
   observed date, amount_usd where a source states a figure, a one-line
-  summary, and the source URL. Updated daily.
+  summary, the source URL, and any people the registry names.
+  Updated daily.
 - /stats.json: aggregate history (weekly counts and stated dollars for
   the trailing quarter) and archive scale. Aggregates only; archived
   events are not published.
-- /methodology.md: how the data is collected, dated, and windowed, and
-  what these files exclude.
+- /methodology.md: how the data is collected, dated, and windowed, what
+  it holds about people, and what these files exclude.
 
 ## MCP server
 
 The same data is queryable over the Model Context Protocol
-(Streamable HTTP, no authentication) at:
+(Streamable HTTP; the free tools need no key) at:
 
 https://whimbrel-signals-mcp.whimbrelresearch.workers.dev
 
-Tools: latest_signals (14-day window, filterable by kind),
-signal_of_the_day, weekly_pulse (computed aggregates), who_got_funded
-(the window filtered by new-award freshness, phase, and amount),
-micro_brief (a composed mini-dossier on any company in the archive, one company
-lookup per caller per day), company_timeline (the structured version),
-and about_the_data. Company records also carry patent grants, published
-patent applications, and SEC funding filings.
+Free tools, no key:
 
-The server also publishes one MCP prompt per tool, named with a
+latest_signals, signal_of_the_day, weekly_pulse, who_got_funded,
+find_signals, micro_brief, company_timeline, about_the_data,
+get_access
+
+latest_signals is the 14-day window, filterable by kind.
+find_signals searches the whole archive by kind, date, text, amount,
+and NIH phase. who_got_funded filters the window for fresh money.
+micro_brief is a composed mini-dossier on any company in the archive
+and company_timeline is the structured version of the same; those two
+are capped at 25 company lookups per caller
+per day. weekly_pulse and signal_of_the_day are computed views, and
+about_the_data returns this document.
+
+The server also publishes seven ready-made prompts, named with a
 whimbrel_ prefix (whimbrel_micro_brief, whimbrel_latest_signals, ...), so
-clients that surface prompts as slash commands get a ready-made command
-palette on connect.
+clients that surface prompts as slash commands get a command palette on
+connect.
 
-## The engagement behind the free tier
+## HTTP API
 
-This data layer is the free tier. With an engagement, Whimbrel
-Research does the research for you: you send companies, and you get a
-full sourced brief on each, with leadership and contact routes, plus
-daily monitoring for companies that match your firm's capabilities.
+The same handlers answer GET at the same origin, for readers that do
+not speak MCP:
+
+- /v1/signals/latest: the last 14 days of signals, filterable by kind
+- /v1/signals/search: search the whole archive
+- /v1/signals/funded: the window filtered for fresh money
+- /v1/signals/today: the newest single signal
+- /v1/pulse: seven-day aggregates
+- /v1/company/{company}: every registry event for one company
+- /v1/company/{company}/brief: a composed mini-dossier, as markdown
+
+/v1/subscribe redirects to Stripe checkout for the paid tier, and
+/v1/key/<checkout-session-id> hands over the resulting API key once.
+
+Discovery and terms are free and always will be: https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/.well-known/x402
+carries the machine-readable catalogue of routes, prices, and whether
+payment is currently on, and https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/v1/about carries the terms in prose.
+The catalogue is the authority on price; do not cache a number from
+this file.
+
+## The paid layer
+
+A Whimbrel key unlocks the same server's remaining tools:
+
+deep_record, research_status, matches_for_us, build_profile,
+set_preferences, billing_portal
+
+deep_record points the research pipeline at any company you name and
+runs it on Whimbrel's infrastructure: current leadership, contact
+routes, funding and milestones read from the company's own site and
+press, every line quoted from the source it came from. research_status
+tracks a queued run. build_profile reads your own firm's website and
+drafts your capability profile, set_preferences stores your screening
+decisions, and matches_for_us then returns the companies in the archive
+that fit what your firm actually does.
+
+Onboarding is self-serve through build_profile and set_preferences. So is
+buying: call get_access, which is free and needs no key, open the Stripe
+checkout link it returns, and the page you land on shows an API key once.
+Send that key as an Authorization Bearer header. billing_portal returns
+the Stripe portal for card changes, upgrades and cancellation.
+
+## The engagement behind all of it
+
+The tools above hand you the research. With an engagement, Whimbrel
+Research does the work for you: you send companies, and you get a full
+sourced brief on each, with leadership and contact routes, reviewed by
+a person before delivery, plus daily monitoring for companies that
+match your firm's capabilities.
 A full sample brief is at https://whimbrelresearch.com/sample-brief/
 The first month is free. https://whimbrelresearch.com
 
