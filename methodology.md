@@ -67,10 +67,11 @@ files; they come from the deep-research layer.
 
 ## What these files exclude
 
-- Bulk history: the feed files are a rolling window. The archive
-  behind them is searchable a query at a time (find_signals) and a
+- Bulk history: the feed files here are a rolling window. The archive
+  behind them is searchable free a query at a time (find_signals) and a
   company at a time (micro_brief, company_timeline) under the caps
-  above; it is not published as a bulk download.
+  above; the complete archive as one file is signals-archive.json on
+  the worker, priced by the x402 catalogue.
 - Contact details: see People above. Names as a registry states them,
   never a route to reach someone.
 - Web finds: only government-registry events are published. Facts from

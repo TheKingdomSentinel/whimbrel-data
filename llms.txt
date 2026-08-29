@@ -8,9 +8,11 @@ published. Events carry the people the registry itself names in the
 record, with no contact details; see /methodology.md.
 
 The archive behind these files tracks 7283 US medtech companies and
-runs back years. The files here are a rolling 14-day window;
-the archive itself is not published in bulk, but it is queryable a
-company or a search at a time over MCP and HTTP, below.
+runs back years. The files here are a rolling 14-day window.
+The complete archive is available two ways: queryable free, a company
+or a search at a time, over MCP and HTTP below, or as one file at
+https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/signals-archive.json, priced by the x402 catalogue at
+https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/.well-known/x402.
 
 ## Files
 
@@ -22,8 +24,11 @@ company or a search at a time over MCP and HTTP, below.
   summary, the source URL, and any people the registry names.
   Updated daily.
 - /stats.json: aggregate history (weekly counts and stated dollars for
-  the trailing quarter) and archive scale. Aggregates only; archived
-  events are not published.
+  the trailing quarter) and archive scale. Aggregates only.
+- https://whimbrel-signals-mcp.whimbrelresearch.workers.dev/signals-archive.json: the complete archive as one
+  file, same event schema as signals-latest.json. Served by the worker
+  and priced by the x402 catalogue; not mirrored on the free static
+  host. Updated daily.
 - /methodology.md: how the data is collected, dated, and windowed, what
   it holds about people, and what these files exclude.
 
