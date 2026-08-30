@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-29T20:09:46.766867+00:00",
- "next_update_utc": "2026-08-30T13:00:00+00:00",
+ "generated_at": "2026-08-30T13:03:59.519643+00:00",
+ "next_update_utc": "2026-08-31T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 385,
+ "events_in_window": 388,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -103,6 +103,26 @@
    ],
    "award_phase": "SBIR Phase II",
    "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:4R44GM161309-02",
+   "company": "Vivid Bioinnovations, Pbc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-20",
+   "observed": "2026-08-30",
+   "amount_usd": 1027505,
+   "summary": "NIH award 4R44GM161309-02: A Universal Platform for Ultrahigh-Throughput Biocatalyst Evolution With micro-Mass Spectrometry ($1,027,505)",
+   "source_url": "https://reporter.nih.gov/project-details/11417110",
+   "people": [
+    {
+     "name": "Robin Prince",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
    "new_award": false
   },
   {
@@ -208,6 +228,26 @@
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
+  },
+  {
+   "id": "nih:1R44AI195215-01",
+   "company": "Vivid Bioinnovations, Pbc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-19",
+   "observed": "2026-08-30",
+   "amount_usd": 307074,
+   "summary": "NIH award 1R44AI195215-01: HIVE-seq: A Novel Omics Technology to Profile Thousands of Single HIV-Positive Cells ($307,074)",
+   "source_url": "https://reporter.nih.gov/project-details/11256632",
+   "people": [
+    {
+     "name": "Robin Prince",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
   },
   {
    "id": "nih:1R43AI197687-01",
@@ -2456,6 +2496,26 @@
    "new_award": false
   },
   {
+   "id": "nih:1R44CA310740-01",
+   "company": "Vivid Bioinnovations, Pbc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-07",
+   "observed": "2026-08-30",
+   "amount_usd": 306872,
+   "summary": "NIH award 1R44CA310740-01: Ultrahigh-Throughput Cell Interaction Screening to Advance CAR-T Therapeutic Development ($306,872)",
+   "source_url": "https://reporter.nih.gov/project-details/11314450",
+   "people": [
+    {
+     "name": "Robin Prince",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
    "id": "fda:K253505",
    "company": "Roen Surgical, Inc.",
    "kind": "fda_clearance",
@@ -3794,64 +3854,6 @@
    "award_phase": "SBIR Phase II",
    "award_year": 4,
    "new_award": false
-  },
-  {
-   "id": "nih:1R43MH139167-01A1",
-   "company": "37degrees, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "observed": "2026-08-18",
-   "amount_usd": 456902,
-   "summary": "NIH award 1R43MH139167-01A1: InVitreON: A compact and integrated platform for long-term neuronal culture incubation, recording and closed-loop stimulation ($456,902)",
-   "source_url": "https://reporter.nih.gov/project-details/11311780",
-   "people": [
-    {
-     "name": "Tilak Jain",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43MH143378-01",
-   "company": "Habitaware, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "observed": "2026-08-18",
-   "amount_usd": 417403,
-   "summary": "NIH award 1R43MH143378-01: TrichTok: Developing a scalable, video-based mobile intervention with peer support for adolescents and emerging adults with trichotillomania ($417,403)",
-   "source_url": "https://reporter.nih.gov/project-details/11312515",
-   "people": [
-    {
-     "name": "Sameer Kumar",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Hilary Weingarden",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R44GM161195-01A1",
-   "company": "Monod Bio, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-03",
-   "observed": "2026-08-18",
-   "amount_usd": 377260,
-   "summary": "NIH award 1R44GM161195-01A1: Design of rapid and quantitative biosensors with computational protein design ($377,260)",
-   "source_url": "https://reporter.nih.gov/project-details/11410560",
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
   }
  ]
 }
