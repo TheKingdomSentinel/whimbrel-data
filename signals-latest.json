@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-08-31T18:03:21.292462+00:00",
- "next_update_utc": "2026-09-01T13:00:00+00:00",
+ "generated_at": "2026-09-01T13:03:49.976155+00:00",
+ "next_update_utc": "2026-09-02T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,7 +12,7 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 398,
+ "events_in_window": 392,
  "events_returned": 200,
  "truncated": true,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
@@ -724,26 +724,6 @@
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260563%22"
   },
   {
-   "id": "nih:1R44EY039171-01",
-   "company": "Edge Eye Labs Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-14",
-   "observed": "2026-08-17",
-   "amount_usd": 1123233,
-   "summary": "NIH award 1R44EY039171-01: AmblyoGo\" a 'Smart' Easy-to-use Occlusion Dose Monitor (ODM) for Amblyopia in Children ($1,123,233)",
-   "source_url": "https://reporter.nih.gov/project-details/11410213",
-   "people": [
-    {
-     "name": "Omondi Luthuli Nyongo",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
    "id": "nih:2R44HL169137-02A1",
    "company": "Urban Design 4 Health, Inc.",
    "kind": "nih_award",
@@ -1190,26 +1170,6 @@
     }
    ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262639%22"
-  },
-  {
-   "id": "nih:2R44AA030231-05",
-   "company": "Actiox LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-13",
-   "observed": "2026-08-17",
-   "amount_usd": 1099865,
-   "summary": "NIH award 2R44AA030231-05: Discreet Wearable device for Continuous Real-time Monitoring of Alcohol ($1,099,865)",
-   "source_url": "https://reporter.nih.gov/project-details/11410513",
-   "people": [
-    {
-     "name": "Farshad Tehrani",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 5,
-   "new_award": false
   },
   {
    "id": "nih:5R44MH134669-03",
@@ -1870,30 +1830,6 @@
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262399%22"
   },
   {
-   "id": "nih:5R44AI183961-03",
-   "company": "Ossium Health, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-17",
-   "amount_usd": 579970,
-   "summary": "NIH award 5R44AI183961-03: Developing a bank of purified myeloid progenitor cells as a bridging therapy for transient pancytopenia resulting from radiation injury ($579,970)",
-   "source_url": "https://reporter.nih.gov/project-details/11404025",
-   "people": [
-    {
-     "name": "Brian H. Johnstone",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Subhrajit Saha",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
    "id": "nih:1R43MD021438-01",
    "company": "Flourish Collective Inc",
    "kind": "nih_award",
@@ -2184,46 +2120,6 @@
     }
    ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261841%22"
-  },
-  {
-   "id": "nih:2R44EY034066-02",
-   "company": "X-biomedical, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-17",
-   "amount_usd": 889154,
-   "summary": "NIH award 2R44EY034066-02: Development of a tele-mentoring system integrated into an ultra-portable surgical microscope to treat cataract in underserved populations ($889,154)",
-   "source_url": "https://reporter.nih.gov/project-details/11408785",
-   "people": [
-    {
-     "name": "Matthew Rudolph Maltese",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL184714-01",
-   "company": "Biocircuit Technologies, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-17",
-   "amount_usd": 379187,
-   "summary": "NIH award 1R43HL184714-01: Lymph Tape: A Device for Simplified Lymphovenous Anastomosis ($379,187)",
-   "source_url": "https://reporter.nih.gov/project-details/11315949",
-   "people": [
-    {
-     "name": "Isaac Perry Clements",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
   },
   {
    "id": "nih:1R44HL184709-01A1",
@@ -3888,6 +3784,98 @@
    "award_phase": "SBIR Phase II",
    "award_year": 5,
    "new_award": false
+  },
+  {
+   "id": "nih:1R44GM163514-01",
+   "company": "Vivid Bioinnovations, Pbc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-04",
+   "observed": "2026-08-19",
+   "amount_usd": 300001,
+   "summary": "NIH award 1R44GM163514-01: Integrated High-Throughput Microfluidic-Mass Spectrometry for Enhanced Biomedical Data Generation and AI Model Training ($300,001)",
+   "source_url": "https://reporter.nih.gov/project-details/11316567",
+   "people": [
+    {
+     "name": "Robin Prince",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "fda:K253760",
+   "company": "Sight Sciences, Inc.",
+   "kind": "fda_clearance",
+   "kind_label": "FDA 510(k) clearance",
+   "date": "2026-08-04",
+   "observed": "2026-08-18",
+   "amount_usd": null,
+   "summary": "FDA 510(k) K253760: OMNI Ultra Surgical System (1-110)",
+   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253760",
+   "people": [
+    {
+     "name": "Rachel Franco",
+     "role": "510(k) submission contact"
+    }
+   ],
+   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253760%22"
+  },
+  {
+   "id": "fda:K261496",
+   "company": "Duplex International Trading Limited",
+   "kind": "fda_clearance",
+   "kind_label": "FDA 510(k) clearance",
+   "date": "2026-08-04",
+   "observed": "2026-08-18",
+   "amount_usd": null,
+   "summary": "FDA 510(k) K261496: LED Light Therapy Masks (PE748, PE749, PE756)",
+   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261496",
+   "people": [
+    {
+     "name": "JunYi Xing",
+     "role": "510(k) submission contact"
+    }
+   ],
+   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261496%22"
+  },
+  {
+   "id": "fda:K261851",
+   "company": "Shenzhen Qianyu Technology Co., Ltd.",
+   "kind": "fda_clearance",
+   "kind_label": "FDA 510(k) clearance",
+   "date": "2026-08-04",
+   "observed": "2026-08-18",
+   "amount_usd": null,
+   "summary": "FDA 510(k) K261851: LED Light Therapy Mask (JML1, JML1+JML2); LED Light Therapy Mask (JML3, JML3+JML4); LED Light Therapy Mask (JML5, JML5+JML7); LED Light Therapy Mask (JML6, JML6+JML8); LED Light Therapy Mask ( JML9, JML9+JML10)",
+   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261851",
+   "people": [
+    {
+     "name": "Li Guoyang",
+     "role": "510(k) submission contact"
+    }
+   ],
+   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261851%22"
+  },
+  {
+   "id": "fda:K260572",
+   "company": "Medimetrix, LLC",
+   "kind": "fda_clearance",
+   "kind_label": "FDA 510(k) clearance",
+   "date": "2026-08-04",
+   "observed": "2026-08-18",
+   "amount_usd": null,
+   "summary": "FDA 510(k) K260572: Marrow Marxman",
+   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260572",
+   "people": [
+    {
+     "name": "Brian Austin",
+     "role": "510(k) submission contact"
+    }
+   ],
+   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260572%22"
   }
  ]
 }
