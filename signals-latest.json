@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-09-01T15:30:36.382799+00:00",
- "next_update_utc": "2026-09-02T13:00:00+00:00",
+ "generated_at": "2026-09-02T13:05:02.274579+00:00",
+ "next_update_utc": "2026-09-03T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,9 +12,9 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 392,
- "events_returned": 200,
- "truncated": true,
+ "events_in_window": 176,
+ "events_returned": 176,
+ "truncated": false,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
  "events": [
   {
@@ -724,90 +724,6 @@
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260563%22"
   },
   {
-   "id": "nih:2R44HL169137-02A1",
-   "company": "Urban Design 4 Health, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-14",
-   "observed": "2026-08-18",
-   "amount_usd": 1253332,
-   "summary": "NIH award 2R44HL169137-02A1: STREET SOLUTIONS: BLUEPRINTS AND FOOTPRINTS FOR CREATORS AND USERS OF URBAN ENVIRONMENTS ($1,253,332)",
-   "source_url": "https://reporter.nih.gov/project-details/11316081",
-   "people": [
-    {
-     "name": "James Chapman",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:5R44AG085913-03",
-   "company": "Friendi.fi Corporation",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-14",
-   "observed": "2026-08-18",
-   "amount_usd": 852676,
-   "summary": "NIH award 5R44AG085913-03: Implementing and Scaling the STEADI Fall Prevention Algorithm Using a Conversational Relational Agent for Community-Dwelling Older Adults with and without Mild Cognitive Impairment (MCI). ($852,676)",
-   "source_url": "https://reporter.nih.gov/project-details/11418945",
-   "people": [
-    {
-     "name": "Chantal M Kerssens",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R44CA310443-01",
-   "company": "Informed Medical Decisions, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-14",
-   "observed": "2026-08-18",
-   "amount_usd": 1216515,
-   "summary": "NIH award 1R44CA310443-01: INHERET: Commercialization and EHR Integration of an Innovative Personalized Medicine Tool to Advance Cancer Screening and Management ($1,216,515)",
-   "source_url": "https://reporter.nih.gov/project-details/11315138",
-   "people": [
-    {
-     "name": "Rebecca Sutphen",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:5R44AG078063-03",
-   "company": "Tf Health Corporation",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-14",
-   "observed": "2026-08-18",
-   "amount_usd": 817562,
-   "summary": "NIH award 5R44AG078063-03: Smart driving technology for non-invasive detection of age-related cognitive decline ($817,562)",
-   "source_url": "https://reporter.nih.gov/project-details/11418920",
-   "people": [
-    {
-     "name": "Erica Silvia Forzani",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Francis Tsow",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
    "id": "nih:5R44AG097243-02",
    "company": "Revbio, Inc.",
    "kind": "nih_award",
@@ -1172,94 +1088,6 @@
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262639%22"
   },
   {
-   "id": "nih:5R44MH134669-03",
-   "company": "Pinnacle Technology, Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-13",
-   "observed": "2026-08-18",
-   "amount_usd": 984425,
-   "summary": "NIH award 5R44MH134669-03: Functionalized Multi-Modal Tetrode Arrays for Real-Time, Site-Specific Neurochemical Monitoring ($984,425)",
-   "source_url": "https://reporter.nih.gov/project-details/11365890",
-   "people": [
-    {
-     "name": "DAVID A JOHNSON",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R44ES035665-01A1",
-   "company": "Photothermal Spectroscopy Corp.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-13",
-   "observed": "2026-08-18",
-   "amount_usd": 1022908,
-   "summary": "NIH award 1R44ES035665-01A1: High-Speed Automated Analysis of Sub-20 \u00b5m Microplastics by Photothermal Infrared Spectroscopy ($1,022,908)",
-   "source_url": "https://reporter.nih.gov/project-details/11312399",
-   "people": [
-    {
-     "name": "Kevin Kjoller",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:4R44AG091857-02",
-   "company": "Plans4care Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-13",
-   "observed": "2026-08-18",
-   "amount_usd": 1190509,
-   "summary": "NIH award 4R44AG091857-02: Activites4Care: A Digital Platform to Enhance Caregiver Well-being by Providing Customized Activities that Improve Quality of Life for People Living with Dementia ($1,190,509)",
-   "source_url": "https://reporter.nih.gov/project-details/11530760",
-   "people": [
-    {
-     "name": "Laura N. Gitlin",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Sokha Koeuth",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:5R44MH129065-04",
-   "company": "Doxy.me, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-13",
-   "observed": "2026-08-18",
-   "amount_usd": 704454,
-   "summary": "NIH award 5R44MH129065-04: Doxy.me VR: A scalable virtual reality app to facilitate evidence-based immersive telemental health ($704,454)",
-   "source_url": "https://reporter.nih.gov/project-details/11375504",
-   "people": [
-    {
-     "name": "Brian E. Bunnell",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Triton Ong",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 4,
-   "new_award": false
-  },
-  {
    "id": "fda:K253795",
    "company": "Menicon Co, Ltd.",
    "kind": "fda_clearance",
@@ -1510,70 +1338,6 @@
     }
    ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260277%22"
-  },
-  {
-   "id": "nih:5R44HD090793-06",
-   "company": "Advanced Tactile Imaging, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-12",
-   "observed": "2026-08-18",
-   "amount_usd": 868804,
-   "summary": "NIH award 5R44HD090793-06: Cervix monitor for risk assessment of spontaneous preterm delivery ($868,804)",
-   "source_url": "https://reporter.nih.gov/project-details/11413722",
-   "people": [
-    {
-     "name": "Vladimir Egorov",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 6,
-   "new_award": false
-  },
-  {
-   "id": "nih:2R44GM154526-02",
-   "company": "3D Molecular Designs",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-12",
-   "observed": "2026-08-18",
-   "amount_usd": 1004963,
-   "summary": "NIH award 2R44GM154526-02: Harnessing Machine Learning & Object Detection for Automated Evaluation of Student-folded Protein Models ($1,004,963)",
-   "source_url": "https://reporter.nih.gov/project-details/11183303",
-   "people": [
-    {
-     "name": "Mark Andrew Hoelzer",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Heather Noelle Ryan",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43DC023165-01A1",
-   "company": "Su-kam Intelligent Education Systems, Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-12",
-   "observed": "2026-08-18",
-   "amount_usd": 314363,
-   "summary": "NIH award 1R43DC023165-01A1: Visual Play: An Interactive Play Idea and AAC Grid Generator to Assist in Behavioral Interventions for Minimally Verbal Autistic Children ($314,363)",
-   "source_url": "https://reporter.nih.gov/project-details/11406559",
-   "people": [
-    {
-     "name": "Julius Tsu-Li Su",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
   },
   {
    "id": "nih:1R43AI197708-01",
@@ -1830,150 +1594,6 @@
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262399%22"
   },
   {
-   "id": "nih:1R43MD021438-01",
-   "company": "Flourish Collective Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 306798,
-   "summary": "NIH award 1R43MD021438-01: AI-Driven Risk Prediction and Action Platform to Reduce Maternal Health Risks Among Expecting Mothers Enrolled in Medicaid ($306,798)",
-   "source_url": "https://reporter.nih.gov/project-details/11349846",
-   "people": [
-    {
-     "name": "Elisabeth Howard",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:5R44DK127631-05",
-   "company": "Koronis Biomedical Technologies Corporat",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 1099700,
-   "summary": "NIH award 5R44DK127631-05: Kidney Support in Pediatric Patients using an Ultrafiltration Device ($1,099,700)",
-   "source_url": "https://reporter.nih.gov/project-details/11408830",
-   "people": [
-    {
-     "name": "Robert J Knuesel",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 5,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL186922-01",
-   "company": "Resuscitation Innovations LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 396098,
-   "summary": "NIH award 1R43HL186922-01: A Dual-Setting Airway Device for Optimized Hemodynamics in Cardiac Arrest and Post-Resuscitation States ($396,098)",
-   "source_url": "https://reporter.nih.gov/project-details/11406531",
-   "people": [
-    {
-     "name": "Keith Lurie",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:5R42HD104305-04",
-   "company": "Nuborn Medical, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 1008475,
-   "summary": "NIH award 5R42HD104305-04: A Novel Non-Invasive Method of Dysphagia Detection in Preterm Infants: Bottle Finalization & Validation ($1,008,475)",
-   "source_url": "https://reporter.nih.gov/project-details/11392556",
-   "people": [
-    {
-     "name": "Katlyn Elizabeth McGrattan",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "STTR Phase II",
-   "award_year": 4,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R41MD021420-01",
-   "company": "Collective Good Dx, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 349322,
-   "summary": "NIH award 1R41MD021420-01: Enhancing Peer Diagnostic Support for Rural Clinicians via Collective Intelligence and Adaptive Machine Learning ($349,322)",
-   "source_url": "https://reporter.nih.gov/project-details/11350053",
-   "people": [
-    {
-     "name": "Drew Ghirvan Narayan",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Sean Y Sylvia",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "STTR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43MD021402-01",
-   "company": "Hairdays, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 306872,
-   "summary": "NIH award 1R43MD021402-01: Hybrid telehealth platform to facilitate dermatologist referrals through AI-assisted image screening and collaboration between hair professionals and dermatologists. ($306,872)",
-   "source_url": "https://reporter.nih.gov/project-details/11350152",
-   "people": [
-    {
-     "name": "Tiffany St. Bernard",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R44NS147449-01",
-   "company": "Posit Science Corporation",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-18",
-   "amount_usd": 1048180,
-   "summary": "NIH award 1R44NS147449-01: RECLAIM A Novel Telehealth Treatment for Acquired Brain Injury ($1,048,180)",
-   "source_url": "https://reporter.nih.gov/project-details/11315643",
-   "people": [
-    {
-     "name": "Thomas VanVleet",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
    "id": "nih:1R43MD021459-01",
    "company": "Sequestbio, Inc.",
    "kind": "nih_award",
@@ -2120,110 +1740,6 @@
     }
    ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261841%22"
-  },
-  {
-   "id": "nih:1R44HL184709-01A1",
-   "company": "Corvion, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-18",
-   "amount_usd": 1499984,
-   "summary": "NIH award 1R44HL184709-01A1: Development of a Novel Pediatric LVAD for Home Discharge of Children Awaiting Heart Transplant ($1,499,984)",
-   "source_url": "https://reporter.nih.gov/project-details/11407580",
-   "people": [
-    {
-     "name": "Greg Aber",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43MD021487-01",
-   "company": "Salimetrics, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-18",
-   "amount_usd": 213640,
-   "summary": "NIH award 1R43MD021487-01: An At Home Dried Saliva Spot (DSS) Test to Determine Insulin Resistance: A Scalable Tool for Early Detection in Underserved Communities ($213,640)",
-   "source_url": "https://reporter.nih.gov/project-details/11348660",
-   "people": [
-    {
-     "name": "STEVEN W GRANGER",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R44HL182431-01A1",
-   "company": "Romix Biosciences Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-18",
-   "amount_usd": 1343973,
-   "summary": "NIH award 1R44HL182431-01A1: Development of a Cell-Free RNA Diagnostic Test for Kawasaki disease ($1,343,973)",
-   "source_url": "https://reporter.nih.gov/project-details/11405945",
-   "people": [
-    {
-     "name": "Conor Loy",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R41HL180100-01A1",
-   "company": "Daris LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-18",
-   "amount_usd": 343067,
-   "summary": "NIH award 1R41HL180100-01A1: Automated Perfusion System for Ex-Vivo Organ Preservation ($343,067)",
-   "source_url": "https://reporter.nih.gov/project-details/11403089",
-   "people": [
-    {
-     "name": "daniel edward mazur",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "STTR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R41HL182396-01",
-   "company": "Acouflow Therapeutics, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-10",
-   "observed": "2026-08-18",
-   "amount_usd": 497857,
-   "summary": "NIH award 1R41HL182396-01: Toward Establishing the Feasibility and Commercial Readiness of VortexPAP for Improving OSA Treatment ($497,857)",
-   "source_url": "https://reporter.nih.gov/project-details/11253024",
-   "people": [
-    {
-     "name": "Liran Oren",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Ann Romaker",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "STTR Phase I",
-   "award_year": 1,
-   "new_award": true
   },
   {
    "id": "fda:K254143",
@@ -2472,138 +1988,6 @@
    "source_url_api": "https://api.fda.gov/device/pma.json?search=pma_number:%22P250042%22"
   },
   {
-   "id": "nih:1R44MH140727-01",
-   "company": "Deliberate Solutions, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": 1415720,
-   "summary": "NIH award 1R44MH140727-01: AI-Clinical Outcome Assessment (AI-COA) for Depression: an Innovative Drug Development Tool ($1,415,720)",
-   "source_url": "https://reporter.nih.gov/project-details/11186928",
-   "people": [
-    {
-     "name": "Marc Aafjes",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "JEFFREY F COHN",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43MD021396-01",
-   "company": "Renalis Health Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": 327593,
-   "summary": "NIH award 1R43MD021396-01: Culturally Adapted Digital Behavioral Therapy for Overactive Bladder in Black Women: An Innovative AI-Assisted Approach ($327,593)",
-   "source_url": "https://reporter.nih.gov/project-details/11350201",
-   "people": [
-    {
-     "name": "Anna Baccellieri",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Oluwateniola Brown",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R41MD021474-01",
-   "company": "Asterion AI Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": 314363,
-   "summary": "NIH award 1R41MD021474-01: Accelerating Time-to-Treatment in Rural Areas with a Pre-Hospital EEG Stroke Classification System ($314,363)",
-   "source_url": "https://reporter.nih.gov/project-details/11349184",
-   "people": [
-    {
-     "name": "Ezekiel Fink",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "STTR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R44DA066336-01",
-   "company": "Labsys, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": 302225,
-   "summary": "NIH award 1R44DA066336-01: A Wearable Continuous Polydrug Monitor (CPM) for Personalized SUD Treatment ($302,225)",
-   "source_url": "https://reporter.nih.gov/project-details/11406706",
-   "people": [
-    {
-     "name": "Yue Huang",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Zhe Wang",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43MD021464-01",
-   "company": "Opio Connect, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": 356648,
-   "summary": "NIH award 1R43MD021464-01: Linguistic and Cultural Adaptation of Remote Medication Dispensing System (Hub+Spoke) for OUD Treatment Among Limited English Proficient (LEP) Populations ($356,648)",
-   "source_url": "https://reporter.nih.gov/project-details/11349313",
-   "people": [
-    {
-     "name": "Amber Norbeck",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43GM162022-01A1",
-   "company": "Neuralytix, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": 353059,
-   "summary": "NIH award 1R43GM162022-01A1: Mechanomyography-based system for quantitative nerve assessment during standard pain management procedures ($353,059)",
-   "source_url": "https://reporter.nih.gov/project-details/11403158",
-   "people": [
-    {
-     "name": "Chris Wybo",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
    "id": "nih:1R43MH143510-01",
    "company": "Ividence Inc",
    "kind": "nih_award",
@@ -2668,662 +2052,6 @@
    "new_award": true
   },
   {
-   "id": "fda:K253505",
-   "company": "Roen Surgical, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253505: Zamenix\u0099 P",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253505",
-   "people": [
-    {
-     "name": "Dayoung Kim",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253505%22"
-  },
-  {
-   "id": "fda:K253702",
-   "company": "Intuitive Surgical, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253702: Intuitive Endoluminal Gastrointestinal System (IG1000)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253702",
-   "people": [
-    {
-     "name": "Einav Yemini",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253702%22"
-  },
-  {
-   "id": "fda:K251544",
-   "company": "Lakong Medical Devices Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K251544: Dental Unit (MP2000-550LED-2.0, LP2100-550LED-2.0)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251544",
-   "people": [
-    {
-     "name": "Zhongliang Wang",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K251544%22"
-  },
-  {
-   "id": "fda:K261905",
-   "company": "Bumlicious, LLC (DBA \u0093Bumlicious\u0094)",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261905: BUM Oil",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261905",
-   "people": [
-    {
-     "name": "Louie Goryoka",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261905%22"
-  },
-  {
-   "id": "fda:K252571",
-   "company": "Mediaire GmbH",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K252571: mdprostate",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252571",
-   "people": [
-    {
-     "name": "Wegener Alexander",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K252571%22"
-  },
-  {
-   "id": "fda:K261437",
-   "company": "The Surgical Company International B.V., doing business as TSC Life",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261437: Mistral-Air\u00ae Warming System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261437",
-   "people": [
-    {
-     "name": "Gianpaolo Soares",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261437%22"
-  },
-  {
-   "id": "fda:K254205",
-   "company": "Philips Medical Systems Nederland B.V.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K254205: Zenition 30",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254205",
-   "people": [
-    {
-     "name": "Gyanendra Mani Tripathi",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254205%22"
-  },
-  {
-   "id": "fda:K253453",
-   "company": "Aptitude Medical Systems, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253453: Metrix COVID Test; Metrix COVID Test Pro",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253453",
-   "people": [
-    {
-     "name": "Tyler Chozinski",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253453%22"
-  },
-  {
-   "id": "fda:K261362",
-   "company": "Cepheid",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261362: Xpert Hemorrhagic Fever",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261362",
-   "people": [
-    {
-     "name": "Suzette Chance",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261362%22"
-  },
-  {
-   "id": "fda:K253554",
-   "company": "Leica Biosystems Imaging, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253554: Aperio GT 450 DX; Aperio GT 180 DX",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253554",
-   "people": [
-    {
-     "name": "April Komplin",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253554%22"
-  },
-  {
-   "id": "fda:K261028",
-   "company": "Yadu Medical (Henan) Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261028: Surgical Gown Level2 (S, M, L, XL, XXL, XXXL)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261028",
-   "people": [
-    {
-     "name": "Peilong Shi",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261028%22"
-  },
-  {
-   "id": "fda:K253561",
-   "company": "Leica Biosystems Imaging, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253561: Aperio iQC DX Software",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253561",
-   "people": [
-    {
-     "name": "Tamatha Melton",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253561%22"
-  },
-  {
-   "id": "fda:K260933",
-   "company": "Hangzhou Qiantang Longyue Biotechnology Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260933: Safety Sterile Hypodermic Needles (NR-S1816R, NR-S1916R, NR-S1925R, NR-S1938R, NR-S2016R, NR-S2025R, NR-S2038R, NR-S2051R, NR-S2116R, NR-S2125R, NR-S2138R, NR-S2151R, NR-S2216R, NR-S2225R, NR-S2238R, NR-S2251R, NR-S2316R, NR-S2325R, NR-S2338R, NR-S2351R, NR-S2516R, NR-S2525R, NR-S2538R, NR-S2551R, NR-S2516T, NR-S2525T, NR-S2538T, NR-S2551T)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260933",
-   "people": [
-    {
-     "name": "Chen Meijun",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260933%22"
-  },
-  {
-   "id": "fda:K261601",
-   "company": "Shenzhen Chuangtong Yigou Technology Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261601: LED Light Therapy Mask (M01, M02, M03, M05, M06, M07, M08)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261601",
-   "people": [
-    {
-     "name": "Kingway Hong",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261601%22"
-  },
-  {
-   "id": "fda:K261937",
-   "company": "The Belport Company Inc., DBA Gingi-Pak",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261937: PacTemp Automix NE",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261937",
-   "people": [
-    {
-     "name": "Nikki Huynh",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261937%22"
-  },
-  {
-   "id": "fda:K262357",
-   "company": "Arthrex, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K262357: Arthrex Bioabsorbable PushLock Suture Anchors",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262357",
-   "people": [
-    {
-     "name": "Alex Underberg",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262357%22"
-  },
-  {
-   "id": "fda:K261668",
-   "company": "GE Medical Systems Ultrasound and Primary care Diagnostics, LLC",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261668: Venue Go",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261668",
-   "people": [
-    {
-     "name": "Karin Shimoni",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261668%22"
-  },
-  {
-   "id": "fda:K261563",
-   "company": "Maxx Orthopedics, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261563: Freedom Total Knee System (E-Poly Tibial Liners)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261563",
-   "people": [
-    {
-     "name": "Asawari Hare",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261563%22"
-  },
-  {
-   "id": "fda:K260567",
-   "company": "Fujifilm Corporation",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-07",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260567: EW10-EC02 Endoscopy Support Program",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260567",
-   "people": [
-    {
-     "name": "Chaitrali Kulkarni",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260567%22"
-  },
-  {
-   "id": "nih:5R44CA275673-04",
-   "company": "Pro-change Behavior Systems, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": 676175,
-   "summary": "NIH award 5R44CA275673-04: PreCharge: An Innovative Digital Program to Increase Coping, Resilience, and Health Care Engagement Among Cancer Previvors ($676,175)",
-   "source_url": "https://reporter.nih.gov/project-details/11380960",
-   "people": [
-    {
-     "name": "Kerry Evers",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 4,
-   "new_award": false
-  },
-  {
-   "id": "nih:2R44NS135867-02",
-   "company": "Artificial Axon Labs Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": 1478216,
-   "summary": "NIH award 2R44NS135867-02: In vitro myelination assay modeling the environment of MS lesions for predictive discovery of remyelinating therapies ($1,478,216)",
-   "source_url": "https://reporter.nih.gov/project-details/11409835",
-   "people": [
-    {
-     "name": "Anna Jagielska",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL186093-01",
-   "company": "Coridea, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": 293759,
-   "summary": "NIH award 1R43HL186093-01: Percutaneous Stellate Ganglion Stimulation in Septic Shock to Improve Hemodynamics and Vasopressor Requirements During Transport ($293,759)",
-   "source_url": "https://reporter.nih.gov/project-details/11349290",
-   "people": [
-    {
-     "name": "Howard Levin",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:1R43DK146600-01A1",
-   "company": "Daecos LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": 304910,
-   "summary": "NIH award 1R43DK146600-01A1: Personalized Assessment and Care of Kidney Support in Critically Ill Patients(PACKS-ICU) ($304,910)",
-   "source_url": "https://reporter.nih.gov/project-details/11409014",
-   "people": [
-    {
-     "name": "Ravindra L. Mehta",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:2R44AI157322-04A1",
-   "company": "Helixbind, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": 1000000,
-   "summary": "NIH award 2R44AI157322-04A1: Direct-from-specimen characterization of bloodstream infections ($1,000,000)",
-   "source_url": "https://reporter.nih.gov/project-details/11251853",
-   "people": [
-    {
-     "name": "Alon Singer",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 4,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL184399-01A1",
-   "company": "Talk Story Health LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": 550000,
-   "summary": "NIH award 1R43HL184399-01A1: Beat-to-Beat: AI-Powered, Locally Relevant Engagement to Promote Rural Cardiovascular Health ($550,000)",
-   "source_url": "https://reporter.nih.gov/project-details/11405675",
-   "people": [
-    {
-     "name": "Tetine L. Sentell",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Wesley Sumida",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Deborah Ann Taira",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "fda:K253999",
-   "company": "Nobel Biocare AB",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253999: Universal Base ASC Engaging; Universal Base ASC Non-Engaging; Universal Base MUA ASC; Temporary Abutment Engaging and Non-Engaging; Healing Abutment Conical Connection; Omnigrip Clinical Screw Titanium; Omnigrip Prosthetic Screw",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253999",
-   "people": [
-    {
-     "name": "Bernice Jim",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253999%22"
-  },
-  {
-   "id": "fda:K261059",
-   "company": "Overjet, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261059: Overjet Multi-Image Caries and Charting Assist",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261059",
-   "people": [
-    {
-     "name": "Gayatri Sekaran",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261059%22"
-  },
-  {
-   "id": "fda:K261121",
-   "company": "Paragon 28, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261121: Megalodon Dynamic Compression System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261121",
-   "people": [
-    {
-     "name": "Brittanie Dogue",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261121%22"
-  },
-  {
-   "id": "fda:K260223",
-   "company": "Scientia Vascular, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260223: Aristotle Mini Guidewire",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260223",
-   "people": [
-    {
-     "name": "Jamila Abou-Bakr",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260223%22"
-  },
-  {
-   "id": "fda:K251508",
-   "company": "Edan Instruments, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K251508: Telemetry Monitor (iT30, iT50)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251508",
-   "people": [
-    {
-     "name": "Tracy Yue",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K251508%22"
-  },
-  {
-   "id": "fda:K261571",
-   "company": "Jiangsu Yuyue Medical Equipment & Supply Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261571: Manual Wheelchair (H008, PCK7)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261571",
-   "people": [
-    {
-     "name": "Fang (Fawn) Zhang",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261571%22"
-  },
-  {
-   "id": "fda:K253469",
-   "company": "Mozarc Medical Us, LLC",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253469: Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 15G x 30mm (1530VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 15G x 38mm (1538VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 16G x 30mm (1630VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 16G x 38mm (1638VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 17G x 30mm (1730VSMM); Ritus\u0099 Safety Fistula Cannula with Anti-Reflux Valve 17G x 38mm (1738VSMM)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253469",
-   "people": [
-    {
-     "name": "Sara Miller",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253469%22"
-  },
-  {
-   "id": "fda:K261898",
-   "company": "Howmedica Osteonics Corp. dba Stryker Orthopaedics",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261898: Triathlon\u00ae Knee System; Triathlon\u00ae Hinge Knee System; Scorpio\u00ae Total Knee System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261898",
-   "people": [
-    {
-     "name": "Elizabeth Jodon",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261898%22"
-  },
-  {
-   "id": "fda:K254194",
-   "company": "QIAGEN GmbH",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-06",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K254194: QIAstat-Dx BCID GPF Plus AMR Panel",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254194",
-   "people": [
-    {
-     "name": "Kristen Kanack",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254194%22"
-  },
-  {
-   "id": "nih:5R44HL174221-03",
-   "company": "Pgxl Technologies, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": 957571,
-   "summary": "NIH award 5R44HL174221-03: UroMarker Test Panel for Obstructive Sleep Apnea ($957,571)",
-   "source_url": "https://reporter.nih.gov/project-details/11393085",
-   "people": [
-    {
-     "name": "Christopher Thomas Burns",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Roland Valdes",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
    "id": "nih:2R44DA061387-02",
    "company": "Sano Healthcare Consultants, LLC",
    "kind": "nih_award",
@@ -3384,388 +2112,6 @@
    "new_award": false
   },
   {
-   "id": "pma:P220015",
-   "company": "Tianjin MasterVision Technology Co., Ltd.",
-   "kind": "fda_pma",
-   "kind_label": "FDA PMA approval",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA PMA approval P220015: DilightTM (roflufocon E) Overnight Orthokeratology Contact Lens",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220015",
-   "source_url_api": "https://api.fda.gov/device/pma.json?search=pma_number:%22P220015%22"
-  },
-  {
-   "id": "fda:K252853",
-   "company": "Xiamen Inno Medical Technology Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K252853: CAD - Lower GI (EC07-01)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252853",
-   "people": [
-    {
-     "name": "Jianqing Zhao",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K252853%22"
-  },
-  {
-   "id": "fda:K260845",
-   "company": "Tianjin Huahong Technology Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260845: Huahong Sharps Container (HHR-I, HHR-II)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260845",
-   "people": [
-    {
-     "name": "Ningning Wang",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260845%22"
-  },
-  {
-   "id": "fda:K260919",
-   "company": "Class Medical , Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260919: Transurethral Catheter Safety Valve (TUCSV) (80050)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260919",
-   "people": [
-    {
-     "name": "Danny Forde",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260919%22"
-  },
-  {
-   "id": "fda:K261456",
-   "company": "Dental Manufacturing S.p.A.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261456: Ruthinium Disc",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261456",
-   "people": [
-    {
-     "name": "Barbara Piazza",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261456%22"
-  },
-  {
-   "id": "fda:K254211",
-   "company": "Vesalio, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K254211: pVasc Net Mechanical Thrombectomy Device",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254211",
-   "people": [
-    {
-     "name": "Sharon Shachar",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K254211%22"
-  },
-  {
-   "id": "fda:K261932",
-   "company": "Elekta Solutions AB",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261932: Leksell\u00ae Vantage Stereotactic System",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261932",
-   "people": [
-    {
-     "name": "Jesper Bruske",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261932%22"
-  },
-  {
-   "id": "fda:K260120",
-   "company": "HCS Innovation, LLC",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260120: NaturaJel\u0099 Oral Wound Care Kit",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260120",
-   "people": [
-    {
-     "name": "Ronnie Hanes",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260120%22"
-  },
-  {
-   "id": "fda:K260737",
-   "company": "Convatec",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260737: Cure Aqua\u0099 Ready to Use Hydrophilic Intermittent Catheter Female (CH06 - CH16); Cure Aqua\u0099 Ready to Use Hydrophilic Intermittent Catheter Male Straight (CH06 - CH18); Cure Aqua\u0099 Ready to Use Hydrophilic Intermittent Catheter Male Coude (CH10 - CH18).",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260737",
-   "people": [
-    {
-     "name": "Kim Jones",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260737%22"
-  },
-  {
-   "id": "fda:K262056",
-   "company": "Teleflex Medical Sdn. Bhd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K262056: Rusch Latex Gold Foley Catheter",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262056",
-   "people": [
-    {
-     "name": "Yuvaanesswary Nallappan",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262056%22"
-  },
-  {
-   "id": "fda:K253858",
-   "company": "T.A.G. Medical Products Corporation, Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253858: GFS - Sterile Screws and Top Hat",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253858",
-   "people": [
-    {
-     "name": "Shlomi Dines",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253858%22"
-  },
-  {
-   "id": "fda:K261380",
-   "company": "Proscia, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-05",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261380: Concentriq AP-Dx",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261380",
-   "people": [
-    {
-     "name": "Ian Cadieux",
-     "role": "510(k) submission contact"
-    }
-   ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261380%22"
-  },
-  {
-   "id": "nih:5R44AI181154-03",
-   "company": "Nanopathdx, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 919857,
-   "summary": "NIH award 5R44AI181154-03: Multiplexed Assay for Point-of-Care UTI Diagnosis (ID/AMR) ($919,857)",
-   "source_url": "https://reporter.nih.gov/project-details/11290730",
-   "people": [
-    {
-     "name": "Alison Burklund",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Amogha Tadimety",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL184377-01",
-   "company": "Barron Associates, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 351388,
-   "summary": "NIH award 1R43HL184377-01: Acute Decompensation Avoidance in Heart Failure Patients ($351,388)",
-   "source_url": "https://reporter.nih.gov/project-details/11309272",
-   "people": [
-    {
-     "name": "Brian R Clark",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "B EUGENE PARKER",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:4R44MH138162-02",
-   "company": "Adaptive Testing Technologies",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 1018713,
-   "summary": "NIH award 4R44MH138162-02: Modifying and validating the K-CAT mental health scales for children and adolescents on the autism spectrum ($1,018,713)",
-   "source_url": "https://reporter.nih.gov/project-details/11194639",
-   "people": [
-    {
-     "name": "Paige Elizabeth Cervantes",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Yehuda Cohen",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:2R44GM150354-02A1",
-   "company": "Physical Sciences, Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 1049845,
-   "summary": "NIH award 2R44GM150354-02A1: Metabolic Cytometry for In-line Process Analysis ($1,049,845)",
-   "source_url": "https://reporter.nih.gov/project-details/11313907",
-   "people": [
-    {
-     "name": "NICUSOR IFTIMIA",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:5R44CA285081-03",
-   "company": "Am Operating LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 1096097,
-   "summary": "NIH award 5R44CA285081-03: Development of a novel visualization, labeling, and tracking engine for human anatomy. ($1,096,097)",
-   "source_url": "https://reporter.nih.gov/project-details/11380977",
-   "people": [
-    {
-     "name": "Matthew Alexander Molenda",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL187101-01",
-   "company": "Minnesota Healthsolutions Corporation",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 329537,
-   "summary": "NIH award 1R43HL187101-01: Novel Balloon Angioplasty Inflation Device ($329,537)",
-   "source_url": "https://reporter.nih.gov/project-details/11408243",
-   "people": [
-    {
-     "name": "Nick Rydberg",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:5R44NR019556-03",
-   "company": "Ocuvera LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 808534,
-   "summary": "NIH award 5R44NR019556-03: Refinement of a Digital Monitoring System to Reduce Risk of Hospital Acquired Pressure Injuries ($808,534)",
-   "source_url": "https://reporter.nih.gov/project-details/11416650",
-   "people": [
-    {
-     "name": "Lucas Sabalka",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 3,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43HL186097-01",
-   "company": "Environment And Health Group, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": 314321,
-   "summary": "NIH award 1R43HL186097-01: HeartSense.AI: A Generative AI-Driven Mobile Health Solution to Improve Hypertension Control Among Lower Income Adults ($314,321)",
-   "source_url": "https://reporter.nih.gov/project-details/11350027",
-   "people": [
-    {
-     "name": "Ellen Seely",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
    "id": "nih:5R44AI155075-05",
    "company": "Jan Biotech, Inc.",
    "kind": "nih_award",
@@ -3806,76 +2152,1324 @@
    "new_award": true
   },
   {
-   "id": "fda:K253760",
-   "company": "Sight Sciences, Inc.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K253760: OMNI Ultra Surgical System (1-110)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253760",
+   "id": "nih:1R43ES037583-01A1",
+   "company": "Gsi Environmental Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-30",
+   "observed": "2026-08-29",
+   "amount_usd": 180843,
+   "summary": "NIH award 1R43ES037583-01A1: Advanced PFAS Removal From Impacted Water Streams Using Colloidal Gas Aphrons ($180,843)",
+   "source_url": "https://reporter.nih.gov/project-details/11313144",
    "people": [
     {
-     "name": "Rachel Franco",
-     "role": "510(k) submission contact"
+     "name": "Charles Newell",
+     "role": "Principal Investigator"
     }
    ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K253760%22"
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
   },
   {
-   "id": "fda:K261496",
-   "company": "Duplex International Trading Limited",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261496: LED Light Therapy Masks (PE748, PE749, PE756)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261496",
+   "id": "nih:5R44AI179391-03",
+   "company": "Oak Therapeutics, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-28",
+   "observed": "2026-08-21",
+   "amount_usd": 814340,
+   "summary": "NIH award 5R44AI179391-03: Oral Dissolvable Strips (ODS) as new pediatric and adult delivery mode of therapy for latent tuberculosis ($814,340)",
+   "source_url": "https://reporter.nih.gov/project-details/11393763",
    "people": [
     {
-     "name": "JunYi Xing",
-     "role": "510(k) submission contact"
+     "name": "EDWARD G MALISKI",
+     "role": "Principal Investigator"
     }
    ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261496%22"
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
   },
   {
-   "id": "fda:K261851",
-   "company": "Shenzhen Qianyu Technology Co., Ltd.",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K261851: LED Light Therapy Mask (JML1, JML1+JML2); LED Light Therapy Mask (JML3, JML3+JML4); LED Light Therapy Mask (JML5, JML5+JML7); LED Light Therapy Mask (JML6, JML6+JML8); LED Light Therapy Mask ( JML9, JML9+JML10)",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261851",
+   "id": "nih:5R44AG097298-02",
+   "company": "Homecare Hub US Inc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-28",
+   "observed": "2026-08-21",
+   "amount_usd": 1169847,
+   "summary": "NIH award 5R44AG097298-02: Scaling a network of small community-based care homes as a high-value alternative to institutional care ($1,169,847)",
+   "source_url": "https://reporter.nih.gov/project-details/11417296",
    "people": [
     {
-     "name": "Li Guoyang",
-     "role": "510(k) submission contact"
+     "name": "Vipan Nikore",
+     "role": "Principal Investigator"
     }
    ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K261851%22"
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
   },
   {
-   "id": "fda:K260572",
-   "company": "Medimetrix, LLC",
-   "kind": "fda_clearance",
-   "kind_label": "FDA 510(k) clearance",
-   "date": "2026-08-04",
-   "observed": "2026-08-18",
-   "amount_usd": null,
-   "summary": "FDA 510(k) K260572: Marrow Marxman",
-   "source_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260572",
+   "id": "nih:5R44DE030019-04",
+   "company": "Oregon Res Behavioral Intervention Strat",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-27",
+   "observed": "2026-08-20",
+   "amount_usd": 352691,
+   "summary": "NIH award 5R44DE030019-04: Multi-Media Professional Development for Parenting Educators to Deliver Oral Hygiene Education for Parents of Young Children ($352,691)",
+   "source_url": "https://reporter.nih.gov/project-details/11386440",
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44GM151897-02A1",
+   "company": "Glyphic Biotechnologies, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-24",
+   "observed": "2026-08-21",
+   "amount_usd": 1599463,
+   "summary": "NIH award 2R44GM151897-02A1: Single-molecule protein sequencing: resolving individual amino acids via commercially accessible nanopores ($1,599,463)",
+   "source_url": "https://reporter.nih.gov/project-details/11406864",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43GM163512-01",
+   "company": "Monod Bio, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-23",
+   "observed": "2026-08-19",
+   "amount_usd": 330955,
+   "summary": "NIH award 1R43GM163512-01: Computational Protein Design of Robust and Scalable Recombinant HRP and Poly-HRP Reagents ($330,955)",
+   "source_url": "https://reporter.nih.gov/project-details/11316873",
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44GM157779-02",
+   "company": "Brightspec, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-22",
+   "observed": "2026-08-19",
+   "amount_usd": 819002,
+   "summary": "NIH award 5R44GM157779-02: MR^3: Development of a Molecular Rotational Resonance Ratiometer ($819,002)",
+   "source_url": "https://reporter.nih.gov/project-details/11378480",
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R42GM148086-04",
+   "company": "Continuum Educational Technologies, Pbc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-20",
+   "observed": "2026-08-21",
+   "amount_usd": 887778,
+   "summary": "NIH award 2R42GM148086-04: Scaling the Continuum Platform to Support Commercialization and Federal Grant Training Across Central IDeA State Region Institutions ($887,778)",
+   "source_url": "https://reporter.nih.gov/project-details/11410228",
    "people": [
     {
-     "name": "Brian Austin",
-     "role": "510(k) submission contact"
+     "name": "Adam Courtney",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "ELIZABETH A FRIIS",
+     "role": "Principal Investigator"
     }
    ],
-   "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260572%22"
+   "award_phase": "STTR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44MH142264-02",
+   "company": "Spikegadgets, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-17",
+   "observed": "2026-08-21",
+   "amount_usd": 860666,
+   "summary": "NIH award 5R44MH142264-02: A Commercial Platform for High-Volume Behavior and Electrophysiology Research ($860,666)",
+   "source_url": "https://reporter.nih.gov/project-details/11384909",
+   "people": [
+    {
+     "name": "Loren M Frank",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Mattias Peter Karlsson",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44GM159469-02",
+   "company": "Alida Biosciences, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-17",
+   "observed": "2026-08-21",
+   "amount_usd": 1146785,
+   "summary": "NIH award 5R44GM159469-02: Pseudouridine detection with single-base resolution in a multiplexed epitranscriptomics assay ($1,146,785)",
+   "source_url": "https://reporter.nih.gov/project-details/11392969",
+   "people": [
+    {
+     "name": "Zachary Miles",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Gudrun Stengel",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R44LM015020-01",
+   "company": "Mountain Biometrics, Inc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-16",
+   "observed": "2026-08-21",
+   "amount_usd": 306721,
+   "summary": "NIH award 1R44LM015020-01: Unlocking Medical AI: A Scalable, Privacy-Preserving Annotation Platform for Clinical and Physiological Data ($306,721)",
+   "source_url": "https://reporter.nih.gov/project-details/11255371",
+   "people": [
+    {
+     "name": "Matthias Christenson",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R43AI186929-01A1",
+   "company": "Partillion Bioscience Corporation",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-16",
+   "observed": "2026-08-21",
+   "amount_usd": 306865,
+   "summary": "NIH award 1R43AI186929-01A1: Multiplexed analysis of antibody secreting cells for enhanced function first antibody discovery ($306,865)",
+   "source_url": "https://reporter.nih.gov/project-details/11185485",
+   "people": [
+    {
+     "name": "Joseph de Rutte",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44AG065130-04",
+   "company": "Applied Universal Dynamics Corporation",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-16",
+   "observed": "2026-08-21",
+   "amount_usd": 968011,
+   "summary": "NIH award 5R44AG065130-04: An Automated System for Caregivers and Staff to Locate Items Misplaced by Personswith Dementia in a Care Facility ($968,011)",
+   "source_url": "https://reporter.nih.gov/project-details/11419660",
+   "people": [
+    {
+     "name": "Paul Gibson",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44GM145205-03",
+   "company": "Bioinvision, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-15",
+   "observed": "2026-08-21",
+   "amount_usd": 1257239,
+   "summary": "NIH award 5R44GM145205-03: TissueReM: Whole-Organism, Real-time Decision-enabled 3D Tissue Imaging and Recovery for Molecular Analysis ($1,257,239)",
+   "source_url": "https://reporter.nih.gov/project-details/11381828",
+   "people": [
+    {
+     "name": "SUSANN M BRADY-KALNAY",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Madhusudhana Gargesha",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44CA285197-03",
+   "company": "Ramona Optics, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-14",
+   "observed": "2026-08-21",
+   "amount_usd": 1000000,
+   "summary": "NIH award 5R44CA285197-03: A parallelized computational microscope platform for high-throughput live imaging of patient-derived organoids ($1,000,000)",
+   "source_url": "https://reporter.nih.gov/project-details/11350904",
+   "people": [
+    {
+     "name": "Mark Harfouche",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R41NR022239-02",
+   "company": "The Glimpse Group, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-14",
+   "observed": "2026-08-21",
+   "amount_usd": 167944,
+   "summary": "NIH award 5R41NR022239-02: Life at 100.4: An Immersive Social Virtual Reality Education Tool for Adolescent and Young Adult Cancer Patients and Caregivers ($167,944)",
+   "source_url": "https://reporter.nih.gov/project-details/11461692",
+   "people": [
+    {
+     "name": "Asher Marks",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase I",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44MH136563-03",
+   "company": "Pacific Optica, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-14",
+   "observed": "2026-08-21",
+   "amount_usd": 723250,
+   "summary": "NIH award 2R44MH136563-03: Advanced optics to unlock large field-of-view multiphoton imaging for neuroscienceand beyond ($723,250)",
+   "source_url": "https://reporter.nih.gov/project-details/11314181",
+   "people": [
+    {
+     "name": "Ryan Patrick McGreal",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AG084351-03",
+   "company": "Revel Pharmaceuticals Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-10",
+   "observed": "2026-08-21",
+   "amount_usd": 923550,
+   "summary": "NIH award 5R44AG084351-03: Development of enzymatic tools for rapid measurement of Advanced Glycation and Lipoxidation End Product-protein adducts ($923,550)",
+   "source_url": "https://reporter.nih.gov/project-details/11393659",
+   "people": [
+    {
+     "name": "Aaron Cravens",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AG063589-04",
+   "company": "Tymora Analytical Operations, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-10",
+   "observed": "2026-08-21",
+   "amount_usd": 747422,
+   "summary": "NIH award 5R44AG063589-04: Validation and clinicaldevelopment of plasma EV protein biomarkers for minimally-invasive detection of Alzheimersdisease ($747,422)",
+   "source_url": "https://reporter.nih.gov/project-details/11385378",
+   "people": [
+    {
+     "name": "Anton Iliuk",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AG074812-03",
+   "company": "Toi Labs, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-10",
+   "observed": "2026-08-21",
+   "amount_usd": 1089746,
+   "summary": "NIH award 5R44AG074812-03: Use of a Novel Toilet Seat to Passively Collect Digital Biomarkers in Assisted Living Settings ($1,089,746)",
+   "source_url": "https://reporter.nih.gov/project-details/11393803",
+   "people": [
+    {
+     "name": "Vikram Kashyap",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43ES038814-01",
+   "company": "Uv01 Technologies, Inc",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-10",
+   "observed": "2026-08-21",
+   "amount_usd": 306487,
+   "summary": "NIH award 1R43ES038814-01: Interactive and Personalized Exposure Simulation: Empowering Households to Reduce Indoor Air Quality Health Risks ($306,487)",
+   "source_url": "https://reporter.nih.gov/project-details/11410377",
+   "people": [
+    {
+     "name": "Neil Edward Klepeis",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44AG084365-04",
+   "company": "Plans4care Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-10",
+   "observed": "2026-08-21",
+   "amount_usd": 634627,
+   "summary": "NIH award 5R44AG084365-04: Plans4Care: Personalized Dementia Care On-Demand ($634,627)",
+   "source_url": "https://reporter.nih.gov/project-details/11390447",
+   "people": [
+    {
+     "name": "Eric Jutkowitz",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Sokha Koeuth",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AG090247-03",
+   "company": "Pascall Systems, Incorporated",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-10",
+   "observed": "2026-08-21",
+   "amount_usd": 1069722,
+   "summary": "NIH award 5R44AG090247-03: Developing an Elderly Patient-Specific, Accurate, Intuitive and Highly Interpretable System for Unconsciousness Management in General Anesthesia Using PASCALL FDA-Cleared Intraoperative EEG Monitor ($1,069,722)",
+   "source_url": "https://reporter.nih.gov/project-details/11419855",
+   "people": [
+    {
+     "name": "EMERY N BROWN",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Tuan Le Mau",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44HG013294-03",
+   "company": "Survey Genomics, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-09",
+   "observed": "2026-08-21",
+   "amount_usd": 876466,
+   "summary": "NIH award 5R44HG013294-03: Pioneering assays for spatially-resolved single-cell multiomics ($876,466)",
+   "source_url": "https://reporter.nih.gov/project-details/11303371",
+   "people": [
+    {
+     "name": "George Christopher Hartoularos",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R44DK148334-01",
+   "company": "Sojourn Medtech LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-08",
+   "observed": "2026-08-21",
+   "amount_usd": 905234,
+   "summary": "NIH award 1R44DK148334-01: Development and Validation of a Simulator-based Fundamental Skills Curriculum for Hemodialysis Cannulation Skills Training ($905,234)",
+   "source_url": "https://reporter.nih.gov/project-details/11409703",
+   "people": [
+    {
+     "name": "Lydia Petersen",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "PRABIR ROY-CHAUDHURY",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Ravikiran Singapogu",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:2R44DK136396-03",
+   "company": "X-therma Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-07",
+   "observed": "2026-08-21",
+   "amount_usd": 1100001,
+   "summary": "NIH award 2R44DK136396-03: Phase IIB - Greatly Extended Subzero Ischemic Storage of Renal Allografts Using Novel Bio-inspired Next Generation Cryoprotectants ($1,100,001)",
+   "source_url": "https://reporter.nih.gov/project-details/11405551",
+   "people": [
+    {
+     "name": "Mark A Kline",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Byoung Chol Oh",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44HG013591-03",
+   "company": "Lase Innovation Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-07",
+   "observed": "2026-08-21",
+   "amount_usd": 900298,
+   "summary": "NIH award 5R44HG013591-03: DNA-optical barcoding technology for spatiotemporal single-cell analysis ($900,298)",
+   "source_url": "https://reporter.nih.gov/project-details/11293464",
+   "people": [
+    {
+     "name": "Sheldon J.J. Kwok",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44NS139748-02",
+   "company": "Savanna Biotherapeutics, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-06",
+   "observed": "2026-08-21",
+   "amount_usd": 1489811,
+   "summary": "NIH award 5R44NS139748-02: Engineered microglia for the treatment of Adult-onset Leukoencephalopathy with Axonal Spheroids and Pigmented Glia (ALSP) ($1,489,811)",
+   "source_url": "https://reporter.nih.gov/project-details/11384453",
+   "people": [
+    {
+     "name": "Sunil Gandhi",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R41DC023812-01",
+   "company": "Young Tech Solutions LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-06",
+   "observed": "2026-08-21",
+   "amount_usd": 313354,
+   "summary": "NIH award 1R41DC023812-01: Developing a Learning Platform to Support Minimally Verbal Individuals with Autism ($313,354)",
+   "source_url": "https://reporter.nih.gov/project-details/11407400",
+   "people": [
+    {
+     "name": "Sheikh Iqbal Ahamed",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "HYUNKYOUNG OH",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R43AA032752-01",
+   "company": "Bd Holding, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-03",
+   "observed": "2026-08-21",
+   "amount_usd": 310235,
+   "summary": "NIH award 1R43AA032752-01: Does the Alcohol T Score (ATS) Predict Mortality in the PLCO Population? ($310,235)",
+   "source_url": "https://reporter.nih.gov/project-details/11251163",
+   "people": [
+    {
+     "name": "Robert A Philibert",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R43AI191918-01A1",
+   "company": "Alpacure LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-01",
+   "observed": "2026-08-21",
+   "amount_usd": 300000,
+   "summary": "NIH award 1R43AI191918-01A1: A single-domain antibody-based lateral flow assay for Tuberculosis ($300,000)",
+   "source_url": "https://reporter.nih.gov/project-details/11314220",
+   "people": [
+    {
+     "name": "Timothy Andrew Bates",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:4R44MD021154-02",
+   "company": "Malama Health, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-01",
+   "observed": "2026-08-21",
+   "amount_usd": 1136976,
+   "summary": "NIH award 4R44MD021154-02: A Specialized Risk-Stratification Platform and Tailored Diabetes Prevention Program for Post-Partum to Reduce Progression to Type 2 Diabetes ($1,136,976)",
+   "source_url": "https://reporter.nih.gov/project-details/11424350",
+   "people": [
+    {
+     "name": "Mika Eddy",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R42GM145129-03",
+   "company": "Odmr Technologies, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-01",
+   "observed": "2026-08-21",
+   "amount_usd": 984215,
+   "summary": "NIH award 5R42GM145129-03: Diamond NMR spectrometer for microfluidic metabolite profiling ($984,215)",
+   "source_url": "https://reporter.nih.gov/project-details/11367530",
+   "people": [
+    {
+     "name": "Victor Marcel Acosta",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Andrejs Jarmola",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R43MH139287-02",
+   "company": "3 I",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-01",
+   "observed": "2026-08-21",
+   "amount_usd": 385727,
+   "summary": "NIH award 5R43MH139287-02: High bandwidth all-optical electrophysiology ($385,727)",
+   "source_url": "https://reporter.nih.gov/project-details/11252005",
+   "people": [
+    {
+     "name": "Karl Kilborn",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R42AA033287-01",
+   "company": "Behavior Change Hub Limited Liability Company",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-07-01",
+   "observed": "2026-08-21",
+   "amount_usd": 303008,
+   "summary": "NIH award 1R42AA033287-01: Scaling up AUD Information Resources for Provider Education: The Behavioral Health Counseling Competencies AUD Training Suite ($303,008)",
+   "source_url": "https://reporter.nih.gov/project-details/11404111",
+   "people": [
+    {
+     "name": "Molly Magill",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Nadine Rachel Mastroleo",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44AI124871-07",
+   "company": "Scanogen, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-30",
+   "observed": "2026-08-21",
+   "amount_usd": 1000000,
+   "summary": "NIH award 5R44AI124871-07: Bloodstream infection detection directly on whole blood ($1,000,000)",
+   "source_url": "https://reporter.nih.gov/project-details/11352556",
+   "people": [
+    {
+     "name": "Alfredo Andres Celedon",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 7,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43DE035410-01",
+   "company": "Petcoil, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-30",
+   "observed": "2026-08-21",
+   "amount_usd": 409779,
+   "summary": "NIH award 1R43DE035410-01: Real-Time Motion Correction Method for a Portable, High-Resolution TOF PET Scanner for Imaging the Brain, Head, and Neck ($409,779)",
+   "source_url": "https://reporter.nih.gov/project-details/11253404",
+   "people": [
+    {
+     "name": "Chenming Chang",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R43DC023170-01A1",
+   "company": "Auspex Medix, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-26",
+   "observed": "2026-08-21",
+   "amount_usd": 305923,
+   "summary": "NIH award 1R43DC023170-01A1: Developing an AI-Powered Speech Annotation and Transcription Enhancer Tool ($305,923)",
+   "source_url": "https://reporter.nih.gov/project-details/11407819",
+   "people": [
+    {
+     "name": "Wei Bo",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44MH136864-02",
+   "company": "Groupware Technologies, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-26",
+   "observed": "2026-08-21",
+   "amount_usd": 750996,
+   "summary": "NIH award 5R44MH136864-02: A unified eligibility application and determination system to increase Ryan White linkage to care and retention in care by reducing structural barriers and facilitating client engagement ($750,996)",
+   "source_url": "https://reporter.nih.gov/project-details/11321251",
+   "people": [
+    {
+     "name": "Bob Harrison Hedgcock",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R42AG084399-03",
+   "company": "Pascall Systems, Incorporated",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-25",
+   "observed": "2026-08-21",
+   "amount_usd": 999317,
+   "summary": "NIH award 5R42AG084399-03: Developing a novel system combining cognitive assessment with PASCALL FDA-cleared intraoperative anesthesia EEG brain monitor to prevent postoperative neurocognitive disorders in aging patients ($999,317)",
+   "source_url": "https://reporter.nih.gov/project-details/11400076",
+   "people": [
+    {
+     "name": "Tuan Le Mau",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Patrick L. Purdon",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R43AG094486-02",
+   "company": "Advanced Brain Monitoring, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-25",
+   "observed": "2026-08-21",
+   "amount_usd": 365227,
+   "summary": "NIH award 5R43AG094486-02: Characterizing neurocognitive deficits in post-acute sequelae of COVID-19 ($365,227)",
+   "source_url": "https://reporter.nih.gov/project-details/11417238",
+   "people": [
+    {
+     "name": "Jennifer Graves",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Amir Hossein Meghdadi",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43GM159468-01A1",
+   "company": "Potomac Affinity Proteins, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-23",
+   "observed": "2026-08-21",
+   "amount_usd": 377602,
+   "summary": "NIH award 1R43GM159468-01A1: Self-amplifying protease chain reactions for simple, sensitive, and quantitative detection ($377,602)",
+   "source_url": "https://reporter.nih.gov/project-details/11408934",
+   "people": [
+    {
+     "name": "PHILIP N BRYAN",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R44TR005899-01A1",
+   "company": "Cytoterra Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-23",
+   "observed": "2026-08-21",
+   "amount_usd": 957707,
+   "summary": "NIH award 1R44TR005899-01A1: Comprehensive Genomic Integrity Assessment for Allogenic Cell Therapies using Genomic proximity mapping ($957,707)",
+   "source_url": "https://reporter.nih.gov/project-details/11407114",
+   "people": [
+    {
+     "name": "Stephen Matthew Eacker",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:1R43DA065300-01",
+   "company": "Scientific Horizons Consulting LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-23",
+   "observed": "2026-08-21",
+   "amount_usd": 399250,
+   "summary": "NIH award 1R43DA065300-01: Water Inhalable Nicotine (WIN) as An Innovative Orally Inhaled Nicotine Replacement Therapy (NRT) for Smoking Cessation ($399,250)",
+   "source_url": "https://reporter.nih.gov/project-details/11311203",
+   "people": [
+    {
+     "name": "Xiang Gao",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:4R44DA062284-02",
+   "company": "Evidation Health, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-23",
+   "observed": "2026-08-21",
+   "amount_usd": 2023761,
+   "summary": "NIH award 4R44DA062284-02: Research and Engagement on Substance use Harnessing Awareness and Personalized Education (RESHAPE) ($2,023,761)",
+   "source_url": "https://reporter.nih.gov/project-details/11400265",
+   "people": [
+    {
+     "name": "Christian Jules Cerrada",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Monika Jain",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Joyce Nortey",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43DA064773-01",
+   "company": "Nefer Ka LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-23",
+   "observed": "2026-08-21",
+   "amount_usd": 311380,
+   "summary": "NIH award 1R43DA064773-01: Economical, easy-to-use and highly sensitive illicit drugs detection in bodily fluids using surface-enhanced Raman scattering (SERS). ($311,380)",
+   "source_url": "https://reporter.nih.gov/project-details/11290539",
+   "people": [
+    {
+     "name": "Magued Nasr",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44NR021724-02",
+   "company": "Q-rounds Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-23",
+   "observed": "2026-08-21",
+   "amount_usd": 1035750,
+   "summary": "NIH award 5R44NR021724-02: Q-rounds: Making Multi-Disciplinary Family Centered Rounds and Achievable Standard of Care through Novel Virtual Rounding Features ($1,035,750)",
+   "source_url": "https://reporter.nih.gov/project-details/11398043",
+   "people": [
+    {
+     "name": "Michael B Pitt",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R41NS137850-02",
+   "company": "Intrinsic Powers, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-19",
+   "observed": "2026-08-21",
+   "amount_usd": 467771,
+   "summary": "NIH award 5R41NS137850-02: Portable TMS-EEG device for bedside detection of covert consciousness ($467,771)",
+   "source_url": "https://reporter.nih.gov/project-details/11353794",
+   "people": [
+    {
+     "name": "Melanie Boly",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase I",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43DA064718-01",
+   "company": "Skm Instruments, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-19",
+   "observed": "2026-08-21",
+   "amount_usd": 314317,
+   "summary": "NIH award 1R43DA064718-01: Low-Cost, User-Friendly SERS Technology for Rapid Detection of Emerging Drug Threats ($314,317)",
+   "source_url": "https://reporter.nih.gov/project-details/11286694",
+   "people": [
+    {
+     "name": "Keith Carron",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44NS143484-02",
+   "company": "Great Lakes Neurotechnologies",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-19",
+   "observed": "2026-08-21",
+   "amount_usd": 926671,
+   "summary": "NIH award 5R44NS143484-02: DBS-Expert Pro: Automated Deep Brain Stimulation Programming Using Functional Mapping ($926,671)",
+   "source_url": "https://reporter.nih.gov/project-details/11398197",
+   "people": [
+    {
+     "name": "Dustin A. Heldman",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44GM159519-02",
+   "company": "Panluminate Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-19",
+   "observed": "2026-08-21",
+   "amount_usd": 1083410,
+   "summary": "NIH award 5R44GM159519-02: pan-XLSM: an AI-powered microscopy platform for imaging and analysis of highly expanded tissue samples ($1,083,410)",
+   "source_url": "https://reporter.nih.gov/project-details/11386488",
+   "people": [
+    {
+     "name": "Ons M'Saad",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44HG014445-02",
+   "company": "Vellum Biotechnology, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-16",
+   "observed": "2026-08-21",
+   "amount_usd": 1014715,
+   "summary": "NIH award 5R44HG014445-02: Developing a New Nucleic Acid Extraction Technology to Enable High Quality DNA Sequencing for Formalin Fixed Paraffin Embedded Tissue Samples ($1,014,715)",
+   "source_url": "https://reporter.nih.gov/project-details/11337585",
+   "people": [
+    {
+     "name": "Yann Astier",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44DA056161-02A1",
+   "company": "Telesage Research, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-16",
+   "observed": "2026-08-21",
+   "amount_usd": 969713,
+   "summary": "NIH award 2R44DA056161-02A1: Development of a cloud-based, self-report SUD intake system enabling primary care clinicians to routinely complete, implement, document, and bill for biopsychosocial assessments ($969,713)",
+   "source_url": "https://reporter.nih.gov/project-details/11310572",
+   "people": [
+    {
+     "name": "BENJAMIN B BRODEY",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43AI192177-01A1",
+   "company": "Parabon Nanolabs, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-16",
+   "observed": "2026-08-21",
+   "amount_usd": 295294,
+   "summary": "NIH award 1R43AI192177-01A1: MetaDx: Rapid Diagnosis of Fungal, Bacterial, and Viral Infections Using Whole Metagenomic Sequencing ($295,294)",
+   "source_url": "https://reporter.nih.gov/project-details/11313726",
+   "people": [
+    {
+     "name": "Janet Cady",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:2R44TR005112-02",
+   "company": "Cellular Vehicles Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-16",
+   "observed": "2026-08-21",
+   "amount_usd": 1022611,
+   "summary": "NIH award 2R44TR005112-02: Development of a novel tool that standardizes and automates the formulation of cell-laden hydrogels ($1,022,611)",
+   "source_url": "https://reporter.nih.gov/project-details/11407576",
+   "people": [
+    {
+     "name": "Nikhil S. Joshi",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:2R44DC022220-02",
+   "company": "Qualia Oto, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-16",
+   "observed": "2026-08-21",
+   "amount_usd": 980937,
+   "summary": "NIH award 2R44DC022220-02: Shape-Adaptive Cochlear Implant Electrode Arrays ($980,937)",
+   "source_url": "https://reporter.nih.gov/project-details/11316606",
+   "people": [
+    {
+     "name": "Jimin Maeng",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44TR003744-03",
+   "company": "Biomesense, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-16",
+   "observed": "2026-08-21",
+   "amount_usd": 676980,
+   "summary": "NIH award 5R44TR003744-03: Development of a Novel Biosensor to Accelerate Investigations of the Gut Microbiome ($676,980)",
+   "source_url": "https://reporter.nih.gov/project-details/11292430",
+   "people": [
+    {
+     "name": "Dylan Nichols",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44MD020606-02",
+   "company": "Innovative Design Labs, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-12",
+   "observed": "2026-08-21",
+   "amount_usd": 1048499,
+   "summary": "NIH award 5R44MD020606-02: Addressing Challenges in Peripheral Intravenous Catheter Education ($1,048,499)",
+   "source_url": "https://reporter.nih.gov/project-details/11421426",
+   "people": [
+    {
+     "name": "John Paul Condon",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R41DA064482-01",
+   "company": "Biosyft Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-11",
+   "observed": "2026-08-21",
+   "amount_usd": 301390,
+   "summary": "NIH award 1R41DA064482-01: AI-Driven Detection of Addiction-Like Reward Signatures Through Automated Multi-View Behavioral Analysis ($301,390)",
+   "source_url": "https://reporter.nih.gov/project-details/11254271",
+   "people": [
+    {
+     "name": "Anthony Edward English",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "STTR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44NS125892-04",
+   "company": "Axonova Medical, LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-11",
+   "observed": "2026-08-21",
+   "amount_usd": 902542,
+   "summary": "NIH award 5R44NS125892-04: Development of Tissue Engineered Neuromuscular Interfaces from GalSafe Neurons ($902,542)",
+   "source_url": "https://reporter.nih.gov/project-details/11326240",
+   "people": [
+    {
+     "name": "Kritika Katiyar",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 4,
+   "new_award": false
+  },
+  {
+   "id": "nih:4R44DK141289-02",
+   "company": "Sonomotion, Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-11",
+   "observed": "2026-08-21",
+   "amount_usd": 959892,
+   "summary": "NIH award 4R44DK141289-02: Break Wave lithotripsy to fragment large kidney stones ($959,892)",
+   "source_url": "https://reporter.nih.gov/project-details/11342227",
+   "people": [
+    {
+     "name": "Oren Levy",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:5R44AI193415-02",
+   "company": "Partillion Bioscience Corporation",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-09",
+   "observed": "2026-08-21",
+   "amount_usd": 1000000,
+   "summary": "NIH award 5R44AI193415-02: Scaling function-first antibody discovery leveraging memory B cells ($1,000,000)",
+   "source_url": "https://reporter.nih.gov/project-details/11310825",
+   "people": [
+    {
+     "name": "Joseph de Rutte",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 2,
+   "new_award": false
+  },
+  {
+   "id": "nih:1R43DA064245-01",
+   "company": "Doro Mind Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-09",
+   "observed": "2026-08-21",
+   "amount_usd": 398580,
+   "summary": "NIH award 1R43DA064245-01: A digital platform to address adverse effects resulting from non-disordered drug use, focused on mitigating serious mental illness ($398,580)",
+   "source_url": "https://reporter.nih.gov/project-details/11239321",
+   "people": [
+    {
+     "name": "Stephanie Morgan Greer",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase I",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
+   "id": "nih:5R44TR005137-03",
+   "company": "Cellchorus Inc.",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-06-08",
+   "observed": "2026-08-21",
+   "amount_usd": 1034752,
+   "summary": "NIH award 5R44TR005137-03: Integrated assays of single-cell dynamics and molecular phenotype for cell therapy manufacturing ($1,034,752)",
+   "source_url": "https://reporter.nih.gov/project-details/11322109",
+   "people": [
+    {
+     "name": "Rebecca L Berdeaux",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 3,
+   "new_award": false
   }
  ]
 }

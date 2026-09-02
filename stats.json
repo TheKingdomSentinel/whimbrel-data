@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-09-01T15:30:36.625063+00:00",
- "next_update_utc": "2026-09-02T13:00:00+00:00",
+ "generated_at": "2026-09-02T13:05:02.396020+00:00",
+ "next_update_utc": "2026-09-03T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -15,9 +15,9 @@
   "companies_with_public_signals": 5770,
   "public_signals_archived": 12924,
   "signals_by_kind": {
-   "nih_award": 3072,
+   "fda_clearance": 9739,
    "fda_pma": 113,
-   "fda_clearance": 9739
+   "nih_award": 3072
   },
   "earliest_event_date": "2021-08-22"
  },
@@ -101,10 +101,10 @@
   },
   {
    "week_start": "2026-06-08",
-   "fda_clearance": 68,
+   "fda_clearance": 58,
    "fda_pma": 2,
-   "nih_award": 13,
-   "nih_dollars_stated": 10355423
+   "nih_award": 7,
+   "nih_dollars_stated": 6099183
   }
  ],
  "note": "Aggregates only; the archived events themselves are not published. Weekly rows bucket by event date over the last 12 weeks. Public registries publish on a lag, FDA decisions often by several weeks, so the newest weeks undercount FDA kinds and fill in as records publish. Zero clearances in a recent week means not yet published, not none decided."
