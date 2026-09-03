@@ -7,7 +7,7 @@ from; an event that cannot be verified against a public source is not
 published. Events carry the people the registry itself names in the
 record, with no contact details; see /methodology.md.
 
-The archive behind these files tracks 7296 US medtech companies and
+The archive behind these files tracks 7364 US medtech companies and
 runs back years. The files here are a rolling 14-day window.
 The complete archive is available two ways: queryable free, a company
 or a search at a time, over MCP and HTTP below, or as one file at

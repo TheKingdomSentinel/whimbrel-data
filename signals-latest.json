@@ -3,8 +3,8 @@
  "schema_version": 1,
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "canonical_base": "https://data.whimbrelresearch.com",
- "generated_at": "2026-09-02T15:08:30.384012+00:00",
- "next_update_utc": "2026-09-03T13:00:00+00:00",
+ "generated_at": "2026-09-03T13:04:41.542724+00:00",
+ "next_update_utc": "2026-09-04T13:00:00+00:00",
  "update_cadence": "daily",
  "publisher": {
   "name": "Whimbrel Research",
@@ -12,8 +12,8 @@
   "contact": "mailto:nate@whimbrelresearch.com"
  },
  "window_days": 14,
- "events_in_window": 176,
- "events_returned": 176,
+ "events_in_window": 168,
+ "events_returned": 168,
  "truncated": false,
  "window_note": "Windowed on observation date; public registries publish on varying lags. 'date' is the event's own date; 'observed' is when it reached this feed. 'id' is stable across editions.",
  "events": [
@@ -666,6 +666,26 @@
    "new_award": false
   },
   {
+   "id": "nih:1R44AI186802-01A1",
+   "company": "Peak Diagnostic Partners LLC",
+   "kind": "nih_award",
+   "kind_label": "NIH award",
+   "date": "2026-08-18",
+   "observed": "2026-09-03",
+   "amount_usd": 1000000,
+   "summary": "NIH award 1R44AI186802-01A1: Multidimensional analysis of biologic treatment failure in uncontrolled asthma ($1,000,000)",
+   "source_url": "https://reporter.nih.gov/project-details/11185076",
+   "people": [
+    {
+     "name": "Tasha E. Fingerlin",
+     "role": "Principal Investigator"
+    }
+   ],
+   "award_phase": "SBIR Phase II",
+   "award_year": 1,
+   "new_award": true
+  },
+  {
    "id": "nih:5R44AG061985-08",
    "company": "Zetroz Systems, LLC",
    "kind": "nih_award",
@@ -722,26 +742,6 @@
     }
    ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260563%22"
-  },
-  {
-   "id": "nih:5R44AG097243-02",
-   "company": "Revbio, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-14",
-   "observed": "2026-08-19",
-   "amount_usd": 205450,
-   "summary": "NIH award 5R44AG097243-02: Improved Treatment Options for Vertebral Compression Fractures in Elderly Patients Using Minimally Invasive, Image-Guided Delivery of a Regenerative Bone Adhesive ($205,450)",
-   "source_url": "https://reporter.nih.gov/project-details/11420547",
-   "people": [
-    {
-     "name": "Brittany McDonough",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
   },
   {
    "id": "nih:2R44GM156169-02",
@@ -1340,26 +1340,6 @@
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K260277%22"
   },
   {
-   "id": "nih:1R43AI197708-01",
-   "company": "Nephropathology Associates",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-12",
-   "observed": "2026-08-19",
-   "amount_usd": 266613,
-   "summary": "NIH award 1R43AI197708-01: Precision Diagnostics in T-cell Mediated Rejection: Predicting Treatment Resistance at Time of Diagnosis ($266,613)",
-   "source_url": "https://reporter.nih.gov/project-details/11315213",
-   "people": [
-    {
-     "name": "Christopher P Larsen",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
    "id": "fda:K262792",
    "company": "Hologic, Inc.",
    "kind": "fda_clearance",
@@ -1592,46 +1572,6 @@
     }
    ],
    "source_url_api": "https://api.fda.gov/device/510k.json?search=k_number:%22K262399%22"
-  },
-  {
-   "id": "nih:1R43MD021459-01",
-   "company": "Sequestbio, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-19",
-   "amount_usd": 290612,
-   "summary": "NIH award 1R43MD021459-01: \"Quantum-Enhanced Prediction of Metastasis and Residual Disease in Breast-Cancer Patients from Low- Resourced Populations ($290,612)",
-   "source_url": "https://reporter.nih.gov/project-details/11349330",
-   "people": [
-    {
-     "name": "Arvin Honari",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:2R44MD021095-02A1",
-   "company": "Objective Ed, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-11",
-   "observed": "2026-08-19",
-   "amount_usd": 1031318,
-   "summary": "NIH award 2R44MD021095-02A1: PREP - Prepare for college success by improving EF, SA and SI skills for students with a disability. ($1,031,318)",
-   "source_url": "https://reporter.nih.gov/project-details/11379651",
-   "people": [
-    {
-     "name": "marty schultz",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
   },
   {
    "id": "fda:K262472",
@@ -1988,30 +1928,6 @@
    "source_url_api": "https://api.fda.gov/device/pma.json?search=pma_number:%22P250042%22"
   },
   {
-   "id": "nih:1R43MH143510-01",
-   "company": "Ividence Inc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-07",
-   "observed": "2026-08-19",
-   "amount_usd": 315276,
-   "summary": "NIH award 1R43MH143510-01: Repurposing Glucagon-Like Peptide-1 Receptor Agonists for Mental Health Outcomes via Federated Causal Inference ($315,276)",
-   "source_url": "https://reporter.nih.gov/project-details/11315139",
-   "people": [
-    {
-     "name": "Hao Ding",
-     "role": "Principal Investigator"
-    },
-    {
-     "name": "Yu-Lun Liu",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
    "id": "nih:5R44HG013284-03",
    "company": "Realseq Biosciences, Inc.",
    "kind": "nih_award",
@@ -2052,42 +1968,30 @@
    "new_award": true
   },
   {
-   "id": "nih:2R44DA061387-02",
-   "company": "Sano Healthcare Consultants, LLC",
+   "id": "nih:5R44HL182545-02",
+   "company": "Xylyx Bio, Inc.",
    "kind": "nih_award",
    "kind_label": "NIH award",
-   "date": "2026-08-05",
-   "observed": "2026-08-19",
-   "amount_usd": 1055180,
-   "summary": "NIH award 2R44DA061387-02: Secure Remote Dispensing of Liquid Methadone with Home Monitoring: Environmental Interactive Devices Support Sustainable Economic and Expansive Clinical Treatment of Opioid Use Disorder Treatment ($1,055,180)",
-   "source_url": "https://reporter.nih.gov/project-details/11405774",
+   "date": "2026-08-07",
+   "observed": "2026-09-03",
+   "amount_usd": 1483340,
+   "summary": "NIH award 5R44HL182545-02: Translational development and clinical evaluation of a bioengineered human lung graft for clinical transplantation ($1,483,340)",
+   "source_url": "https://reporter.nih.gov/project-details/11408825",
    "people": [
     {
-     "name": "Edwin Kendrick",
+     "name": "Matthew Dominic Bacchetta",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "John David O'Neill",
+     "role": "Principal Investigator"
+    },
+    {
+     "name": "Ciara M Shaver",
      "role": "Principal Investigator"
     }
    ],
    "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:5R43AI189008-02",
-   "company": "Mucommune, LLC",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-05",
-   "observed": "2026-08-19",
-   "amount_usd": 309210,
-   "summary": "NIH award 5R43AI189008-02: Engineering a physiologically-tuned reservoir intravaginal ring releasing lactic acid for the treatment and prevention of bacterial vaginosis ($309,210)",
-   "source_url": "https://reporter.nih.gov/project-details/11398077",
-   "people": [
-    {
-     "name": "Keiichiro Kushiro",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase I",
    "award_year": 2,
    "new_award": false
   },
@@ -2112,42 +2016,22 @@
    "new_award": false
   },
   {
-   "id": "nih:5R44AI155075-05",
-   "company": "Jan Biotech, Inc.",
+   "id": "nih:1R43DK146426-01",
+   "company": "Analytical Diagnostic Solutions, Inc.",
    "kind": "nih_award",
    "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-19",
-   "amount_usd": 998781,
-   "summary": "NIH award 5R44AI155075-05: Sequence-based RNA Fluorescence Assay to Measure Latent HIV Reservoirs ($998,781)",
-   "source_url": "https://reporter.nih.gov/project-details/11398110",
+   "date": "2026-08-05",
+   "observed": "2026-09-03",
+   "amount_usd": 311172,
+   "summary": "NIH award 1R43DK146426-01: A Point of Care Device for Patients with Oxalurias, the Oxalate Now ($311,172)",
+   "source_url": "https://reporter.nih.gov/project-details/11310574",
    "people": [
     {
-     "name": "Janet L Huie",
+     "name": "Robert Harper",
      "role": "Principal Investigator"
     }
    ],
-   "award_phase": "SBIR Phase II",
-   "award_year": 5,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R44GM163514-01",
-   "company": "Vivid Bioinnovations, Pbc",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-08-04",
-   "observed": "2026-08-19",
-   "amount_usd": 300001,
-   "summary": "NIH award 1R44GM163514-01: Integrated High-Throughput Microfluidic-Mass Spectrometry for Enhanced Biomedical Data Generation and AI Model Training ($300,001)",
-   "source_url": "https://reporter.nih.gov/project-details/11316567",
-   "people": [
-    {
-     "name": "Robin Prince",
-     "role": "Principal Investigator"
-    }
-   ],
-   "award_phase": "SBIR Phase II",
+   "award_phase": "SBIR Phase I",
    "award_year": 1,
    "new_award": true
   },
@@ -2235,34 +2119,6 @@
    "amount_usd": 1599463,
    "summary": "NIH award 2R44GM151897-02A1: Single-molecule protein sequencing: resolving individual amino acids via commercially accessible nanopores ($1,599,463)",
    "source_url": "https://reporter.nih.gov/project-details/11406864",
-   "award_phase": "SBIR Phase II",
-   "award_year": 2,
-   "new_award": false
-  },
-  {
-   "id": "nih:1R43GM163512-01",
-   "company": "Monod Bio, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-07-23",
-   "observed": "2026-08-19",
-   "amount_usd": 330955,
-   "summary": "NIH award 1R43GM163512-01: Computational Protein Design of Robust and Scalable Recombinant HRP and Poly-HRP Reagents ($330,955)",
-   "source_url": "https://reporter.nih.gov/project-details/11316873",
-   "award_phase": "SBIR Phase I",
-   "award_year": 1,
-   "new_award": true
-  },
-  {
-   "id": "nih:5R44GM157779-02",
-   "company": "Brightspec, Inc.",
-   "kind": "nih_award",
-   "kind_label": "NIH award",
-   "date": "2026-07-22",
-   "observed": "2026-08-19",
-   "amount_usd": 819002,
-   "summary": "NIH award 5R44GM157779-02: MR^3: Development of a Molecular Rotational Resonance Ratiometer ($819,002)",
-   "source_url": "https://reporter.nih.gov/project-details/11378480",
    "award_phase": "SBIR Phase II",
    "award_year": 2,
    "new_award": false
