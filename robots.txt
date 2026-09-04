@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://data.whimbrelresearch.com/sitemap.xml
